@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-01)
+## Unreleased (2025-06-02)
 
 <section class="features">
 
@@ -133,6 +133,7 @@
 
 <details>
 
+-   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`e02df11`](https://github.com/stdlib-js/stdlib/commit/e02df119cad3ae8bb2f50ef99e69925c0a490f79) - **feat:** add `stats/strided` namespace _(by Athan Reines)_
 -   [`afe5811`](https://github.com/stdlib-js/stdlib/commit/afe581112f8ae3e6a8b3f9c304cf1ee994b7b997) - **build:** update configuration _(by Athan Reines)_
 -   [`09ffc2c`](https://github.com/stdlib-js/stdlib/commit/09ffc2c08be90669defcaaa19a50b53a6d7473f8) - **feat:** add `stats/strided/wasm/dmeanors` [(#5832)](https://github.com/stdlib-js/stdlib/pull/5832) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
