@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-07)
+## Unreleased (2025-06-08)
 
 <section class="features">
 
@@ -149,6 +149,7 @@
 
 <details>
 
+-   [`8e82087`](https://github.com/stdlib-js/stdlib/commit/8e820870a43e8b649135a6f664174efc81569de6) - **docs:** update namespace table of contents [(#7261)](https://github.com/stdlib-js/stdlib/pull/7261) _(by stdlib-bot)_
 -   [`b1a2926`](https://github.com/stdlib-js/stdlib/commit/b1a2926177757eaf4646b0f70f6dacf135f4e532) - **feat:** add `dsem`, `dsempn`, and `dstdev` to namespace _(by Athan Reines)_
 -   [`06e5df7`](https://github.com/stdlib-js/stdlib/commit/06e5df79c7d8f12946d1dac18d7f632ee50fe780) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`3971d95`](https://github.com/stdlib-js/stdlib/commit/3971d95479de1f3b55f56ea22068194cb5752b7a) - **feat:** add `stats/strided/dsempn` _(by Gururaj Gurram)_
