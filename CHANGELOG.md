@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-20)
+## Unreleased (2025-06-21)
 
 <section class="features">
 
@@ -198,6 +198,8 @@
 
 <details>
 
+-   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
 -   [`7bef866`](https://github.com/stdlib-js/stdlib/commit/7bef86671f81c45cd186ae382dd41f2a30a8c6fd) - **docs:** fix example _(by Athan Reines)_
 -   [`93dad47`](https://github.com/stdlib-js/stdlib/commit/93dad4760ffdef05d1095f9d4684f56572880744) - **feat:** add `ztest` to namespace _(by Athan Reines)_
 -   [`c070642`](https://github.com/stdlib-js/stdlib/commit/c07064219940ebe79d81ec33abb4712913b915da) - **feat:** add `stats/strided/ztest` _(by Athan Reines)_
