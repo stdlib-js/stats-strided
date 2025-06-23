@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-21)
+## Unreleased (2025-06-23)
 
 <section class="features">
 
 ### Features
 
+-   [`e1cf69e`](https://github.com/stdlib-js/stdlib/commit/e1cf69e9c218c6d6a770199ffee1b086bb9d3cf2) - add `stats/strided/svariance`
+-   [`e68fd5c`](https://github.com/stdlib-js/stdlib/commit/e68fd5c1258fe347ac74e84eda8eeac1303b2360) - add `stats/strided/svariancewd`
 -   [`93dad47`](https://github.com/stdlib-js/stdlib/commit/93dad4760ffdef05d1095f9d4684f56572880744) - add `ztest` to namespace
 -   [`c070642`](https://github.com/stdlib-js/stdlib/commit/c07064219940ebe79d81ec33abb4712913b915da) - add `stats/strided/ztest`
 -   [`d08954a`](https://github.com/stdlib-js/stdlib/commit/d08954aeb667cc5ed699f5cc140110e45c1d6120) - add `sztest` to namespace
@@ -185,6 +187,9 @@
 
 ### Bug Fixes
 
+-   [`3c72680`](https://github.com/stdlib-js/stdlib/commit/3c72680427f484cad956390101fda76e4c247f8b) - always resolve the alternative string
+-   [`b969863`](https://github.com/stdlib-js/stdlib/commit/b96986389424d71ba9ffd381829e3a029cf32e5d) - always resolve the alternative string
+-   [`3a44f75`](https://github.com/stdlib-js/stdlib/commit/3a44f75d828b2c83ac1aca31ad24206ed6fca116) - always resolve the alternative string
 -   [`b990f66`](https://github.com/stdlib-js/stdlib/commit/b990f669417995aad5945da44c84f98f35d986fe) - support extended types
 -   [`de88ecb`](https://github.com/stdlib-js/stdlib/commit/de88ecb1aeb8dd5e089a855db5bd6bcfb0657281) - allow extended types
 
@@ -198,6 +203,13 @@
 
 <details>
 
+-   [`3c72680`](https://github.com/stdlib-js/stdlib/commit/3c72680427f484cad956390101fda76e4c247f8b) - **fix:** always resolve the alternative string _(by Athan Reines)_
+-   [`b969863`](https://github.com/stdlib-js/stdlib/commit/b96986389424d71ba9ffd381829e3a029cf32e5d) - **fix:** always resolve the alternative string _(by Athan Reines)_
+-   [`3a44f75`](https://github.com/stdlib-js/stdlib/commit/3a44f75d828b2c83ac1aca31ad24206ed6fca116) - **fix:** always resolve the alternative string _(by Athan Reines)_
+-   [`9482ada`](https://github.com/stdlib-js/stdlib/commit/9482adac1b21fa0ea2784fce177da803c647e8bb) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`e1cf69e`](https://github.com/stdlib-js/stdlib/commit/e1cf69e9c218c6d6a770199ffee1b086bb9d3cf2) - **feat:** add `stats/strided/svariance` _(by Gururaj Gurram)_
+-   [`bb4c5ac`](https://github.com/stdlib-js/stdlib/commit/bb4c5acb86f6acbae8579ab5f45e161a0c984dd8) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`e68fd5c`](https://github.com/stdlib-js/stdlib/commit/e68fd5c1258fe347ac74e84eda8eeac1303b2360) - **feat:** add `stats/strided/svariancewd` _(by Gururaj Gurram)_
 -   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
 -   [`7bef866`](https://github.com/stdlib-js/stdlib/commit/7bef86671f81c45cd186ae382dd41f2a30a8c6fd) - **docs:** fix example _(by Athan Reines)_
