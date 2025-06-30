@@ -4,12 +4,24 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
 ### Features
 
+-   [`a163191`](https://github.com/stdlib-js/stdlib/commit/a16319131f2e6c5bd42b4323f3b60e2f40f8a90f) - add `stats/strided/smeankbn`
+-   [`2283408`](https://github.com/stdlib-js/stdlib/commit/22834081edc23fa27cfe2cb29c15d54b983f2373) - add `stats/strided/smeankbn2`
+-   [`446bec5`](https://github.com/stdlib-js/stdlib/commit/446bec562044b0a0be65acab8c61a779b37b2e6d) - add `stats/strided/smeanlipw`
+-   [`02a0cbb`](https://github.com/stdlib-js/stdlib/commit/02a0cbb50e663700bd6cc9bf4595f31d2e955305) - add `stats/strided/smeanors`
+-   [`05df508`](https://github.com/stdlib-js/stdlib/commit/05df508c1c7fe5ec257bbff6650069f484a218c5) - add `stats/strided/nanmean`
+-   [`f37e80c`](https://github.com/stdlib-js/stdlib/commit/f37e80c13e82db373a8cd934e6e6c311ca96d4b4) - add `stats/strided/nanmeanpn`
+-   [`1d7a258`](https://github.com/stdlib-js/stdlib/commit/1d7a258119c825e74801ee034b96c295422473ca) - add `stats/strided/nanmeanors`
+-   [`1a7ae19`](https://github.com/stdlib-js/stdlib/commit/1a7ae191ea73d8495b9858428ae31f36b6d35c68) - add `stats/strided/nanmeanwd`
+-   [`923249b`](https://github.com/stdlib-js/stdlib/commit/923249b1780336683ec6957c56083494e20f76ab) - add `stats/strided/dmeanstdev`
+-   [`94dff3a`](https://github.com/stdlib-js/stdlib/commit/94dff3ae7ded1d34a02388dd2699caab1d06535c) - add `stats/strided/dmeanstdevpn`
+-   [`66596ad`](https://github.com/stdlib-js/stdlib/commit/66596ad5d49d369bf25014a26af3c2147ce39346) - add `stats/strided/dmeanvar`
+-   [`4307e05`](https://github.com/stdlib-js/stdlib/commit/4307e05b7a0904672bc13e831fe9b2f3aa1ef14e) - add `stats/strided/dmeanvarpn`
 -   [`e1cf69e`](https://github.com/stdlib-js/stdlib/commit/e1cf69e9c218c6d6a770199ffee1b086bb9d3cf2) - add `stats/strided/svariance`
 -   [`e68fd5c`](https://github.com/stdlib-js/stdlib/commit/e68fd5c1258fe347ac74e84eda8eeac1303b2360) - add `stats/strided/svariancewd`
 -   [`93dad47`](https://github.com/stdlib-js/stdlib/commit/93dad4760ffdef05d1095f9d4684f56572880744) - add `ztest` to namespace
@@ -203,6 +215,30 @@
 
 <details>
 
+-   [`1372c9e`](https://github.com/stdlib-js/stdlib/commit/1372c9e1742e3ecdb9c2de0600c4da449bb3ed1c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`a163191`](https://github.com/stdlib-js/stdlib/commit/a16319131f2e6c5bd42b4323f3b60e2f40f8a90f) - **feat:** add `stats/strided/smeankbn` _(by Gururaj Gurram)_
+-   [`0f71480`](https://github.com/stdlib-js/stdlib/commit/0f7148091196f346adf4c4b7192224caf43d9feb) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`2283408`](https://github.com/stdlib-js/stdlib/commit/22834081edc23fa27cfe2cb29c15d54b983f2373) - **feat:** add `stats/strided/smeankbn2` _(by Gururaj Gurram)_
+-   [`3b5839c`](https://github.com/stdlib-js/stdlib/commit/3b5839cde8df61010823efe180a36e207ea3cf48) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`446bec5`](https://github.com/stdlib-js/stdlib/commit/446bec562044b0a0be65acab8c61a779b37b2e6d) - **feat:** add `stats/strided/smeanlipw` _(by Gururaj Gurram)_
+-   [`57b0020`](https://github.com/stdlib-js/stdlib/commit/57b00201403ac9ea3178341029423b1023a2e94a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`02a0cbb`](https://github.com/stdlib-js/stdlib/commit/02a0cbb50e663700bd6cc9bf4595f31d2e955305) - **feat:** add `stats/strided/smeanors` _(by Gururaj Gurram)_
+-   [`389ba83`](https://github.com/stdlib-js/stdlib/commit/389ba83218c179d97bd3776c33f329f6b49cde8f) - **docs:** update related packages sections [(#7478)](https://github.com/stdlib-js/stdlib/pull/7478) _(by stdlib-bot)_
+-   [`fe87ef3`](https://github.com/stdlib-js/stdlib/commit/fe87ef3f1d320867b195765cd1aec7800270e33e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`05df508`](https://github.com/stdlib-js/stdlib/commit/05df508c1c7fe5ec257bbff6650069f484a218c5) - **feat:** add `stats/strided/nanmean` _(by Gururaj Gurram)_
+-   [`88d22d6`](https://github.com/stdlib-js/stdlib/commit/88d22d6c0f3bbb65f3882c784e8b8069785398a5) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f37e80c`](https://github.com/stdlib-js/stdlib/commit/f37e80c13e82db373a8cd934e6e6c311ca96d4b4) - **feat:** add `stats/strided/nanmeanpn` _(by Gururaj Gurram)_
+-   [`640da92`](https://github.com/stdlib-js/stdlib/commit/640da923ded4442eb8b246847d1ec9ec8a0ed833) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`1d7a258`](https://github.com/stdlib-js/stdlib/commit/1d7a258119c825e74801ee034b96c295422473ca) - **feat:** add `stats/strided/nanmeanors` _(by Gururaj Gurram)_
+-   [`e97f5eb`](https://github.com/stdlib-js/stdlib/commit/e97f5ebcadbf66ed57e815ddb6fe900720711816) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`1a7ae19`](https://github.com/stdlib-js/stdlib/commit/1a7ae191ea73d8495b9858428ae31f36b6d35c68) - **feat:** add `stats/strided/nanmeanwd` _(by Gururaj Gurram)_
+-   [`d87c1e7`](https://github.com/stdlib-js/stdlib/commit/d87c1e7dac3e47d1c9030c1f3f95b1ac260532b9) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`923249b`](https://github.com/stdlib-js/stdlib/commit/923249b1780336683ec6957c56083494e20f76ab) - **feat:** add `stats/strided/dmeanstdev` _(by Gururaj Gurram)_
+-   [`625686b`](https://github.com/stdlib-js/stdlib/commit/625686b7ac03c5bf31b5b46b9f7497fd1128241a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`94dff3a`](https://github.com/stdlib-js/stdlib/commit/94dff3ae7ded1d34a02388dd2699caab1d06535c) - **feat:** add `stats/strided/dmeanstdevpn` _(by Gururaj Gurram)_
+-   [`424afa0`](https://github.com/stdlib-js/stdlib/commit/424afa0b52647777021656a290edbc24a3176894) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`66596ad`](https://github.com/stdlib-js/stdlib/commit/66596ad5d49d369bf25014a26af3c2147ce39346) - **feat:** add `stats/strided/dmeanvar` _(by Gururaj Gurram)_
+-   [`4307e05`](https://github.com/stdlib-js/stdlib/commit/4307e05b7a0904672bc13e831fe9b2f3aa1ef14e) - **feat:** add `stats/strided/dmeanvarpn` _(by Gururaj Gurram)_
 -   [`3c72680`](https://github.com/stdlib-js/stdlib/commit/3c72680427f484cad956390101fda76e4c247f8b) - **fix:** always resolve the alternative string _(by Athan Reines)_
 -   [`b969863`](https://github.com/stdlib-js/stdlib/commit/b96986389424d71ba9ffd381829e3a029cf32e5d) - **fix:** always resolve the alternative string _(by Athan Reines)_
 -   [`3a44f75`](https://github.com/stdlib-js/stdlib/commit/3a44f75d828b2c83ac1aca31ad24206ed6fca116) - **fix:** always resolve the alternative string _(by Athan Reines)_
