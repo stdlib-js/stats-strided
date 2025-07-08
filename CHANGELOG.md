@@ -4,12 +4,35 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-07-08)
 
 <section class="features">
 
 ### Features
 
+-   [`0de0a91`](https://github.com/stdlib-js/stdlib/commit/0de0a91bf68caff14964772458cf057b36b7cf37) - add `dmeanstdev` and `dmeanstdevpn` to namespace
+-   [`176b58c`](https://github.com/stdlib-js/stdlib/commit/176b58c1800a0f833abdbbef6c5f0ccb48f17779) - add `dmeanvar` and `dmeanvarpn` to namespace
+-   [`4c54ae3`](https://github.com/stdlib-js/stdlib/commit/4c54ae36cf5c69e90714f25110ae844fa679bcd0) - add `nanmean`, `nanmeanors`, `nanmeanpn`, and `nanmeanwd` to namespace
+-   [`6a7dacf`](https://github.com/stdlib-js/stdlib/commit/6a7dacf55deaf2995de4275028c07b9f438d03d4) - add `nanmskmax`, `nanmskmin`, and `nanmskrange` to namespace
+-   [`4c18567`](https://github.com/stdlib-js/stdlib/commit/4c18567142a33ee7cc5fc43496607e83930e76a9) - add `nanrange` and `nanrangeBy` to namespace
+-   [`78bfdde`](https://github.com/stdlib-js/stdlib/commit/78bfdde2a2f5f863c2f723aada6aa0408d0b2468) - add `range` and `rangeBy` to namespace
+-   [`3361595`](https://github.com/stdlib-js/stdlib/commit/3361595c51e9e1b5e2be86300a97558ec23b9f78) - add `smeankbn`, `smeankbn2`, `smeanlipw`, and `smeanors` to namespace
+-   [`376de54`](https://github.com/stdlib-js/stdlib/commit/376de5431b62739606070696438e447712f921b5) - add `svariance` and `svariancewd` to namespace
+-   [`cce4a4f`](https://github.com/stdlib-js/stdlib/commit/cce4a4fc4e49686a1692bacda6640c852d81ef7b) - add `variance`, `variancech`, `variancepn`, `variancetk`, and `variancewd` to namespace
+-   [`f4da64a`](https://github.com/stdlib-js/stdlib/commit/f4da64a29cab5be4df64c3825b2ba24cff2cab49) - add `varianceyc` to namespace
+-   [`57dae71`](https://github.com/stdlib-js/stdlib/commit/57dae71389e6be6202f255c0692e69d4d97ddc54) - add `stats/strided/range`
+-   [`8ecbdfa`](https://github.com/stdlib-js/stdlib/commit/8ecbdfa2c71d1d5a666b8f82fd0fb4bcbd1a16b5) - add `stats/strided/range-by`
+-   [`6719904`](https://github.com/stdlib-js/stdlib/commit/6719904d2b70615368d65af2e7b2bc19b7fb3dbf) - add `stats/strided/nanrange`
+-   [`cf0fa88`](https://github.com/stdlib-js/stdlib/commit/cf0fa88005477ed297d89074b2c1e1a66e138d93) - add `stats/strided/nanrange-by`
+-   [`0935bc3`](https://github.com/stdlib-js/stdlib/commit/0935bc38e6c5f3a65d2fc6875dbd856aa85b27eb) - add `stats/strided/nanmskmax`
+-   [`61bd08c`](https://github.com/stdlib-js/stdlib/commit/61bd08ca8cc501cb6c4157fbc84251a594e1b148) - add `stats/strided/nanmskmin`
+-   [`d62f174`](https://github.com/stdlib-js/stdlib/commit/d62f174684ec5a516694f4a854c5244d2e48a583) - add `stats/strided/nanmskrange`
+-   [`09be71b`](https://github.com/stdlib-js/stdlib/commit/09be71bc241b529b2d10f0e4669610dd1c1d32ee) - add `stats/strided/variance`
+-   [`f9595aa`](https://github.com/stdlib-js/stdlib/commit/f9595aae3104a02826b98a64618c4f22d7edc70b) - add `stats/strided/variancech`
+-   [`9620756`](https://github.com/stdlib-js/stdlib/commit/9620756c1d37e87cbe4d29f75206b670aa0666a2) - add `stats/strided/variancepn`
+-   [`7ca7b60`](https://github.com/stdlib-js/stdlib/commit/7ca7b609f30e2b4d6be8fa0050cf58b218b834a9) - add `stats/strided/variancetk`
+-   [`8bb0768`](https://github.com/stdlib-js/stdlib/commit/8bb07686be49817eb0d52733767c7c2791dc49a8) - add `stats/strided/variancewd`
+-   [`628566c`](https://github.com/stdlib-js/stdlib/commit/628566c624637bfc908595ab492f3398634c5544) - add `stats/strided/varianceyc`
 -   [`a163191`](https://github.com/stdlib-js/stdlib/commit/a16319131f2e6c5bd42b4323f3b60e2f40f8a90f) - add `stats/strided/smeankbn`
 -   [`2283408`](https://github.com/stdlib-js/stdlib/commit/22834081edc23fa27cfe2cb29c15d54b983f2373) - add `stats/strided/smeankbn2`
 -   [`446bec5`](https://github.com/stdlib-js/stdlib/commit/446bec562044b0a0be65acab8c61a779b37b2e6d) - add `stats/strided/smeanlipw`
@@ -199,6 +222,7 @@
 
 ### Bug Fixes
 
+-   [`98e8f6b`](https://github.com/stdlib-js/stdlib/commit/98e8f6bfbe48aa24003710ed87ea88f5dc68977e) - allow non-numeric input arrays
 -   [`3c72680`](https://github.com/stdlib-js/stdlib/commit/3c72680427f484cad956390101fda76e4c247f8b) - always resolve the alternative string
 -   [`b969863`](https://github.com/stdlib-js/stdlib/commit/b96986389424d71ba9ffd381829e3a029cf32e5d) - always resolve the alternative string
 -   [`3a44f75`](https://github.com/stdlib-js/stdlib/commit/3a44f75d828b2c83ac1aca31ad24206ed6fca116) - always resolve the alternative string
@@ -215,6 +239,44 @@
 
 <details>
 
+-   [`0de0a91`](https://github.com/stdlib-js/stdlib/commit/0de0a91bf68caff14964772458cf057b36b7cf37) - **feat:** add `dmeanstdev` and `dmeanstdevpn` to namespace _(by Athan Reines)_
+-   [`176b58c`](https://github.com/stdlib-js/stdlib/commit/176b58c1800a0f833abdbbef6c5f0ccb48f17779) - **feat:** add `dmeanvar` and `dmeanvarpn` to namespace _(by Athan Reines)_
+-   [`4c54ae3`](https://github.com/stdlib-js/stdlib/commit/4c54ae36cf5c69e90714f25110ae844fa679bcd0) - **feat:** add `nanmean`, `nanmeanors`, `nanmeanpn`, and `nanmeanwd` to namespace _(by Athan Reines)_
+-   [`6a7dacf`](https://github.com/stdlib-js/stdlib/commit/6a7dacf55deaf2995de4275028c07b9f438d03d4) - **feat:** add `nanmskmax`, `nanmskmin`, and `nanmskrange` to namespace _(by Athan Reines)_
+-   [`4c18567`](https://github.com/stdlib-js/stdlib/commit/4c18567142a33ee7cc5fc43496607e83930e76a9) - **feat:** add `nanrange` and `nanrangeBy` to namespace _(by Athan Reines)_
+-   [`78bfdde`](https://github.com/stdlib-js/stdlib/commit/78bfdde2a2f5f863c2f723aada6aa0408d0b2468) - **feat:** add `range` and `rangeBy` to namespace _(by Athan Reines)_
+-   [`3361595`](https://github.com/stdlib-js/stdlib/commit/3361595c51e9e1b5e2be86300a97558ec23b9f78) - **feat:** add `smeankbn`, `smeankbn2`, `smeanlipw`, and `smeanors` to namespace _(by Athan Reines)_
+-   [`376de54`](https://github.com/stdlib-js/stdlib/commit/376de5431b62739606070696438e447712f921b5) - **feat:** add `svariance` and `svariancewd` to namespace _(by Athan Reines)_
+-   [`cce4a4f`](https://github.com/stdlib-js/stdlib/commit/cce4a4fc4e49686a1692bacda6640c852d81ef7b) - **feat:** add `variance`, `variancech`, `variancepn`, `variancetk`, and `variancewd` to namespace _(by Athan Reines)_
+-   [`f4da64a`](https://github.com/stdlib-js/stdlib/commit/f4da64a29cab5be4df64c3825b2ba24cff2cab49) - **feat:** add `varianceyc` to namespace _(by Athan Reines)_
+-   [`ffbc889`](https://github.com/stdlib-js/stdlib/commit/ffbc88901427ca5ceaf0d4cc557facd4865eba90) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`57dae71`](https://github.com/stdlib-js/stdlib/commit/57dae71389e6be6202f255c0692e69d4d97ddc54) - **feat:** add `stats/strided/range` _(by Gururaj Gurram)_
+-   [`4075997`](https://github.com/stdlib-js/stdlib/commit/407599734ccf26438febd9e8712fdb7c97cf9bd8) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`8ecbdfa`](https://github.com/stdlib-js/stdlib/commit/8ecbdfa2c71d1d5a666b8f82fd0fb4bcbd1a16b5) - **feat:** add `stats/strided/range-by` _(by Gururaj Gurram)_
+-   [`3c776ed`](https://github.com/stdlib-js/stdlib/commit/3c776ed5458e453e0fa0135a9b689fc54602af4a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`6719904`](https://github.com/stdlib-js/stdlib/commit/6719904d2b70615368d65af2e7b2bc19b7fb3dbf) - **feat:** add `stats/strided/nanrange` _(by Gururaj Gurram)_
+-   [`cf0fa88`](https://github.com/stdlib-js/stdlib/commit/cf0fa88005477ed297d89074b2c1e1a66e138d93) - **feat:** add `stats/strided/nanrange-by` _(by Gururaj Gurram)_
+-   [`643a522`](https://github.com/stdlib-js/stdlib/commit/643a522e06a09ad448f5c9eafa355e48b0faefd4) - **docs:** update parameter descriptions _(by Athan Reines)_
+-   [`98e8f6b`](https://github.com/stdlib-js/stdlib/commit/98e8f6bfbe48aa24003710ed87ea88f5dc68977e) - **fix:** allow non-numeric input arrays _(by Athan Reines)_
+-   [`f3bab2e`](https://github.com/stdlib-js/stdlib/commit/f3bab2e7582cd325e0ef3ff8db976d43f330e417) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`0935bc3`](https://github.com/stdlib-js/stdlib/commit/0935bc38e6c5f3a65d2fc6875dbd856aa85b27eb) - **feat:** add `stats/strided/nanmskmax` _(by Gururaj Gurram)_
+-   [`2e3121e`](https://github.com/stdlib-js/stdlib/commit/2e3121ef5d08bfa8cca4be5ed133e9ec62a8c7a5) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`61bd08c`](https://github.com/stdlib-js/stdlib/commit/61bd08ca8cc501cb6c4157fbc84251a594e1b148) - **feat:** add `stats/strided/nanmskmin` _(by Gururaj Gurram)_
+-   [`43282dc`](https://github.com/stdlib-js/stdlib/commit/43282dc04760b5360d32b9c333203230ac149f93) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`d62f174`](https://github.com/stdlib-js/stdlib/commit/d62f174684ec5a516694f4a854c5244d2e48a583) - **feat:** add `stats/strided/nanmskrange` _(by Gururaj Gurram)_
+-   [`e342a38`](https://github.com/stdlib-js/stdlib/commit/e342a388619ab71f5222105ec94c5029e42a4458) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`09be71b`](https://github.com/stdlib-js/stdlib/commit/09be71bc241b529b2d10f0e4669610dd1c1d32ee) - **feat:** add `stats/strided/variance` _(by Gururaj Gurram)_
+-   [`0ddde83`](https://github.com/stdlib-js/stdlib/commit/0ddde834e00e55c588e91d04f49e89e6ae6839c3) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f9595aa`](https://github.com/stdlib-js/stdlib/commit/f9595aae3104a02826b98a64618c4f22d7edc70b) - **feat:** add `stats/strided/variancech` _(by Gururaj Gurram)_
+-   [`ad8dd23`](https://github.com/stdlib-js/stdlib/commit/ad8dd231d796efb1677112b8072caf8fbe1d6f69) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`9620756`](https://github.com/stdlib-js/stdlib/commit/9620756c1d37e87cbe4d29f75206b670aa0666a2) - **feat:** add `stats/strided/variancepn` _(by Gururaj Gurram)_
+-   [`f51215e`](https://github.com/stdlib-js/stdlib/commit/f51215e31f91fa5843f641deb8bf875ffa313596) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`7ca7b60`](https://github.com/stdlib-js/stdlib/commit/7ca7b609f30e2b4d6be8fa0050cf58b218b834a9) - **feat:** add `stats/strided/variancetk` _(by Gururaj Gurram)_
+-   [`7088dfa`](https://github.com/stdlib-js/stdlib/commit/7088dfa1cab0860d25b5a0feb649ec572cbc1e98) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`8bb0768`](https://github.com/stdlib-js/stdlib/commit/8bb07686be49817eb0d52733767c7c2791dc49a8) - **feat:** add `stats/strided/variancewd` _(by Gururaj Gurram)_
+-   [`33b006d`](https://github.com/stdlib-js/stdlib/commit/33b006da9166c233b4e423e1da318aa99f56db00) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`628566c`](https://github.com/stdlib-js/stdlib/commit/628566c624637bfc908595ab492f3398634c5544) - **feat:** add `stats/strided/varianceyc` _(by Gururaj Gurram)_
+-   [`57a1566`](https://github.com/stdlib-js/stdlib/commit/57a15667d495dd2ff2101e5350679d0e106aa116) - **docs:** remove extra empty line [(#7534)](https://github.com/stdlib-js/stdlib/pull/7534) _(by stdlib-bot)_
 -   [`1372c9e`](https://github.com/stdlib-js/stdlib/commit/1372c9e1742e3ecdb9c2de0600c4da449bb3ed1c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`a163191`](https://github.com/stdlib-js/stdlib/commit/a16319131f2e6c5bd42b4323f3b60e2f40f8a90f) - **feat:** add `stats/strided/smeankbn` _(by Gururaj Gurram)_
 -   [`0f71480`](https://github.com/stdlib-js/stdlib/commit/0f7148091196f346adf4c4b7192224caf43d9feb) - **refactor:** update paths _(by Gururaj Gurram)_
