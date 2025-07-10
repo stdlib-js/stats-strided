@@ -36,6 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/stats-strided-dcovarmtk": "github:stdlib-js/stats-strided-dcovarmtk#main",
     "@stdlib/stats-strided-dcumax": "github:stdlib-js/stats-strided-dcumax#main",
     "@stdlib/stats-strided-dcumaxabs": "github:stdlib-js/stats-strided-dcumaxabs#main",
     "@stdlib/stats-strided-dcumin": "github:stdlib-js/stats-strided-dcumin#main",

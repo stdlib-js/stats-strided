@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-08)
+## Unreleased (2025-07-10)
 
 <section class="features">
 
 ### Features
 
+-   [`8e0e86d`](https://github.com/stdlib-js/stdlib/commit/8e0e86d59d64a740f2452647f890d3dd5b164c05) - add `dcovarmtk` to namespace
+-   [`95608b2`](https://github.com/stdlib-js/stdlib/commit/95608b2ebabf95ec76675a09f16d026ebb01b381) - add `stats/strided/dcovarmtk`
 -   [`0de0a91`](https://github.com/stdlib-js/stdlib/commit/0de0a91bf68caff14964772458cf057b36b7cf37) - add `dmeanstdev` and `dmeanstdevpn` to namespace
 -   [`176b58c`](https://github.com/stdlib-js/stdlib/commit/176b58c1800a0f833abdbbef6c5f0ccb48f17779) - add `dmeanvar` and `dmeanvarpn` to namespace
 -   [`4c54ae3`](https://github.com/stdlib-js/stdlib/commit/4c54ae36cf5c69e90714f25110ae844fa679bcd0) - add `nanmean`, `nanmeanors`, `nanmeanpn`, and `nanmeanwd` to namespace
@@ -233,12 +235,52 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`7e9ce86`](https://github.com/stdlib-js/stdlib/commit/7e9ce86fc343a49f7f24387493e6eb78f9693282): switch order of `mean` and `correction` parameters
+
+    -   To migrate, users should swap `mean` and `correction` arguments.
+        This change ensures that the `*varm*` function signatures follow
+        similar conventions as found in binary APIs, such as those for
+        computing the covariance, where the `mean` parameter immediately
+        precedes the array argument.
+
+-   [`488f765`](https://github.com/stdlib-js/stdlib/commit/488f7650b91db3e3c9170442878643715efc560d): switch order of `mean` and `correction` parameters
+
+    -   To migrate, users should swap `mean` and `correction` arguments.
+        This change ensures that the `*varm*` function signatures follow
+        similar conventions as found in binary APIs, such as those for
+        computing the covariance, where the `mean` parameter immediately
+        precedes the array argument.
+
+-   [`21f2041`](https://github.com/stdlib-js/stdlib/commit/21f2041ea274e9160eb878c2535ff4c8545982c8): switch order of `mean` and `correction` parameters
+
+    -   To migrate, users should swap `mean` and `correction` arguments.
+        This change ensures that the `*varm*` function signatures follow
+        similar conventions as found in binary APIs, such as those for
+        computing the covariance, where the `mean` parameter immediately
+        precedes the array argument.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`e3ec747`](https://github.com/stdlib-js/stdlib/commit/e3ec7479e52d2427f8b6f3decb07125e4286178e) - **bench:** fix call signature _(by Athan Reines)_
+-   [`8e0e86d`](https://github.com/stdlib-js/stdlib/commit/8e0e86d59d64a740f2452647f890d3dd5b164c05) - **feat:** add `dcovarmtk` to namespace _(by Athan Reines)_
+-   [`95608b2`](https://github.com/stdlib-js/stdlib/commit/95608b2ebabf95ec76675a09f16d026ebb01b381) - **feat:** add `stats/strided/dcovarmtk` _(by Athan Reines)_
+-   [`97af938`](https://github.com/stdlib-js/stdlib/commit/97af9381daa44746086d0110fcbc31c3b8572e7c) - **docs:** fix signature and parameter order _(by Athan Reines)_
+-   [`5c78c73`](https://github.com/stdlib-js/stdlib/commit/5c78c731a6ec51fde6d0bdd28fb9831f03dfe0b5) - **bench:** fix invocation _(by Athan Reines)_
+-   [`7e9ce86`](https://github.com/stdlib-js/stdlib/commit/7e9ce86fc343a49f7f24387493e6eb78f9693282) - **refactor:** reorder parameters _(by Athan Reines)_
+-   [`488f765`](https://github.com/stdlib-js/stdlib/commit/488f7650b91db3e3c9170442878643715efc560d) - **refactor:** reorder parameters _(by Athan Reines)_
+-   [`21f2041`](https://github.com/stdlib-js/stdlib/commit/21f2041ea274e9160eb878c2535ff4c8545982c8) - **refactor:** reorder parameters _(by Athan Reines)_
 -   [`0de0a91`](https://github.com/stdlib-js/stdlib/commit/0de0a91bf68caff14964772458cf057b36b7cf37) - **feat:** add `dmeanstdev` and `dmeanstdevpn` to namespace _(by Athan Reines)_
 -   [`176b58c`](https://github.com/stdlib-js/stdlib/commit/176b58c1800a0f833abdbbef6c5f0ccb48f17779) - **feat:** add `dmeanvar` and `dmeanvarpn` to namespace _(by Athan Reines)_
 -   [`4c54ae3`](https://github.com/stdlib-js/stdlib/commit/4c54ae36cf5c69e90714f25110ae844fa679bcd0) - **feat:** add `nanmean`, `nanmeanors`, `nanmeanpn`, and `nanmeanwd` to namespace _(by Athan Reines)_
