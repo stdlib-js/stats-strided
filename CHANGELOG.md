@@ -4,12 +4,27 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-10)
+## Unreleased (2025-07-16)
 
 <section class="features">
 
 ### Features
 
+-   [`ae9acc7`](https://github.com/stdlib-js/stdlib/commit/ae9acc7e68ffa51732b6a783334c54e37b512551) - add `dcovmatmtk` to namespace
+-   [`8e5050c`](https://github.com/stdlib-js/stdlib/commit/8e5050c7adeaebc783564ce24ab3e0c2c9b09992) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace
+-   [`74d0992`](https://github.com/stdlib-js/stdlib/commit/74d0992f5b2ee5bfc9d0b05a86011e1463de0da7) - add `ztest2` to namespace
+-   [`b01bff8`](https://github.com/stdlib-js/stdlib/commit/b01bff8fc53767819fff152e0c0dd4bdac13611a) - add `scovarmtk` to namespace
+-   [`cf7da5a`](https://github.com/stdlib-js/stdlib/commit/cf7da5abdbd793f1609910a861e4618733e87a31) - add `covarmtk` to namespace
+-   [`1d9d1c1`](https://github.com/stdlib-js/stdlib/commit/1d9d1c1aad4d048391b268ce89ced67dc9b6e5b6) - add `stats/strided/covarmtk` [(#7659)](https://github.com/stdlib-js/stdlib/pull/7659)
+-   [`0baa2d3`](https://github.com/stdlib-js/stdlib/commit/0baa2d329813e33808e3a4ce10d6f0a7b1edeabc) - add `stats/strided/scovarmtk` [(#7650)](https://github.com/stdlib-js/stdlib/pull/7650)
+-   [`0223c17`](https://github.com/stdlib-js/stdlib/commit/0223c174b37d7802cfa4540f731245a90fa44249) - add `stats/strided/dcovmatmtk`
+-   [`f8d770c`](https://github.com/stdlib-js/stdlib/commit/f8d770c6b844611c382c6bf11187fee24a4df5e2) - add `stats/strided/stdev`
+-   [`f82186c`](https://github.com/stdlib-js/stdlib/commit/f82186c2f59b579044d5328b0298036b9a7bd8a6) - add `stats/strided/stdevch`
+-   [`36934e8`](https://github.com/stdlib-js/stdlib/commit/36934e80023d2c5af861db5b5415a38388de4803) - add `stats/strided/stdevpn`
+-   [`1414fca`](https://github.com/stdlib-js/stdlib/commit/1414fca8c2b92f248e8310120f72f944525a728f) - add `stats/strided/stdevtk`
+-   [`706e9ad`](https://github.com/stdlib-js/stdlib/commit/706e9ad474b127319af2046ff58b3eaeca1a9702) - add `stats/strided/stdevwd`
+-   [`812bf10`](https://github.com/stdlib-js/stdlib/commit/812bf10b4652a57a92cb50bdc59d85d27ee96dbc) - add `stats/strided/stdevyc`
+-   [`1624fe5`](https://github.com/stdlib-js/stdlib/commit/1624fe52725211d1847426269dc004d1fc48acae) - add `stats/strided/ztest2` [(#7464)](https://github.com/stdlib-js/stdlib/pull/7464)
 -   [`8e0e86d`](https://github.com/stdlib-js/stdlib/commit/8e0e86d59d64a740f2452647f890d3dd5b164c05) - add `dcovarmtk` to namespace
 -   [`95608b2`](https://github.com/stdlib-js/stdlib/commit/95608b2ebabf95ec76675a09f16d026ebb01b381) - add `stats/strided/dcovarmtk`
 -   [`0de0a91`](https://github.com/stdlib-js/stdlib/commit/0de0a91bf68caff14964772458cf057b36b7cf37) - add `dmeanstdev` and `dmeanstdevpn` to namespace
@@ -224,6 +239,7 @@
 
 ### Bug Fixes
 
+-   [`d529cbd`](https://github.com/stdlib-js/stdlib/commit/d529cbd7745c4ba69415d450f1e2f597b212e9fc) - simplify and fix branching logic and use assertion utility
 -   [`98e8f6b`](https://github.com/stdlib-js/stdlib/commit/98e8f6bfbe48aa24003710ed87ea88f5dc68977e) - allow non-numeric input arrays
 -   [`3c72680`](https://github.com/stdlib-js/stdlib/commit/3c72680427f484cad956390101fda76e4c247f8b) - always resolve the alternative string
 -   [`b969863`](https://github.com/stdlib-js/stdlib/commit/b96986389424d71ba9ffd381829e3a029cf32e5d) - always resolve the alternative string
@@ -273,6 +289,41 @@
 
 <details>
 
+-   [`ae9acc7`](https://github.com/stdlib-js/stdlib/commit/ae9acc7e68ffa51732b6a783334c54e37b512551) - **feat:** add `dcovmatmtk` to namespace _(by Athan Reines)_
+-   [`8e5050c`](https://github.com/stdlib-js/stdlib/commit/8e5050c7adeaebc783564ce24ab3e0c2c9b09992) - **feat:** add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace _(by Athan Reines)_
+-   [`74d0992`](https://github.com/stdlib-js/stdlib/commit/74d0992f5b2ee5bfc9d0b05a86011e1463de0da7) - **feat:** add `ztest2` to namespace _(by Athan Reines)_
+-   [`b01bff8`](https://github.com/stdlib-js/stdlib/commit/b01bff8fc53767819fff152e0c0dd4bdac13611a) - **feat:** add `scovarmtk` to namespace _(by Athan Reines)_
+-   [`cf7da5a`](https://github.com/stdlib-js/stdlib/commit/cf7da5abdbd793f1609910a861e4618733e87a31) - **feat:** add `covarmtk` to namespace _(by Athan Reines)_
+-   [`1d9d1c1`](https://github.com/stdlib-js/stdlib/commit/1d9d1c1aad4d048391b268ce89ced67dc9b6e5b6) - **feat:** add `stats/strided/covarmtk` [(#7659)](https://github.com/stdlib-js/stdlib/pull/7659) _(by Gururaj Gurram, Athan Reines)_
+-   [`0baa2d3`](https://github.com/stdlib-js/stdlib/commit/0baa2d329813e33808e3a4ce10d6f0a7b1edeabc) - **feat:** add `stats/strided/scovarmtk` [(#7650)](https://github.com/stdlib-js/stdlib/pull/7650) _(by Gururaj Gurram, Athan Reines)_
+-   [`9392f2e`](https://github.com/stdlib-js/stdlib/commit/9392f2e49bb32be6d4bcd79af802b10439e2f3c0) - **docs:** fix return values _(by Athan Reines)_
+-   [`8bb4f88`](https://github.com/stdlib-js/stdlib/commit/8bb4f882f7e0c2c7f2b105b06794352667f6ff68) - **chore:** minor cleanup in `stats/strided/dcovarmtk` [(#7651)](https://github.com/stdlib-js/stdlib/pull/7651) _(by Gururaj Gurram)_
+-   [`01186a6`](https://github.com/stdlib-js/stdlib/commit/01186a6c54a31b74f9b1bf84f97ef40bd50a7e06) - **test:** add tests for an invalid correction argument _(by Athan Reines)_
+-   [`cc9cb3f`](https://github.com/stdlib-js/stdlib/commit/cc9cb3fa58fdb1fa11e38c6cd3e0d1b70d99ccb6) - **docs:** update equation _(by Athan Reines)_
+-   [`dd8b50b`](https://github.com/stdlib-js/stdlib/commit/dd8b50b6fef0c09543396c23d360bfc535531283) - **docs:** update equation _(by Athan Reines)_
+-   [`0697c39`](https://github.com/stdlib-js/stdlib/commit/0697c390bd49cc063e8ef4879c19bcc096403d58) - **docs:** fix comment _(by Athan Reines)_
+-   [`f4fcf70`](https://github.com/stdlib-js/stdlib/commit/f4fcf70ef5217c6be503a40e9cb7e1fe64e1bbb0) - **docs:** update comment _(by Athan Reines)_
+-   [`d529cbd`](https://github.com/stdlib-js/stdlib/commit/d529cbd7745c4ba69415d450f1e2f597b212e9fc) - **fix:** simplify and fix branching logic and use assertion utility _(by Athan Reines)_
+-   [`44999d8`](https://github.com/stdlib-js/stdlib/commit/44999d869ceff5fb91fc092ea75aa03d4d39b1eb) - **chore:** resolve lint errors _(by Athan Reines)_
+-   [`0223c17`](https://github.com/stdlib-js/stdlib/commit/0223c174b37d7802cfa4540f731245a90fa44249) - **feat:** add `stats/strided/dcovmatmtk` _(by Athan Reines)_
+-   [`028d338`](https://github.com/stdlib-js/stdlib/commit/028d338ec185c667fb62c8dafe7011a60287ad3a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f8d770c`](https://github.com/stdlib-js/stdlib/commit/f8d770c6b844611c382c6bf11187fee24a4df5e2) - **feat:** add `stats/strided/stdev` _(by Gururaj Gurram)_
+-   [`8c107ba`](https://github.com/stdlib-js/stdlib/commit/8c107ba16d7d2b6e4a37fc8fbbdf54553385414c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f82186c`](https://github.com/stdlib-js/stdlib/commit/f82186c2f59b579044d5328b0298036b9a7bd8a6) - **feat:** add `stats/strided/stdevch` _(by Gururaj Gurram)_
+-   [`b9f9779`](https://github.com/stdlib-js/stdlib/commit/b9f97793ddf7d6afeb64a6a42c821f9337acb993) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`36934e8`](https://github.com/stdlib-js/stdlib/commit/36934e80023d2c5af861db5b5415a38388de4803) - **feat:** add `stats/strided/stdevpn` _(by Gururaj Gurram)_
+-   [`a478ac6`](https://github.com/stdlib-js/stdlib/commit/a478ac64883bb557ea66c3026f9c112696a0878e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`1414fca`](https://github.com/stdlib-js/stdlib/commit/1414fca8c2b92f248e8310120f72f944525a728f) - **feat:** add `stats/strided/stdevtk` _(by Gururaj Gurram)_
+-   [`790c636`](https://github.com/stdlib-js/stdlib/commit/790c6365997dbc302ef6a312210fc3d74b423da3) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`706e9ad`](https://github.com/stdlib-js/stdlib/commit/706e9ad474b127319af2046ff58b3eaeca1a9702) - **feat:** add `stats/strided/stdevwd` _(by Gururaj Gurram)_
+-   [`f182fe8`](https://github.com/stdlib-js/stdlib/commit/f182fe83c16c349237c898796505f80f34c2ec31) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`812bf10`](https://github.com/stdlib-js/stdlib/commit/812bf10b4652a57a92cb50bdc59d85d27ee96dbc) - **feat:** add `stats/strided/stdevyc` _(by Gururaj Gurram)_
+-   [`dddf657`](https://github.com/stdlib-js/stdlib/commit/dddf657be1a00531786ca624e64a7158edce9eea) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`53543a3`](https://github.com/stdlib-js/stdlib/commit/53543a3bd5e382153a3c7c7965e874a9d6c3ae9b) - **docs:** update Markdown stdlib package URLs [(#7617)](https://github.com/stdlib-js/stdlib/pull/7617) _(by stdlib-bot)_
+-   [`1624fe5`](https://github.com/stdlib-js/stdlib/commit/1624fe52725211d1847426269dc004d1fc48acae) - **feat:** add `stats/strided/ztest2` [(#7464)](https://github.com/stdlib-js/stdlib/pull/7464) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
+-   [`7cd152b`](https://github.com/stdlib-js/stdlib/commit/7cd152ba9f730665bac86f9c488374c5c0c2f2c7) - **docs:** fix return values and parameters _(by Philipp Burckhardt)_
+-   [`70c0a74`](https://github.com/stdlib-js/stdlib/commit/70c0a74d7298a99ac9f59c4fb4db78acec57c404) - **docs:** update copy _(by Athan Reines)_
+-   [`dd3c840`](https://github.com/stdlib-js/stdlib/commit/dd3c84098321191a425401880f073b5de4159ff5) - **docs:** update copy _(by Athan Reines)_
 -   [`e3ec747`](https://github.com/stdlib-js/stdlib/commit/e3ec7479e52d2427f8b6f3decb07125e4286178e) - **bench:** fix call signature _(by Athan Reines)_
 -   [`8e0e86d`](https://github.com/stdlib-js/stdlib/commit/8e0e86d59d64a740f2452647f890d3dd5b164c05) - **feat:** add `dcovarmtk` to namespace _(by Athan Reines)_
 -   [`95608b2`](https://github.com/stdlib-js/stdlib/commit/95608b2ebabf95ec76675a09f16d026ebb01b381) - **feat:** add `stats/strided/dcovarmtk` _(by Athan Reines)_
