@@ -4,12 +4,27 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-16)
+## Unreleased (2025-08-20)
 
 <section class="features">
 
 ### Features
 
+-   [`b1913e3`](https://github.com/stdlib-js/stdlib/commit/b1913e32b4477bc8b1ee21833316faca9e5130be) - add missing `stats/strided` exports to namespace
+-   [`8d11d85`](https://github.com/stdlib-js/stdlib/commit/8d11d85a7fd43c6b8b4e629b5aa53a345c4d139c) - add `stats/strided/nanstdev`
+-   [`fdc8be1`](https://github.com/stdlib-js/stdlib/commit/fdc8be13e5a42e38b4e6837f9e2bdaca4dae53d7) - add `stats/strided/nanstdevch`
+-   [`48c65d0`](https://github.com/stdlib-js/stdlib/commit/48c65d0da4296c1eb9466fcf17235093fb9521b9) - add `stats/strided/nanstdevpn`
+-   [`9477dcd`](https://github.com/stdlib-js/stdlib/commit/9477dcd206523d4c9ac11e8c7d7a333b0f25f00a) - add `stats/strided/nanstdevtk`
+-   [`87adf2f`](https://github.com/stdlib-js/stdlib/commit/87adf2f39c9b8a9037edb9a0fc26c62e968c8179) - add `stats/strided/nanstdevwd`
+-   [`c57e10a`](https://github.com/stdlib-js/stdlib/commit/c57e10a129ed44c4bd37efbaf43b8268fdabbef4) - add `stats/strided/nanstdevyc`
+-   [`79915fb`](https://github.com/stdlib-js/stdlib/commit/79915fbc5fddf69c9045545e207d68bd9a9e5f3f) - add `stats/strided/dztest2` [(#7579)](https://github.com/stdlib-js/stdlib/pull/7579)
+-   [`0377a72`](https://github.com/stdlib-js/stdlib/commit/0377a72eba4c71cb58de1e548e4912bbd2615477) - add `stats/strided/nanvariance`
+-   [`a10c914`](https://github.com/stdlib-js/stdlib/commit/a10c914cbb24886f7dcdd255e65dcb5416adcc1a) - add `stats/strided/nanvariancech`
+-   [`e9963aa`](https://github.com/stdlib-js/stdlib/commit/e9963aabbf5102f5e124caf1f7d3b1db114dd309) - add `stats/strided/nanvariancepn`
+-   [`c3dbfc3`](https://github.com/stdlib-js/stdlib/commit/c3dbfc396732f455a684b64b18e4ddd59d983836) - add `stats/strided/nanvariancetk`
+-   [`745ae6f`](https://github.com/stdlib-js/stdlib/commit/745ae6f5d8f3530e09e44f511791b20bd5097bc7) - add `stats/strided/nanvariancewd`
+-   [`f79b308`](https://github.com/stdlib-js/stdlib/commit/f79b3081e7628c90bc0061ab7bcdfb761a00bab2) - add `stats/strided/nanvarianceyc`
+-   [`cd1a5a6`](https://github.com/stdlib-js/stdlib/commit/cd1a5a690e3abd41fcdd64471d465fc22f1d9c4d) - add `stats/strided/sztest2` [(#7642)](https://github.com/stdlib-js/stdlib/pull/7642)
 -   [`ae9acc7`](https://github.com/stdlib-js/stdlib/commit/ae9acc7e68ffa51732b6a783334c54e37b512551) - add `dcovmatmtk` to namespace
 -   [`8e5050c`](https://github.com/stdlib-js/stdlib/commit/8e5050c7adeaebc783564ce24ab3e0c2c9b09992) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace
 -   [`74d0992`](https://github.com/stdlib-js/stdlib/commit/74d0992f5b2ee5bfc9d0b05a86011e1463de0da7) - add `ztest2` to namespace
@@ -239,6 +254,7 @@
 
 ### Bug Fixes
 
+-   [`dbfb45d`](https://github.com/stdlib-js/stdlib/commit/dbfb45db7d075160f3c6873f31268ab6877bb8c9) - correct calculation for x variance
 -   [`d529cbd`](https://github.com/stdlib-js/stdlib/commit/d529cbd7745c4ba69415d450f1e2f597b212e9fc) - simplify and fix branching logic and use assertion utility
 -   [`98e8f6b`](https://github.com/stdlib-js/stdlib/commit/98e8f6bfbe48aa24003710ed87ea88f5dc68977e) - allow non-numeric input arrays
 -   [`3c72680`](https://github.com/stdlib-js/stdlib/commit/3c72680427f484cad956390101fda76e4c247f8b) - always resolve the alternative string
@@ -289,6 +305,41 @@
 
 <details>
 
+-   [`b1913e3`](https://github.com/stdlib-js/stdlib/commit/b1913e32b4477bc8b1ee21833316faca9e5130be) - **feat:** add missing `stats/strided` exports to namespace _(by Philipp Burckhardt)_
+-   [`842892d`](https://github.com/stdlib-js/stdlib/commit/842892db70da69098d8fb271ea19ae45c09a8a0e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`dbfb45d`](https://github.com/stdlib-js/stdlib/commit/dbfb45db7d075160f3c6873f31268ab6877bb8c9) - **fix:** correct calculation for x variance _(by Philipp Burckhardt)_
+-   [`07d7a23`](https://github.com/stdlib-js/stdlib/commit/07d7a2388a8916c3f70c18abcc51b4086898bb1a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`8d11d85`](https://github.com/stdlib-js/stdlib/commit/8d11d85a7fd43c6b8b4e629b5aa53a345c4d139c) - **feat:** add `stats/strided/nanstdev` _(by Gururaj Gurram)_
+-   [`fb392ac`](https://github.com/stdlib-js/stdlib/commit/fb392ac4d71e19a7c67a55e896b02f37f2532895) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`fdc8be1`](https://github.com/stdlib-js/stdlib/commit/fdc8be13e5a42e38b4e6837f9e2bdaca4dae53d7) - **feat:** add `stats/strided/nanstdevch` _(by Gururaj Gurram)_
+-   [`e4f8248`](https://github.com/stdlib-js/stdlib/commit/e4f8248932a64a941c0d0ce77ea312b235538440) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`48c65d0`](https://github.com/stdlib-js/stdlib/commit/48c65d0da4296c1eb9466fcf17235093fb9521b9) - **feat:** add `stats/strided/nanstdevpn` _(by Gururaj Gurram)_
+-   [`2b60991`](https://github.com/stdlib-js/stdlib/commit/2b60991ba7ea2b01b7255f1db6495372b7acf22e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`9477dcd`](https://github.com/stdlib-js/stdlib/commit/9477dcd206523d4c9ac11e8c7d7a333b0f25f00a) - **feat:** add `stats/strided/nanstdevtk` _(by Gururaj Gurram)_
+-   [`a4c984e`](https://github.com/stdlib-js/stdlib/commit/a4c984e1cd0ee9c733b6575c8a2bf669c1ac1190) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`87adf2f`](https://github.com/stdlib-js/stdlib/commit/87adf2f39c9b8a9037edb9a0fc26c62e968c8179) - **feat:** add `stats/strided/nanstdevwd` _(by Gururaj Gurram)_
+-   [`fd741a4`](https://github.com/stdlib-js/stdlib/commit/fd741a47f8c8efb5db781409587903f99470a05e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`c57e10a`](https://github.com/stdlib-js/stdlib/commit/c57e10a129ed44c4bd37efbaf43b8268fdabbef4) - **feat:** add `stats/strided/nanstdevyc` _(by Gururaj Gurram)_
+-   [`79915fb`](https://github.com/stdlib-js/stdlib/commit/79915fbc5fddf69c9045545e207d68bd9a9e5f3f) - **feat:** add `stats/strided/dztest2` [(#7579)](https://github.com/stdlib-js/stdlib/pull/7579) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
+-   [`a12628a`](https://github.com/stdlib-js/stdlib/commit/a12628ad05e60a114fad1165481fd2da16f57886) - **bench:** fix descriptions _(by Athan Reines)_
+-   [`d8dd116`](https://github.com/stdlib-js/stdlib/commit/d8dd11669e80ed814975d2c941aa315d878a9fb0) - **docs:** fix description _(by Athan Reines)_
+-   [`e1835a1`](https://github.com/stdlib-js/stdlib/commit/e1835a124a5ee8a1a3c763e5414ad86bc3a2256e) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`599039a`](https://github.com/stdlib-js/stdlib/commit/599039a0832889aaec19083e6d918e519edddb00) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`0377a72`](https://github.com/stdlib-js/stdlib/commit/0377a72eba4c71cb58de1e548e4912bbd2615477) - **feat:** add `stats/strided/nanvariance` _(by Gururaj Gurram)_
+-   [`3e5f087`](https://github.com/stdlib-js/stdlib/commit/3e5f087480788b58307242117587a8564114519f) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`a10c914`](https://github.com/stdlib-js/stdlib/commit/a10c914cbb24886f7dcdd255e65dcb5416adcc1a) - **feat:** add `stats/strided/nanvariancech` _(by Gururaj Gurram)_
+-   [`61c4728`](https://github.com/stdlib-js/stdlib/commit/61c4728812031ccccd496101dd7a87d13782b562) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`e9963aa`](https://github.com/stdlib-js/stdlib/commit/e9963aabbf5102f5e124caf1f7d3b1db114dd309) - **feat:** add `stats/strided/nanvariancepn` _(by Gururaj Gurram)_
+-   [`680b881`](https://github.com/stdlib-js/stdlib/commit/680b8812b7444a45b2d92c2c1c55ce29ab2366a4) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`c3dbfc3`](https://github.com/stdlib-js/stdlib/commit/c3dbfc396732f455a684b64b18e4ddd59d983836) - **feat:** add `stats/strided/nanvariancetk` _(by Gururaj Gurram)_
+-   [`2dc1303`](https://github.com/stdlib-js/stdlib/commit/2dc13030ffbb6ce3701cfdbb8fab4b648fe37fc4) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`745ae6f`](https://github.com/stdlib-js/stdlib/commit/745ae6f5d8f3530e09e44f511791b20bd5097bc7) - **feat:** add `stats/strided/nanvariancewd` _(by Gururaj Gurram)_
+-   [`ba4ee56`](https://github.com/stdlib-js/stdlib/commit/ba4ee5616dfe77f6c5254024aab2b8183f2c4232) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f79b308`](https://github.com/stdlib-js/stdlib/commit/f79b3081e7628c90bc0061ab7bcdfb761a00bab2) - **feat:** add `stats/strided/nanvarianceyc` _(by Gururaj Gurram)_
+-   [`cd1a5a6`](https://github.com/stdlib-js/stdlib/commit/cd1a5a690e3abd41fcdd64471d465fc22f1d9c4d) - **feat:** add `stats/strided/sztest2` [(#7642)](https://github.com/stdlib-js/stdlib/pull/7642) _(by Gururaj Gurram, Athan Reines)_
+-   [`45384a1`](https://github.com/stdlib-js/stdlib/commit/45384a12a3cb54855e5c87d22211eb24661870fb) - **docs:** fix comment _(by Athan Reines)_
+-   [`b6328d9`](https://github.com/stdlib-js/stdlib/commit/b6328d92945fbfd5c01070377da77de335cc7cce) - **docs:** fix comment _(by Athan Reines)_
+-   [`4cf9054`](https://github.com/stdlib-js/stdlib/commit/4cf9054b114f7813295567be551dcb293016442e) - **docs:** remove unused definition _(by Athan Reines)_
 -   [`ae9acc7`](https://github.com/stdlib-js/stdlib/commit/ae9acc7e68ffa51732b6a783334c54e37b512551) - **feat:** add `dcovmatmtk` to namespace _(by Athan Reines)_
 -   [`8e5050c`](https://github.com/stdlib-js/stdlib/commit/8e5050c7adeaebc783564ce24ab3e0c2c9b09992) - **feat:** add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace _(by Athan Reines)_
 -   [`74d0992`](https://github.com/stdlib-js/stdlib/commit/74d0992f5b2ee5bfc9d0b05a86011e1463de0da7) - **feat:** add `ztest2` to namespace _(by Athan Reines)_
