@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-20)
+## Unreleased (2025-09-07)
 
 <section class="features">
 
 ### Features
 
+-   [`7592c09`](https://github.com/stdlib-js/stdlib/commit/7592c09ca5b6486f4c84f5d59189f0be0219454d) - add exports to `stats/strided` namespace
+-   [`7546cdf`](https://github.com/stdlib-js/stdlib/commit/7546cdf2e3dbbde28497d3a35b45ed28f721a992) - add `stats/strided/sdsnanmeanors`
+-   [`4bce739`](https://github.com/stdlib-js/stdlib/commit/4bce7392f50f9c62d056295fce90cd156a071597) - add `stats/strided/sstdevwd`
+-   [`8d4c4f8`](https://github.com/stdlib-js/stdlib/commit/8d4c4f888b4c858c7b2c1d1f396684babe86464f) - add `stats/strided/snanmean`
 -   [`b1913e3`](https://github.com/stdlib-js/stdlib/commit/b1913e32b4477bc8b1ee21833316faca9e5130be) - add missing `stats/strided` exports to namespace
 -   [`8d11d85`](https://github.com/stdlib-js/stdlib/commit/8d11d85a7fd43c6b8b4e629b5aa53a345c4d139c) - add `stats/strided/nanstdev`
 -   [`fdc8be1`](https://github.com/stdlib-js/stdlib/commit/fdc8be13e5a42e38b4e6837f9e2bdaca4dae53d7) - add `stats/strided/nanstdevch`
@@ -267,6 +271,16 @@
 
 <!-- /.bug-fixes -->
 
+<section class="reverts">
+
+### Reverts
+
+-   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - docs: fix example code
+
+</section>
+
+<!-- /.reverts -->
+
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
@@ -305,6 +319,17 @@
 
 <details>
 
+-   [`7592c09`](https://github.com/stdlib-js/stdlib/commit/7592c09ca5b6486f4c84f5d59189f0be0219454d) - **feat:** add exports to `stats/strided` namespace _(by Philipp Burckhardt)_
+-   [`3255779`](https://github.com/stdlib-js/stdlib/commit/3255779bbbb9fc1b4ab755ac57aad2bc1c5dbd97) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`7546cdf`](https://github.com/stdlib-js/stdlib/commit/7546cdf2e3dbbde28497d3a35b45ed28f721a992) - **feat:** add `stats/strided/sdsnanmeanors` _(by Gururaj Gurram)_
+-   [`26d86b8`](https://github.com/stdlib-js/stdlib/commit/26d86b8b1996eebbc5eaeb5a1ce62ba61ade78bf) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`4bce739`](https://github.com/stdlib-js/stdlib/commit/4bce7392f50f9c62d056295fce90cd156a071597) - **feat:** add `stats/strided/sstdevwd` _(by Gururaj Gurram)_
+-   [`4ec3a47`](https://github.com/stdlib-js/stdlib/commit/4ec3a471ad594bf710eb4e78a6650136389cb0a7) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`8d4c4f8`](https://github.com/stdlib-js/stdlib/commit/8d4c4f888b4c858c7b2c1d1f396684babe86464f) - **feat:** add `stats/strided/snanmean` _(by Gururaj Gurram)_
+-   [`168c7c1`](https://github.com/stdlib-js/stdlib/commit/168c7c18aa58007cf9d7785b9cde69e8e7157c21) - **revert:** docs: fix example code _(by Philipp Burckhardt)_
+-   [`e4701e8`](https://github.com/stdlib-js/stdlib/commit/e4701e814ce9db206690ad9f2ce8b84e5a4f4e52) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`afca27e`](https://github.com/stdlib-js/stdlib/commit/afca27e5a12962febf70b6de36e2cea94295b16b) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`60c82d7`](https://github.com/stdlib-js/stdlib/commit/60c82d7956372df2c50a05cab73205aa85198aa5) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`b1913e3`](https://github.com/stdlib-js/stdlib/commit/b1913e32b4477bc8b1ee21833316faca9e5130be) - **feat:** add missing `stats/strided` exports to namespace _(by Philipp Burckhardt)_
 -   [`842892d`](https://github.com/stdlib-js/stdlib/commit/842892db70da69098d8fb271ea19ae45c09a8a0e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`dbfb45d`](https://github.com/stdlib-js/stdlib/commit/dbfb45db7d075160f3c6873f31268ab6877bb8c9) - **fix:** correct calculation for x variance _(by Philipp Burckhardt)_
