@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-07)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
 ### Features
 
+-   [`e427b37`](https://github.com/stdlib-js/stdlib/commit/e427b37b14b6b2fb7828f483aec4a0aed935c3ad) - update `stats/strided` TypeScript declarations
+-   [`b5ace26`](https://github.com/stdlib-js/stdlib/commit/b5ace26f95531ed7322c25bcf190e77d595dc055) - add `stats/strided/wasm/dnanvariancewd` [(#8085)](https://github.com/stdlib-js/stdlib/pull/8085)
 -   [`7592c09`](https://github.com/stdlib-js/stdlib/commit/7592c09ca5b6486f4c84f5d59189f0be0219454d) - add exports to `stats/strided` namespace
 -   [`7546cdf`](https://github.com/stdlib-js/stdlib/commit/7546cdf2e3dbbde28497d3a35b45ed28f721a992) - add `stats/strided/sdsnanmeanors`
 -   [`4bce739`](https://github.com/stdlib-js/stdlib/commit/4bce7392f50f9c62d056295fce90cd156a071597) - add `stats/strided/sstdevwd`
@@ -313,12 +315,30 @@
 
 <!-- /.breaking-changes -->
 
+<section class="issues">
+
+### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#8121](https://github.com/stdlib-js/stdlib/issues/8121), [#8236](https://github.com/stdlib-js/stdlib/issues/8236)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`8eafaaa`](https://github.com/stdlib-js/stdlib/commit/8eafaaa6903a36942148972269b561071ff99eed) - **chore:** fix C lint errors [(#8237)](https://github.com/stdlib-js/stdlib/pull/8237) _(by Geo Daoyu)_
+-   [`4399896`](https://github.com/stdlib-js/stdlib/commit/4399896b5b0b0d1b18692467bec6ac13af4cf2b0) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`7c908e8`](https://github.com/stdlib-js/stdlib/commit/7c908e80b8f6188f892421690bf7925b20bc5aaf) - **chore:** fix C lint errors [(#8130)](https://github.com/stdlib-js/stdlib/pull/8130) _(by Geo Daoyu)_
+-   [`e427b37`](https://github.com/stdlib-js/stdlib/commit/e427b37b14b6b2fb7828f483aec4a0aed935c3ad) - **feat:** update `stats/strided` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`b5ace26`](https://github.com/stdlib-js/stdlib/commit/b5ace26f95531ed7322c25bcf190e77d595dc055) - **feat:** add `stats/strided/wasm/dnanvariancewd` [(#8085)](https://github.com/stdlib-js/stdlib/pull/8085) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`7592c09`](https://github.com/stdlib-js/stdlib/commit/7592c09ca5b6486f4c84f5d59189f0be0219454d) - **feat:** add exports to `stats/strided` namespace _(by Philipp Burckhardt)_
 -   [`3255779`](https://github.com/stdlib-js/stdlib/commit/3255779bbbb9fc1b4ab755ac57aad2bc1c5dbd97) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`7546cdf`](https://github.com/stdlib-js/stdlib/commit/7546cdf2e3dbbde28497d3a35b45ed28f721a992) - **feat:** add `stats/strided/sdsnanmeanors` _(by Gururaj Gurram)_
@@ -799,10 +819,11 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   Geo Daoyu
 -   Gururaj Gurram
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
