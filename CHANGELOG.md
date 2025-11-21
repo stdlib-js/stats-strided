@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-11-21)
 
 <section class="features">
 
 ### Features
 
+-   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100)
 -   [`e427b37`](https://github.com/stdlib-js/stdlib/commit/e427b37b14b6b2fb7828f483aec4a0aed935c3ad) - update `stats/strided` TypeScript declarations
 -   [`b5ace26`](https://github.com/stdlib-js/stdlib/commit/b5ace26f95531ed7322c25bcf190e77d595dc055) - add `stats/strided/wasm/dnanvariancewd` [(#8085)](https://github.com/stdlib-js/stdlib/pull/8085)
 -   [`7592c09`](https://github.com/stdlib-js/stdlib/commit/7592c09ca5b6486f4c84f5d59189f0be0219454d) - add exports to `stats/strided` namespace
@@ -260,6 +261,10 @@
 
 ### Bug Fixes
 
+-   [`0d71e53`](https://github.com/stdlib-js/stdlib/commit/0d71e530c42bc8d7c98ad779e505fc01bd904a1f) - ensure correct `this` context when creating a new Module instance
+-   [`edfd675`](https://github.com/stdlib-js/stdlib/commit/edfd6756143f80e262fbc2c09c28db938fa65a29) - ensure correct `this` context when creating a new Module instance
+-   [`de1d0f7`](https://github.com/stdlib-js/stdlib/commit/de1d0f71bf4ae0cb747dc48b479e551f069bd58a) - ensure correct `this` context when creating a new Module instance
+-   [`982ac2d`](https://github.com/stdlib-js/stdlib/commit/982ac2d5c21bccdeffa39b4807b13b20ecba5cb9) - ensure correct `this` context when creating a new Module instance
 -   [`dbfb45d`](https://github.com/stdlib-js/stdlib/commit/dbfb45db7d075160f3c6873f31268ab6877bb8c9) - correct calculation for x variance
 -   [`d529cbd`](https://github.com/stdlib-js/stdlib/commit/d529cbd7745c4ba69415d450f1e2f597b212e9fc) - simplify and fix branching logic and use assertion utility
 -   [`98e8f6b`](https://github.com/stdlib-js/stdlib/commit/98e8f6bfbe48aa24003710ed87ea88f5dc68977e) - allow non-numeric input arrays
@@ -333,6 +338,12 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`e02e358`](https://github.com/stdlib-js/stdlib/commit/e02e358c5541ba0c4e5962dd15acb685b099b60c) - **docs:** fix example code in TSDoc comments _(by Philipp Burckhardt)_
+-   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - **feat:** add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
+-   [`0d71e53`](https://github.com/stdlib-js/stdlib/commit/0d71e530c42bc8d7c98ad779e505fc01bd904a1f) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
+-   [`edfd675`](https://github.com/stdlib-js/stdlib/commit/edfd6756143f80e262fbc2c09c28db938fa65a29) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
+-   [`de1d0f7`](https://github.com/stdlib-js/stdlib/commit/de1d0f71bf4ae0cb747dc48b479e551f069bd58a) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
+-   [`982ac2d`](https://github.com/stdlib-js/stdlib/commit/982ac2d5c21bccdeffa39b4807b13b20ecba5cb9) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`8eafaaa`](https://github.com/stdlib-js/stdlib/commit/8eafaaa6903a36942148972269b561071ff99eed) - **chore:** fix C lint errors [(#8237)](https://github.com/stdlib-js/stdlib/pull/8237) _(by Geo Daoyu)_
 -   [`4399896`](https://github.com/stdlib-js/stdlib/commit/4399896b5b0b0d1b18692467bec6ac13af4cf2b0) - **chore:** minor clean-up _(by Philipp Burckhardt)_
