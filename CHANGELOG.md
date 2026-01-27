@@ -4,12 +4,44 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-21)
+## Unreleased (2026-01-27)
 
 <section class="features">
 
 ### Features
 
+-   [`fbc0835`](https://github.com/stdlib-js/stdlib/commit/fbc08352233e90ae7ff159385d4d3926dff1e13c) - add `snanmidrange` and `srangeabs` to namespace
+-   [`52100d1`](https://github.com/stdlib-js/stdlib/commit/52100d116b87170e3a325bd87665b0ad223894e2) - add `smskmaxabs` and `smskmidrange` to namespace
+-   [`bde889e`](https://github.com/stdlib-js/stdlib/commit/bde889e82b8692575b6a0a1876b28ba9130abf11) - add `rangeabs` to namespace
+-   [`0e31507`](https://github.com/stdlib-js/stdlib/commit/0e31507fc2049fb7c9ab2e7a4f1ae95a97cee2ae) - add `nanmskmidrange` to namespace
+-   [`c13da4c`](https://github.com/stdlib-js/stdlib/commit/c13da4c90cf6fc5fe8f95a092c16a3158e8dc957) - add `nanmidrange` and `nanmidrangeBy` to namespace
+-   [`4d7e3d2`](https://github.com/stdlib-js/stdlib/commit/4d7e3d2d2a82112e93d9289c81a35f44d2e2e312) - add `mskmaxabs` and `mskmidrange` to namespace
+-   [`c86ff1c`](https://github.com/stdlib-js/stdlib/commit/c86ff1cf8c853f3a549b92ee9231e6ce1571dfe7) - add `midrange` and `midrangeBy` to namespace
+-   [`3f0d5ee`](https://github.com/stdlib-js/stdlib/commit/3f0d5ee64202dcd04ad9d5bf0aa4a2d22de82351) - add `drangeabs` to namespace
+-   [`8c75c0d`](https://github.com/stdlib-js/stdlib/commit/8c75c0da4f1d5710fde341b06672faf7e18e221b) - add `dmskmidrange`, `dnanmidrange`, `dnanmskmidrange` to namespace
+-   [`1fa6b54`](https://github.com/stdlib-js/stdlib/commit/1fa6b54311953d38b35d08bee5967e8496a5261d) - add `snanmskmidrange` to namespace
+-   [`562065d`](https://github.com/stdlib-js/stdlib/commit/562065d7fcb441b25a487453c4321030478ee966) - add `stats/strided/snanmskmidrange` [(#9821)](https://github.com/stdlib-js/stdlib/pull/9821)
+-   [`896a1d4`](https://github.com/stdlib-js/stdlib/commit/896a1d454943f4aa2cff2f09cfe3045469dcf43e) - add `stats/strided/rangeabs` [(#9693)](https://github.com/stdlib-js/stdlib/pull/9693)
+-   [`ef33867`](https://github.com/stdlib-js/stdlib/commit/ef33867476544151b1ccfeb094c44b64c18dc1e0) - add `stats/strided/drangeabs` [(#9865)](https://github.com/stdlib-js/stdlib/pull/9865)
+-   [`e6a8746`](https://github.com/stdlib-js/stdlib/commit/e6a87460491fd4ddba7e52f23555663dc4557ccd) - add `stats/strided/smskmaxabs` [(#9729)](https://github.com/stdlib-js/stdlib/pull/9729)
+-   [`c9d512a`](https://github.com/stdlib-js/stdlib/commit/c9d512afde29049ca85e7e9e814eb33bf0bb5072) - add `stats/strided/srangeabs` [(#9850)](https://github.com/stdlib-js/stdlib/pull/9850)
+-   [`1b8a546`](https://github.com/stdlib-js/stdlib/commit/1b8a546a22a9b669cd5287c32a5c16f9422c48c9) - add `stats/strided/dnanmskmidrange` [(#9823)](https://github.com/stdlib-js/stdlib/pull/9823)
+-   [`c8781bb`](https://github.com/stdlib-js/stdlib/commit/c8781bb6f4f9745c8abd24b3b67ea7ba7aee8f78) - add `stats/strided/nanmskmidrange` [(#9417)](https://github.com/stdlib-js/stdlib/pull/9417)
+-   [`d3a2eff`](https://github.com/stdlib-js/stdlib/commit/d3a2eff2cb9c18a89c287cf65cb0498a5b5b6245) - add `stats/strided/mskmaxabs` [(#9696)](https://github.com/stdlib-js/stdlib/pull/9696)
+-   [`8019f5c`](https://github.com/stdlib-js/stdlib/commit/8019f5c04432ee29e3f16513dd29f3f4ed436346) - add `stats/strided/distances/dcityblock` [(#9586)](https://github.com/stdlib-js/stdlib/pull/9586)
+-   [`008ae82`](https://github.com/stdlib-js/stdlib/commit/008ae82617ebeff86a92987e405e2c30ad627f1d) - add `stats/strided/distances/dchebychev` [(#9559)](https://github.com/stdlib-js/stdlib/pull/9559)
+-   [`9422059`](https://github.com/stdlib-js/stdlib/commit/94220593c164a6c649125950794a496da05b10ef) - add `stats/strided/distances/deuclidean` [(#9376)](https://github.com/stdlib-js/stdlib/pull/9376)
+-   [`09140c2`](https://github.com/stdlib-js/stdlib/commit/09140c2f44214e91e61ce3d6b993d36b56a08f12) - add `stats/strided/distances/dcosine-distance` [(#9430)](https://github.com/stdlib-js/stdlib/pull/9430)
+-   [`fb7c43e`](https://github.com/stdlib-js/stdlib/commit/fb7c43e10a7a6f10f2677fa7ea1790fff535c968) - add `stats/strided/smskmidrange` [(#9492)](https://github.com/stdlib-js/stdlib/pull/9492)
+-   [`b06fcb7`](https://github.com/stdlib-js/stdlib/commit/b06fcb7281ace6b7d917fb124e514bf27dd9816f) - add `stats/strided/dmskmidrange` [(#9446)](https://github.com/stdlib-js/stdlib/pull/9446)
+-   [`b1ea83c`](https://github.com/stdlib-js/stdlib/commit/b1ea83c92e4080906e3fdbd9530c4013142894ad) - add `stats/strided/nanmidrange-by` [(#9401)](https://github.com/stdlib-js/stdlib/pull/9401)
+-   [`f4d072e`](https://github.com/stdlib-js/stdlib/commit/f4d072ea93759a1ddb497804a572a13158cdffb9) - add `stats/strided/snanmidrange` [(#9400)](https://github.com/stdlib-js/stdlib/pull/9400)
+-   [`7be3235`](https://github.com/stdlib-js/stdlib/commit/7be3235f58dab6f5a5ac11a58ddad8d5ba2fcb1a) - add `stats/strided/distances/dcosine-similarity` [(#9281)](https://github.com/stdlib-js/stdlib/pull/9281)
+-   [`e88f80d`](https://github.com/stdlib-js/stdlib/commit/e88f80dbfd6514e9949f7b523e703a962c780273) - add `stats/strided/dnanmidrange` [(#9374)](https://github.com/stdlib-js/stdlib/pull/9374)
+-   [`65784f7`](https://github.com/stdlib-js/stdlib/commit/65784f785748107e1fc5d84ad75c9778422e8442) - add `stats/strided/midrange-by` [(#9328)](https://github.com/stdlib-js/stdlib/pull/9328)
+-   [`ffee9eb`](https://github.com/stdlib-js/stdlib/commit/ffee9eb167e2f3b1750163bf9f9937f7e9db48d3) - add `stats/strided/mskmidrange` [(#9331)](https://github.com/stdlib-js/stdlib/pull/9331)
+-   [`0d237ed`](https://github.com/stdlib-js/stdlib/commit/0d237ed24ae4362f4d31ebdf742b0b3901ada59b) - add `stats/strided/nanmidrange` [(#9323)](https://github.com/stdlib-js/stdlib/pull/9323)
+-   [`595918c`](https://github.com/stdlib-js/stdlib/commit/595918c57777524dd8533b80a429c7d331f87444) - add `stats/strided/midrange` [(#9298)](https://github.com/stdlib-js/stdlib/pull/9298)
 -   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100)
 -   [`e427b37`](https://github.com/stdlib-js/stdlib/commit/e427b37b14b6b2fb7828f483aec4a0aed935c3ad) - update `stats/strided` TypeScript declarations
 -   [`b5ace26`](https://github.com/stdlib-js/stdlib/commit/b5ace26f95531ed7322c25bcf190e77d595dc055) - add `stats/strided/wasm/dnanvariancewd` [(#8085)](https://github.com/stdlib-js/stdlib/pull/8085)
@@ -261,6 +293,11 @@
 
 ### Bug Fixes
 
+-   [`7df5cea`](https://github.com/stdlib-js/stdlib/commit/7df5cea68c5d3239fa979b7e4d200d19c10bf9f2) - remove unneeded export comments and ensure browser build includes ndarray method
+-   [`ad77b26`](https://github.com/stdlib-js/stdlib/commit/ad77b26a72b25bb371da51c3cb665c2803a8d9b0) - remove unneeded export comments and ensure browser build includes ndarray method
+-   [`924aa84`](https://github.com/stdlib-js/stdlib/commit/924aa84174dd5191cf02f2e6e985ff90f4acceb4) - remove unneeded export comments and ensure browser build includes ndarray method
+-   [`26ea808`](https://github.com/stdlib-js/stdlib/commit/26ea808b6afc4bb6db6492a9020f8325ebd2157e) - ensure browser-specific version of package has ndarray method
+-   [`3af0a04`](https://github.com/stdlib-js/stdlib/commit/3af0a041f6ae95c251cbfa2acae82b30e3b4579b) - return `NaN` when the number of indexed elements is zero in `stats/strided/distances/dcosine-similarity` [(#9497)](https://github.com/stdlib-js/stdlib/pull/9497)
 -   [`0d71e53`](https://github.com/stdlib-js/stdlib/commit/0d71e530c42bc8d7c98ad779e505fc01bd904a1f) - ensure correct `this` context when creating a new Module instance
 -   [`edfd675`](https://github.com/stdlib-js/stdlib/commit/edfd6756143f80e262fbc2c09c28db938fa65a29) - ensure correct `this` context when creating a new Module instance
 -   [`de1d0f7`](https://github.com/stdlib-js/stdlib/commit/de1d0f71bf4ae0cb747dc48b479e551f069bd58a) - ensure correct `this` context when creating a new Module instance
@@ -324,9 +361,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#8121](https://github.com/stdlib-js/stdlib/issues/8121), [#8236](https://github.com/stdlib-js/stdlib/issues/8236)
+[#8121](https://github.com/stdlib-js/stdlib/issues/8121), [#8236](https://github.com/stdlib-js/stdlib/issues/8236), [#9267](https://github.com/stdlib-js/stdlib/issues/9267), [#9570](https://github.com/stdlib-js/stdlib/issues/9570)
 
 </section>
 
@@ -338,6 +375,102 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`fbc0835`](https://github.com/stdlib-js/stdlib/commit/fbc08352233e90ae7ff159385d4d3926dff1e13c) - **feat:** add `snanmidrange` and `srangeabs` to namespace _(by Athan Reines)_
+-   [`52100d1`](https://github.com/stdlib-js/stdlib/commit/52100d116b87170e3a325bd87665b0ad223894e2) - **feat:** add `smskmaxabs` and `smskmidrange` to namespace _(by Athan Reines)_
+-   [`bde889e`](https://github.com/stdlib-js/stdlib/commit/bde889e82b8692575b6a0a1876b28ba9130abf11) - **feat:** add `rangeabs` to namespace _(by Athan Reines)_
+-   [`0e31507`](https://github.com/stdlib-js/stdlib/commit/0e31507fc2049fb7c9ab2e7a4f1ae95a97cee2ae) - **feat:** add `nanmskmidrange` to namespace _(by Athan Reines)_
+-   [`c13da4c`](https://github.com/stdlib-js/stdlib/commit/c13da4c90cf6fc5fe8f95a092c16a3158e8dc957) - **feat:** add `nanmidrange` and `nanmidrangeBy` to namespace _(by Athan Reines)_
+-   [`4d7e3d2`](https://github.com/stdlib-js/stdlib/commit/4d7e3d2d2a82112e93d9289c81a35f44d2e2e312) - **feat:** add `mskmaxabs` and `mskmidrange` to namespace _(by Athan Reines)_
+-   [`c86ff1c`](https://github.com/stdlib-js/stdlib/commit/c86ff1cf8c853f3a549b92ee9231e6ce1571dfe7) - **feat:** add `midrange` and `midrangeBy` to namespace _(by Athan Reines)_
+-   [`3f0d5ee`](https://github.com/stdlib-js/stdlib/commit/3f0d5ee64202dcd04ad9d5bf0aa4a2d22de82351) - **feat:** add `drangeabs` to namespace _(by Athan Reines)_
+-   [`8c75c0d`](https://github.com/stdlib-js/stdlib/commit/8c75c0da4f1d5710fde341b06672faf7e18e221b) - **feat:** add `dmskmidrange`, `dnanmidrange`, `dnanmskmidrange` to namespace _(by Athan Reines)_
+-   [`1fa6b54`](https://github.com/stdlib-js/stdlib/commit/1fa6b54311953d38b35d08bee5967e8496a5261d) - **feat:** add `snanmskmidrange` to namespace _(by Athan Reines)_
+-   [`562065d`](https://github.com/stdlib-js/stdlib/commit/562065d7fcb441b25a487453c4321030478ee966) - **feat:** add `stats/strided/snanmskmidrange` [(#9821)](https://github.com/stdlib-js/stdlib/pull/9821) _(by Sachin Pangal, Philipp Burckhardt, Athan Reines)_
+-   [`65aa64a`](https://github.com/stdlib-js/stdlib/commit/65aa64a2f860129b3ca2f09f47641e4355303799) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`896a1d4`](https://github.com/stdlib-js/stdlib/commit/896a1d454943f4aa2cff2f09cfe3045469dcf43e) - **feat:** add `stats/strided/rangeabs` [(#9693)](https://github.com/stdlib-js/stdlib/pull/9693) _(by Sachin Pangal, Athan Reines)_
+-   [`ef33867`](https://github.com/stdlib-js/stdlib/commit/ef33867476544151b1ccfeb094c44b64c18dc1e0) - **feat:** add `stats/strided/drangeabs` [(#9865)](https://github.com/stdlib-js/stdlib/pull/9865) _(by Sachin Pangal, Athan Reines)_
+-   [`e6a8746`](https://github.com/stdlib-js/stdlib/commit/e6a87460491fd4ddba7e52f23555663dc4557ccd) - **feat:** add `stats/strided/smskmaxabs` [(#9729)](https://github.com/stdlib-js/stdlib/pull/9729) _(by Sachin Pangal, Athan Reines)_
+-   [`0646933`](https://github.com/stdlib-js/stdlib/commit/06469331a90eca2105b96749522f3e73450b556c) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`e42451a`](https://github.com/stdlib-js/stdlib/commit/e42451a082479c4f573c60885a54fa9a6fc4313e) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`49b870b`](https://github.com/stdlib-js/stdlib/commit/49b870bdbabb88bb852fc22744ebb76f7dde5d44) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`a976e0d`](https://github.com/stdlib-js/stdlib/commit/a976e0d977a2c0b117d83581d38441fd15ca6273) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`a830720`](https://github.com/stdlib-js/stdlib/commit/a830720e1179ecd50924edf20d884483cc39f570) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`0db4998`](https://github.com/stdlib-js/stdlib/commit/0db499866f3b5f50061f3827c7726851c6b8e320) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`719e685`](https://github.com/stdlib-js/stdlib/commit/719e685eaa6460d9ded69333953019952455750f) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`430583e`](https://github.com/stdlib-js/stdlib/commit/430583e905716d80351b947a43631e3aa26ee257) - **refactor:** simplify package structure and remove extra browser entry _(by Philipp Burckhardt)_
+-   [`1c9a785`](https://github.com/stdlib-js/stdlib/commit/1c9a785ad53c5dac99aa5e019402cd4d8e7bccaa) - **bench:** add missing benchmarks _(by Athan Reines)_
+-   [`e28d2fe`](https://github.com/stdlib-js/stdlib/commit/e28d2fe0eba692438ff7322feedcc8db4da6c308) - **chore:** remove unneeded exports comment _(by Philipp Burckhardt)_
+-   [`7df5cea`](https://github.com/stdlib-js/stdlib/commit/7df5cea68c5d3239fa979b7e4d200d19c10bf9f2) - **fix:** remove unneeded export comments and ensure browser build includes ndarray method _(by Philipp Burckhardt)_
+-   [`ad77b26`](https://github.com/stdlib-js/stdlib/commit/ad77b26a72b25bb371da51c3cb665c2803a8d9b0) - **fix:** remove unneeded export comments and ensure browser build includes ndarray method _(by Philipp Burckhardt)_
+-   [`924aa84`](https://github.com/stdlib-js/stdlib/commit/924aa84174dd5191cf02f2e6e985ff90f4acceb4) - **fix:** remove unneeded export comments and ensure browser build includes ndarray method _(by Philipp Burckhardt)_
+-   [`90da141`](https://github.com/stdlib-js/stdlib/commit/90da141063d7deb9af83a387dc4bbd27b73e8095) - **chore:** remove exports comments _(by Philipp Burckhardt)_
+-   [`ae31fc0`](https://github.com/stdlib-js/stdlib/commit/ae31fc062e919fcbca412e037a61ae68956eada0) - **test:** update require to match implementation file _(by Philipp Burckhardt)_
+-   [`26ea808`](https://github.com/stdlib-js/stdlib/commit/26ea808b6afc4bb6db6492a9020f8325ebd2157e) - **fix:** ensure browser-specific version of package has ndarray method _(by Philipp Burckhardt)_
+-   [`ac1050a`](https://github.com/stdlib-js/stdlib/commit/ac1050ab5716b16ad08fc7acd45b0742ee775461) - **chore:** clean-up _(by Athan Reines)_
+-   [`95a8d60`](https://github.com/stdlib-js/stdlib/commit/95a8d60c4d73ed9df86cf640230f1874aa8be9e7) - **chore:** remove exports comment _(by Philipp Burckhardt)_
+-   [`0954a22`](https://github.com/stdlib-js/stdlib/commit/0954a22ec2926b4d772482696031a5d36f2d747d) - **chore:** add missing exports comments _(by Philipp Burckhardt)_
+-   [`42a21ef`](https://github.com/stdlib-js/stdlib/commit/42a21ef96b20ae2c821330ef5ddf8b1bce032bfc) - **chore:** add missing exports comments _(by Philipp Burckhardt)_
+-   [`c9d512a`](https://github.com/stdlib-js/stdlib/commit/c9d512afde29049ca85e7e9e814eb33bf0bb5072) - **feat:** add `stats/strided/srangeabs` [(#9850)](https://github.com/stdlib-js/stdlib/pull/9850) _(by Sachin Pangal, stdlib-bot)_
+-   [`1b8a546`](https://github.com/stdlib-js/stdlib/commit/1b8a546a22a9b669cd5287c32a5c16f9422c48c9) - **feat:** add `stats/strided/dnanmskmidrange` [(#9823)](https://github.com/stdlib-js/stdlib/pull/9823) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`1ec4672`](https://github.com/stdlib-js/stdlib/commit/1ec46724592393aa1503e774e9ddedf52873d3f8) - **bench:** refactor to use use dynamic memory allocation in `stats/strided/dmeankbn` [(#9814)](https://github.com/stdlib-js/stdlib/pull/9814) _(by Vishal Gaikwad)_
+-   [`b5ee1c6`](https://github.com/stdlib-js/stdlib/commit/b5ee1c6c5b7b982be4373a8c4f1e5b598f5cdcec) - **bench:** refactor to use use dynamic memory allocation in `stats/strided/dmeankbn2` [(#9816)](https://github.com/stdlib-js/stdlib/pull/9816) _(by Vishal Gaikwad)_
+-   [`52f3b09`](https://github.com/stdlib-js/stdlib/commit/52f3b09939070e38ef2ef12d8625afe03b6180e1) - **style:** add empty line _(by Athan Reines)_
+-   [`089d872`](https://github.com/stdlib-js/stdlib/commit/089d872ce2b44fc51d5d58700a518214f18a6a48) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmskrange` [(#9749)](https://github.com/stdlib-js/stdlib/pull/9749) _(by Vishal Gaikwad)_
+-   [`16e4fd3`](https://github.com/stdlib-js/stdlib/commit/16e4fd3d3f18326c2d1a1e46d4cca60a2afad037) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmeanpw` [(#9770)](https://github.com/stdlib-js/stdlib/pull/9770) _(by Vishal Gaikwad)_
+-   [`e21e6df`](https://github.com/stdlib-js/stdlib/commit/e21e6dfa62d160bd43b2c282b136021085e9d45a) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmean` [(#9773)](https://github.com/stdlib-js/stdlib/pull/9773) _(by Bhargav Dabhade)_
+-   [`0bf02be`](https://github.com/stdlib-js/stdlib/commit/0bf02be23ebbde03611a294ffab98c55ca770000) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmax` [(#9750)](https://github.com/stdlib-js/stdlib/pull/9750) _(by Vishal Gaikwad)_
+-   [`0a326f9`](https://github.com/stdlib-js/stdlib/commit/0a326f9f502b6d12dcc058ee92774b8f937b5840) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmaxabs` [(#9751)](https://github.com/stdlib-js/stdlib/pull/9751) _(by Vishal Gaikwad)_
+-   [`e0ab0b1`](https://github.com/stdlib-js/stdlib/commit/e0ab0b1c2933b865aa5302ae60b4bc22bc0d4a39) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmean` [(#9752)](https://github.com/stdlib-js/stdlib/pull/9752) _(by Vishal Gaikwad)_
+-   [`3b73da5`](https://github.com/stdlib-js/stdlib/commit/3b73da5a3793534fa08f009722a98f96c61b0314) - **docs:** update related packages sections [(#9732)](https://github.com/stdlib-js/stdlib/pull/9732) _(by stdlib-bot, Athan Reines)_
+-   [`c8781bb`](https://github.com/stdlib-js/stdlib/commit/c8781bb6f4f9745c8abd24b3b67ea7ba7aee8f78) - **feat:** add `stats/strided/nanmskmidrange` [(#9417)](https://github.com/stdlib-js/stdlib/pull/9417) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`1e61003`](https://github.com/stdlib-js/stdlib/commit/1e610036abcefe23cb1ea91e8c2308352323a47f) - **refactor:** remove unreachable path _(by Athan Reines)_
+-   [`2f98c26`](https://github.com/stdlib-js/stdlib/commit/2f98c26670b9e7d7a57401953f85f0369ceff39d) - **refactor:** remove unreachable path _(by Athan Reines)_
+-   [`18f7a74`](https://github.com/stdlib-js/stdlib/commit/18f7a74934a8c1d64798818b20e03c353f4db981) - **test:** fix supplied arguments in fifth argument tests _(by Philipp Burckhardt)_
+-   [`5e66c6b`](https://github.com/stdlib-js/stdlib/commit/5e66c6b607019fb254c45fe269011000e81b862c) - **docs:** fix return annotation _(by Philipp Burckhardt)_
+-   [`d3a2eff`](https://github.com/stdlib-js/stdlib/commit/d3a2eff2cb9c18a89c287cf65cb0498a5b5b6245) - **feat:** add `stats/strided/mskmaxabs` [(#9696)](https://github.com/stdlib-js/stdlib/pull/9696) _(by Sachin Pangal, Philipp Burckhardt)_
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
+-   [`8019f5c`](https://github.com/stdlib-js/stdlib/commit/8019f5c04432ee29e3f16513dd29f3f4ed436346) - **feat:** add `stats/strided/distances/dcityblock` [(#9586)](https://github.com/stdlib-js/stdlib/pull/9586) _(by Nakul Krishnakumar, Athan Reines)_
+-   [`4669c51`](https://github.com/stdlib-js/stdlib/commit/4669c51aa02b1d7d8c463e387df494f73c636587) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmskmin` [(#9652)](https://github.com/stdlib-js/stdlib/pull/9652) _(by Vishal Gaikwad, Athan Reines)_
+-   [`411353c`](https://github.com/stdlib-js/stdlib/commit/411353c97c756168a89eff9f5252ee32048819de) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmskmax` [(#9650)](https://github.com/stdlib-js/stdlib/pull/9650) _(by Vishal Gaikwad, Athan Reines)_
+-   [`3d8c416`](https://github.com/stdlib-js/stdlib/commit/3d8c4168a574f6940eaa978408c63542162558ba) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dminsorted` [(#9648)](https://github.com/stdlib-js/stdlib/pull/9648) _(by Vishal Gaikwad)_
+-   [`76e16c8`](https://github.com/stdlib-js/stdlib/commit/76e16c836df4e881b5246c198433cc2170d11357) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmeanpn` [(#9655)](https://github.com/stdlib-js/stdlib/pull/9655) _(by Bhargav Dabhade, Athan Reines)_
+-   [`efec547`](https://github.com/stdlib-js/stdlib/commit/efec5470c54d62b675c8ca598fe352c7ac16a6cb) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanmeanwd` [(#9657)](https://github.com/stdlib-js/stdlib/pull/9657) _(by Bhargav Dabhade, Athan Reines)_
+-   [`1012150`](https://github.com/stdlib-js/stdlib/commit/1012150cdd393f4050502120b0123ed575dcd6de) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmediansorted` [(#9604)](https://github.com/stdlib-js/stdlib/pull/9604) _(by Vishal Gaikwad, Athan Reines)_
+-   [`75e4432`](https://github.com/stdlib-js/stdlib/commit/75e44322fd78e14954befe091e8890cc8a810076) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmidrange` [(#9603)](https://github.com/stdlib-js/stdlib/pull/9603) _(by Vishal Gaikwad)_
+-   [`5f66676`](https://github.com/stdlib-js/stdlib/commit/5f666765772650801c7ba6f73237c85bb67c1574) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dminabs` [(#9605)](https://github.com/stdlib-js/stdlib/pull/9605) _(by Vishal Gaikwad)_
+-   [`7e63571`](https://github.com/stdlib-js/stdlib/commit/7e63571d1ad59b012697ee2ce76e3ca3ac008e7e) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`008ae82`](https://github.com/stdlib-js/stdlib/commit/008ae82617ebeff86a92987e405e2c30ad627f1d) - **feat:** add `stats/strided/distances/dchebychev` [(#9559)](https://github.com/stdlib-js/stdlib/pull/9559) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
+-   [`ed3afe7`](https://github.com/stdlib-js/stdlib/commit/ed3afe7252708109f1a8350c15bcdabcc96f6e0a) - **chore:** fix C lint errors [(#9571)](https://github.com/stdlib-js/stdlib/pull/9571) _(by Geo Daoyu)_
+-   [`9422059`](https://github.com/stdlib-js/stdlib/commit/94220593c164a6c649125950794a496da05b10ef) - **feat:** add `stats/strided/distances/deuclidean` [(#9376)](https://github.com/stdlib-js/stdlib/pull/9376) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
+-   [`09140c2`](https://github.com/stdlib-js/stdlib/commit/09140c2f44214e91e61ce3d6b993d36b56a08f12) - **feat:** add `stats/strided/distances/dcosine-distance` [(#9430)](https://github.com/stdlib-js/stdlib/pull/9430) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
+-   [`d5f4e8c`](https://github.com/stdlib-js/stdlib/commit/d5f4e8cbabde611d9859f9acda04e5b4f0daecd9) - **style:** remove whitespace _(by Athan Reines)_
+-   [`4016fcb`](https://github.com/stdlib-js/stdlib/commit/4016fcbd472fb1dc58b091a59f0828e810f73866) - **style:** remove whitespace _(by Athan Reines)_
+-   [`a20542a`](https://github.com/stdlib-js/stdlib/commit/a20542aba55714d744e959d3073fa5bb9966e454) - **style:** remove whitespace _(by Athan Reines)_
+-   [`948e04b`](https://github.com/stdlib-js/stdlib/commit/948e04bf760415e316dbf802d78d82478ca72b2c) - **docs:** update examples _(by Athan Reines)_
+-   [`3af0a04`](https://github.com/stdlib-js/stdlib/commit/3af0a041f6ae95c251cbfa2acae82b30e3b4579b) - **fix:** return `NaN` when the number of indexed elements is zero in `stats/strided/distances/dcosine-similarity` [(#9497)](https://github.com/stdlib-js/stdlib/pull/9497) _(by Nakul Krishnakumar)_
+-   [`fb7c43e`](https://github.com/stdlib-js/stdlib/commit/fb7c43e10a7a6f10f2677fa7ea1790fff535c968) - **feat:** add `stats/strided/smskmidrange` [(#9492)](https://github.com/stdlib-js/stdlib/pull/9492) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
+-   [`b06fcb7`](https://github.com/stdlib-js/stdlib/commit/b06fcb7281ace6b7d917fb124e514bf27dd9816f) - **feat:** add `stats/strided/dmskmidrange` [(#9446)](https://github.com/stdlib-js/stdlib/pull/9446) _(by Sachin Pangal, Athan Reines)_
+-   [`b1ea83c`](https://github.com/stdlib-js/stdlib/commit/b1ea83c92e4080906e3fdbd9530c4013142894ad) - **feat:** add `stats/strided/nanmidrange-by` [(#9401)](https://github.com/stdlib-js/stdlib/pull/9401) _(by Sachin Pangal, Athan Reines)_
+-   [`f4d072e`](https://github.com/stdlib-js/stdlib/commit/f4d072ea93759a1ddb497804a572a13158cdffb9) - **feat:** add `stats/strided/snanmidrange` [(#9400)](https://github.com/stdlib-js/stdlib/pull/9400) _(by Sachin Pangal, Athan Reines)_
+-   [`40fddc9`](https://github.com/stdlib-js/stdlib/commit/40fddc9801524ef1ff07040447efbb70cdfa7452) - **test:** fix test descriptions _(by Athan Reines)_
+-   [`7830472`](https://github.com/stdlib-js/stdlib/commit/783047291af025831264739d9841e60ab32232f2) - **bench:** fix description _(by Athan Reines)_
+-   [`eb83311`](https://github.com/stdlib-js/stdlib/commit/eb83311758f6cf348950ac84555127d03dd0155e) - **bench:** fix description _(by Athan Reines)_
+-   [`f40f3ed`](https://github.com/stdlib-js/stdlib/commit/f40f3ed3614de207225686772c7858c64510d1fb) - **docs:** fix parameter description _(by Philipp Burckhardt)_
+-   [`7be3235`](https://github.com/stdlib-js/stdlib/commit/7be3235f58dab6f5a5ac11a58ddad8d5ba2fcb1a) - **feat:** add `stats/strided/distances/dcosine-similarity` [(#9281)](https://github.com/stdlib-js/stdlib/pull/9281) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
+-   [`e88f80d`](https://github.com/stdlib-js/stdlib/commit/e88f80dbfd6514e9949f7b523e703a962c780273) - **feat:** add `stats/strided/dnanmidrange` [(#9374)](https://github.com/stdlib-js/stdlib/pull/9374) _(by Sachin Pangal, Athan Reines)_
+-   [`b256d64`](https://github.com/stdlib-js/stdlib/commit/b256d64a727ea0a266e8fae6ffacd519b55abdb0) - **test:** add test for negative zero _(by Philipp Burckhardt)_
+-   [`54b804b`](https://github.com/stdlib-js/stdlib/commit/54b804bba55d0045117f48b267cae91de0d9da8d) - **chore:** fix spacing _(by Philipp Burckhardt)_
+-   [`ddac446`](https://github.com/stdlib-js/stdlib/commit/ddac4466bf8851865e8f0260a1562c6db70774d8) - **test:** pass in missing argument _(by Philipp Burckhardt)_
+-   [`683e342`](https://github.com/stdlib-js/stdlib/commit/683e34223d282c9021303d0a57c07cffdc431397) - **bench:** add missing :ndarray _(by Philipp Burckhardt)_
+-   [`65784f7`](https://github.com/stdlib-js/stdlib/commit/65784f785748107e1fc5d84ad75c9778422e8442) - **feat:** add `stats/strided/midrange-by` [(#9328)](https://github.com/stdlib-js/stdlib/pull/9328) _(by Sachin Pangal, Athan Reines)_
+-   [`ffee9eb`](https://github.com/stdlib-js/stdlib/commit/ffee9eb167e2f3b1750163bf9f9937f7e9db48d3) - **feat:** add `stats/strided/mskmidrange` [(#9331)](https://github.com/stdlib-js/stdlib/pull/9331) _(by Sachin Pangal, Athan Reines)_
+-   [`0d237ed`](https://github.com/stdlib-js/stdlib/commit/0d237ed24ae4362f4d31ebdf742b0b3901ada59b) - **feat:** add `stats/strided/nanmidrange` [(#9323)](https://github.com/stdlib-js/stdlib/pull/9323) _(by Sachin Pangal, Athan Reines)_
+-   [`595918c`](https://github.com/stdlib-js/stdlib/commit/595918c57777524dd8533b80a429c7d331f87444) - **feat:** add `stats/strided/midrange` [(#9298)](https://github.com/stdlib-js/stdlib/pull/9298) _(by Sachin Pangal, Athan Reines)_
+-   [`f839e6d`](https://github.com/stdlib-js/stdlib/commit/f839e6d90b2b7854450c4abcb8af04b01cb60225) - **chore:** fix C lint errors [(#9282)](https://github.com/stdlib-js/stdlib/pull/9282) _(by Rohit R Bhat)_
+-   [`0adbf48`](https://github.com/stdlib-js/stdlib/commit/0adbf4895162c92aef25e477c40e53508bd9c999) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmeanli` [(#9085)](https://github.com/stdlib-js/stdlib/pull/9085) _(by officiallyanee)_
+-   [`e43e952`](https://github.com/stdlib-js/stdlib/commit/e43e952e8e677f858d962a0ae590537adc784b43) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmin` [(#9081)](https://github.com/stdlib-js/stdlib/pull/9081) _(by officiallyanee)_
+-   [`9ab0f17`](https://github.com/stdlib-js/stdlib/commit/9ab0f1770255e4c11d47f859316cd529a0f3dffb) - **docs:** remove unused link definition _(by Athan Reines)_
+-   [`7f55434`](https://github.com/stdlib-js/stdlib/commit/7f554349e50fc601e7ab4206ba1da0eceae93518) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
 -   [`e02e358`](https://github.com/stdlib-js/stdlib/commit/e02e358c5541ba0c4e5962dd15acb685b099b60c) - **docs:** fix example code in TSDoc comments _(by Philipp Burckhardt)_
 -   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - **feat:** add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`0d71e53`](https://github.com/stdlib-js/stdlib/commit/0d71e530c42bc8d7c98ad779e505fc01bd904a1f) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
@@ -830,14 +963,20 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   Bhargav Dabhade
 -   Geo Daoyu
 -   Gururaj Gurram
+-   Nakul Krishnakumar
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
+-   Rohit R Bhat
+-   Sachin Pangal
+-   Vishal Gaikwad
+-   officiallyanee
 
 </section>
 
