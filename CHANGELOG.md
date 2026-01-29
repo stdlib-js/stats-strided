@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-28)
+## Unreleased (2026-01-29)
 
 <section class="features">
 
 ### Features
 
+-   [`991e692`](https://github.com/stdlib-js/stdlib/commit/991e6926616d85d4732140b22a85bb87cdb5720c) - add `dmskmaxabs` to namespace
+-   [`8ae9939`](https://github.com/stdlib-js/stdlib/commit/8ae993948492720e8b646c99bd17032be9bfea6c) - add `stats/strided/dmskmaxabs` [(#9743)](https://github.com/stdlib-js/stdlib/pull/9743)
+-   [`aa4cdfd`](https://github.com/stdlib-js/stdlib/commit/aa4cdfd5a67ada2e018c7970c4a777187280cce2) - update `stats/strided/distances` TypeScript declarations [(#9936)](https://github.com/stdlib-js/stdlib/pull/9936)
+-   [`2dc14e3`](https://github.com/stdlib-js/stdlib/commit/2dc14e39bc443c009059c88c1650e4ca227b708a) - update `stats/strided` TypeScript declarations [(#9937)](https://github.com/stdlib-js/stdlib/pull/9937)
 -   [`942fa9b`](https://github.com/stdlib-js/stdlib/commit/942fa9ba4e93c3064011ead7bae1d1f8ac0281de) - add `distances` to namespace
 -   [`262f96d`](https://github.com/stdlib-js/stdlib/commit/262f96df7fe35057b1ad9a29802497f935788600) - update namespace
 -   [`d0e3e71`](https://github.com/stdlib-js/stdlib/commit/d0e3e71f26da59d042df4ae94869589ee17f237a) - add `stats/strided/distances` namespace
@@ -379,6 +383,12 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`991e692`](https://github.com/stdlib-js/stdlib/commit/991e6926616d85d4732140b22a85bb87cdb5720c) - **feat:** add `dmskmaxabs` to namespace _(by Athan Reines)_
+-   [`31e075c`](https://github.com/stdlib-js/stdlib/commit/31e075c065f55f86226182872b987f585b489818) - **style:** remove empty line _(by Athan Reines)_
+-   [`8ae9939`](https://github.com/stdlib-js/stdlib/commit/8ae993948492720e8b646c99bd17032be9bfea6c) - **feat:** add `stats/strided/dmskmaxabs` [(#9743)](https://github.com/stdlib-js/stdlib/pull/9743) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
+-   [`7062ec1`](https://github.com/stdlib-js/stdlib/commit/7062ec16b2a4ebb8bc83d2460cd55e8ad09374d3) - **docs:** update copy _(by Athan Reines)_
+-   [`aa4cdfd`](https://github.com/stdlib-js/stdlib/commit/aa4cdfd5a67ada2e018c7970c4a777187280cce2) - **feat:** update `stats/strided/distances` TypeScript declarations [(#9936)](https://github.com/stdlib-js/stdlib/pull/9936) _(by stdlib-bot)_
+-   [`2dc14e3`](https://github.com/stdlib-js/stdlib/commit/2dc14e39bc443c009059c88c1650e4ca227b708a) - **feat:** update `stats/strided` TypeScript declarations [(#9937)](https://github.com/stdlib-js/stdlib/pull/9937) _(by stdlib-bot)_
 -   [`a87bde4`](https://github.com/stdlib-js/stdlib/commit/a87bde4102c9e3637ab02b18b39de03815e8d927) - **docs:** update namespace table of contents [(#9938)](https://github.com/stdlib-js/stdlib/pull/9938) _(by stdlib-bot)_
 -   [`640d00d`](https://github.com/stdlib-js/stdlib/commit/640d00d5567707d2dcef81f1e6fafbdb947b6eab) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`942fa9b`](https://github.com/stdlib-js/stdlib/commit/942fa9ba4e93c3064011ead7bae1d1f8ac0281de) - **feat:** add `distances` to namespace _(by Athan Reines)_
