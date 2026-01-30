@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-29)
+## Unreleased (2026-01-30)
 
 <section class="features">
 
 ### Features
 
+-   [`71f4422`](https://github.com/stdlib-js/stdlib/commit/71f442266b75b400c0087df6820a5f5ac8ba1a1f) - update `stats/strided` TypeScript declarations [(#9985)](https://github.com/stdlib-js/stdlib/pull/9985)
+-   [`ae0d247`](https://github.com/stdlib-js/stdlib/commit/ae0d247cceb75d109353ae90eec5c9489e786408) - add `stats/strided/mskminabs` [(#9722)](https://github.com/stdlib-js/stdlib/pull/9722)
 -   [`991e692`](https://github.com/stdlib-js/stdlib/commit/991e6926616d85d4732140b22a85bb87cdb5720c) - add `dmskmaxabs` to namespace
 -   [`8ae9939`](https://github.com/stdlib-js/stdlib/commit/8ae993948492720e8b646c99bd17032be9bfea6c) - add `stats/strided/dmskmaxabs` [(#9743)](https://github.com/stdlib-js/stdlib/pull/9743)
 -   [`aa4cdfd`](https://github.com/stdlib-js/stdlib/commit/aa4cdfd5a67ada2e018c7970c4a777187280cce2) - update `stats/strided/distances` TypeScript declarations [(#9936)](https://github.com/stdlib-js/stdlib/pull/9936)
@@ -383,6 +385,9 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`71f4422`](https://github.com/stdlib-js/stdlib/commit/71f442266b75b400c0087df6820a5f5ac8ba1a1f) - **feat:** update `stats/strided` TypeScript declarations [(#9985)](https://github.com/stdlib-js/stdlib/pull/9985) _(by stdlib-bot)_
+-   [`9159299`](https://github.com/stdlib-js/stdlib/commit/915929996cd4681abd544eebe75198b9eda29fa3) - **docs:** update namespace table of contents [(#9986)](https://github.com/stdlib-js/stdlib/pull/9986) _(by stdlib-bot)_
+-   [`ae0d247`](https://github.com/stdlib-js/stdlib/commit/ae0d247cceb75d109353ae90eec5c9489e786408) - **feat:** add `stats/strided/mskminabs` [(#9722)](https://github.com/stdlib-js/stdlib/pull/9722) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
 -   [`991e692`](https://github.com/stdlib-js/stdlib/commit/991e6926616d85d4732140b22a85bb87cdb5720c) - **feat:** add `dmskmaxabs` to namespace _(by Athan Reines)_
 -   [`31e075c`](https://github.com/stdlib-js/stdlib/commit/31e075c065f55f86226182872b987f585b489818) - **style:** remove empty line _(by Athan Reines)_
 -   [`8ae9939`](https://github.com/stdlib-js/stdlib/commit/8ae993948492720e8b646c99bd17032be9bfea6c) - **feat:** add `stats/strided/dmskmaxabs` [(#9743)](https://github.com/stdlib-js/stdlib/pull/9743) _(by Sachin Pangal, Athan Reines, stdlib-bot)_
