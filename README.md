@@ -45,25 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-strided
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided/tags). For example,
-
-```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided@v0.1.0-deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { covarmtk, dcovarmtk, dcovmatmtk, dcumax, dcumaxabs, dcumin, dcuminabs, distances, dmax, dmaxabs, dmaxabssorted, dmaxsorted, dmean, dmeankbn, dmeankbn2, dmeanli, dmeanlipw, dmeanors, dmeanpn, dmeanpw, dmeanstdev, dmeanstdevpn, dmeanvar, dmeanvarpn, dmeanwd, dmediansorted, dmidrange, dmin, dminabs, dminsorted, dmskmax, dmskmaxabs, dmskmidrange, dmskmin, dmskrange, dnanmax, dnanmaxabs, dnanmean, dnanmeanors, dnanmeanpn, dnanmeanpw, dnanmeanwd, dnanmidrange, dnanmin, dnanminabs, dnanmskmax, dnanmskmidrange, dnanmskmin, dnanmskrange, dnanrange, dnanstdev, dnanstdevch, dnanstdevpn, dnanstdevtk, dnanstdevwd, dnanstdevyc, dnanvariance, dnanvariancech, dnanvariancepn, dnanvariancetk, dnanvariancewd, dnanvarianceyc, drange, drangeabs, dsem, dsemch, dsempn, dsemtk, dsemwd, dsemyc, dsmean, dsmeanors, dsmeanpn, dsmeanpw, dsmeanwd, dsnanmean, dsnanmeanors, dsnanmeanpn, dsnanmeanwd, dstdev, dstdevch, dstdevpn, dstdevtk, dstdevwd, dstdevyc, dsvariance, dsvariancepn, dvariance, dvariancech, dvariancepn, dvariancetk, dvariancewd, dvarianceyc, dvarm, dvarmpn, dvarmtk, dztest, dztest2, max, maxBy, maxabs, maxsorted, mean, meankbn, meankbn2, meanors, meanpn, meanpw, meanwd, mediansorted, midrange, midrangeBy, min, minBy, minabs, minsorted, mskmax, mskmaxabs, mskmidrange, mskmin, mskrange, nanmax, nanmaxBy, nanmaxabs, nanmean, nanmeanors, nanmeanpn, nanmeanwd, nanmidrange, nanmidrangeBy, nanmin, nanminBy, nanminabs, nanmskmax, nanmskmidrange, nanmskmin, nanmskrange, nanrange, nanrangeBy, nanstdev, nanstdevch, nanstdevpn, nanstdevtk, nanstdevwd, nanstdevyc, nanvariance, nanvariancech, nanvariancepn, nanvariancetk, nanvariancewd, nanvarianceyc, range, rangeBy, rangeabs, scovarmtk, scumax, scumaxabs, scumin, scuminabs, sdsmean, sdsmeanors, sdsnanmeanors, smax, smaxabs, smaxabssorted, smaxsorted, smean, smeankbn, smeankbn2, smeanli, smeanlipw, smeanors, smeanpn, smeanpw, smeanwd, smediansorted, smidrange, smin, sminabs, sminsorted, smskmax, smskmaxabs, smskmidrange, smskmin, smskrange, snanmax, snanmaxabs, snanmean, snanmeanors, snanmeanpn, snanmeanwd, snanmidrange, snanmin, snanminabs, snanmskmax, snanmskmidrange, snanmskmin, snanmskrange, snanrange, srange, srangeabs, sstdev, sstdevch, sstdevpn, sstdevtk, sstdevwd, sstdevyc, stdev, stdevch, stdevpn, stdevtk, stdevwd, stdevyc, svariance, svariancech, svariancepn, svariancetk, svariancewd, svarianceyc, sztest, sztest2, variance, variancech, variancepn, variancetk, variancewd, varianceyc, ztest, ztest2 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided@deno/mod.js';
+var ns = require( '@stdlib/stats-strided' );
 ```
 
 #### ns
@@ -338,8 +345,8 @@ The namespace exports the following:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/stats-strided' );
 
 console.log( objectKeys( ns ) );
 ```
@@ -365,7 +372,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -395,8 +402,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-strided.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-strided
 
-[test-image]: https://github.com/stdlib-js/stats-strided/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/stats-strided/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/stats-strided/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/stats-strided/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-strided/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-strided?branch=main
@@ -430,463 +437,463 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/strided/covarmtk]: https://github.com/stdlib-js/stats-strided-covarmtk/tree/deno
+[@stdlib/stats/strided/covarmtk]: https://github.com/stdlib-js/stats-strided-covarmtk
 
-[@stdlib/stats/strided/dcovarmtk]: https://github.com/stdlib-js/stats-strided-dcovarmtk/tree/deno
+[@stdlib/stats/strided/dcovarmtk]: https://github.com/stdlib-js/stats-strided-dcovarmtk
 
-[@stdlib/stats/strided/dcovmatmtk]: https://github.com/stdlib-js/stats-strided-dcovmatmtk/tree/deno
+[@stdlib/stats/strided/dcovmatmtk]: https://github.com/stdlib-js/stats-strided-dcovmatmtk
 
-[@stdlib/stats/strided/dcumax]: https://github.com/stdlib-js/stats-strided-dcumax/tree/deno
+[@stdlib/stats/strided/dcumax]: https://github.com/stdlib-js/stats-strided-dcumax
 
-[@stdlib/stats/strided/dcumaxabs]: https://github.com/stdlib-js/stats-strided-dcumaxabs/tree/deno
+[@stdlib/stats/strided/dcumaxabs]: https://github.com/stdlib-js/stats-strided-dcumaxabs
 
-[@stdlib/stats/strided/dcumin]: https://github.com/stdlib-js/stats-strided-dcumin/tree/deno
+[@stdlib/stats/strided/dcumin]: https://github.com/stdlib-js/stats-strided-dcumin
 
-[@stdlib/stats/strided/dcuminabs]: https://github.com/stdlib-js/stats-strided-dcuminabs/tree/deno
+[@stdlib/stats/strided/dcuminabs]: https://github.com/stdlib-js/stats-strided-dcuminabs
 
-[@stdlib/stats/strided/distances]: https://github.com/stdlib-js/stats-strided-distances/tree/deno
+[@stdlib/stats/strided/distances]: https://github.com/stdlib-js/stats-strided-distances
 
-[@stdlib/stats/strided/dmax]: https://github.com/stdlib-js/stats-strided-dmax/tree/deno
+[@stdlib/stats/strided/dmax]: https://github.com/stdlib-js/stats-strided-dmax
 
-[@stdlib/stats/strided/dmaxabs]: https://github.com/stdlib-js/stats-strided-dmaxabs/tree/deno
+[@stdlib/stats/strided/dmaxabs]: https://github.com/stdlib-js/stats-strided-dmaxabs
 
-[@stdlib/stats/strided/dmaxabssorted]: https://github.com/stdlib-js/stats-strided-dmaxabssorted/tree/deno
+[@stdlib/stats/strided/dmaxabssorted]: https://github.com/stdlib-js/stats-strided-dmaxabssorted
 
-[@stdlib/stats/strided/dmaxsorted]: https://github.com/stdlib-js/stats-strided-dmaxsorted/tree/deno
+[@stdlib/stats/strided/dmaxsorted]: https://github.com/stdlib-js/stats-strided-dmaxsorted
 
-[@stdlib/stats/strided/dmean]: https://github.com/stdlib-js/stats-strided-dmean/tree/deno
+[@stdlib/stats/strided/dmean]: https://github.com/stdlib-js/stats-strided-dmean
 
-[@stdlib/stats/strided/dmeankbn]: https://github.com/stdlib-js/stats-strided-dmeankbn/tree/deno
+[@stdlib/stats/strided/dmeankbn]: https://github.com/stdlib-js/stats-strided-dmeankbn
 
-[@stdlib/stats/strided/dmeankbn2]: https://github.com/stdlib-js/stats-strided-dmeankbn2/tree/deno
+[@stdlib/stats/strided/dmeankbn2]: https://github.com/stdlib-js/stats-strided-dmeankbn2
 
-[@stdlib/stats/strided/dmeanli]: https://github.com/stdlib-js/stats-strided-dmeanli/tree/deno
+[@stdlib/stats/strided/dmeanli]: https://github.com/stdlib-js/stats-strided-dmeanli
 
-[@stdlib/stats/strided/dmeanlipw]: https://github.com/stdlib-js/stats-strided-dmeanlipw/tree/deno
+[@stdlib/stats/strided/dmeanlipw]: https://github.com/stdlib-js/stats-strided-dmeanlipw
 
-[@stdlib/stats/strided/dmeanors]: https://github.com/stdlib-js/stats-strided-dmeanors/tree/deno
+[@stdlib/stats/strided/dmeanors]: https://github.com/stdlib-js/stats-strided-dmeanors
 
-[@stdlib/stats/strided/dmeanpn]: https://github.com/stdlib-js/stats-strided-dmeanpn/tree/deno
+[@stdlib/stats/strided/dmeanpn]: https://github.com/stdlib-js/stats-strided-dmeanpn
 
-[@stdlib/stats/strided/dmeanpw]: https://github.com/stdlib-js/stats-strided-dmeanpw/tree/deno
+[@stdlib/stats/strided/dmeanpw]: https://github.com/stdlib-js/stats-strided-dmeanpw
 
-[@stdlib/stats/strided/dmeanstdev]: https://github.com/stdlib-js/stats-strided-dmeanstdev/tree/deno
+[@stdlib/stats/strided/dmeanstdev]: https://github.com/stdlib-js/stats-strided-dmeanstdev
 
-[@stdlib/stats/strided/dmeanstdevpn]: https://github.com/stdlib-js/stats-strided-dmeanstdevpn/tree/deno
+[@stdlib/stats/strided/dmeanstdevpn]: https://github.com/stdlib-js/stats-strided-dmeanstdevpn
 
-[@stdlib/stats/strided/dmeanvar]: https://github.com/stdlib-js/stats-strided-dmeanvar/tree/deno
+[@stdlib/stats/strided/dmeanvar]: https://github.com/stdlib-js/stats-strided-dmeanvar
 
-[@stdlib/stats/strided/dmeanvarpn]: https://github.com/stdlib-js/stats-strided-dmeanvarpn/tree/deno
+[@stdlib/stats/strided/dmeanvarpn]: https://github.com/stdlib-js/stats-strided-dmeanvarpn
 
-[@stdlib/stats/strided/dmeanwd]: https://github.com/stdlib-js/stats-strided-dmeanwd/tree/deno
+[@stdlib/stats/strided/dmeanwd]: https://github.com/stdlib-js/stats-strided-dmeanwd
 
-[@stdlib/stats/strided/dmediansorted]: https://github.com/stdlib-js/stats-strided-dmediansorted/tree/deno
+[@stdlib/stats/strided/dmediansorted]: https://github.com/stdlib-js/stats-strided-dmediansorted
 
-[@stdlib/stats/strided/dmidrange]: https://github.com/stdlib-js/stats-strided-dmidrange/tree/deno
+[@stdlib/stats/strided/dmidrange]: https://github.com/stdlib-js/stats-strided-dmidrange
 
-[@stdlib/stats/strided/dmin]: https://github.com/stdlib-js/stats-strided-dmin/tree/deno
+[@stdlib/stats/strided/dmin]: https://github.com/stdlib-js/stats-strided-dmin
 
-[@stdlib/stats/strided/dminabs]: https://github.com/stdlib-js/stats-strided-dminabs/tree/deno
+[@stdlib/stats/strided/dminabs]: https://github.com/stdlib-js/stats-strided-dminabs
 
-[@stdlib/stats/strided/dminsorted]: https://github.com/stdlib-js/stats-strided-dminsorted/tree/deno
+[@stdlib/stats/strided/dminsorted]: https://github.com/stdlib-js/stats-strided-dminsorted
 
-[@stdlib/stats/strided/dmskmax]: https://github.com/stdlib-js/stats-strided-dmskmax/tree/deno
+[@stdlib/stats/strided/dmskmax]: https://github.com/stdlib-js/stats-strided-dmskmax
 
-[@stdlib/stats/strided/dmskmaxabs]: https://github.com/stdlib-js/stats-strided-dmskmaxabs/tree/deno
+[@stdlib/stats/strided/dmskmaxabs]: https://github.com/stdlib-js/stats-strided-dmskmaxabs
 
-[@stdlib/stats/strided/dmskmidrange]: https://github.com/stdlib-js/stats-strided-dmskmidrange/tree/deno
+[@stdlib/stats/strided/dmskmidrange]: https://github.com/stdlib-js/stats-strided-dmskmidrange
 
-[@stdlib/stats/strided/dmskmin]: https://github.com/stdlib-js/stats-strided-dmskmin/tree/deno
+[@stdlib/stats/strided/dmskmin]: https://github.com/stdlib-js/stats-strided-dmskmin
 
-[@stdlib/stats/strided/dmskrange]: https://github.com/stdlib-js/stats-strided-dmskrange/tree/deno
+[@stdlib/stats/strided/dmskrange]: https://github.com/stdlib-js/stats-strided-dmskrange
 
-[@stdlib/stats/strided/dnanmax]: https://github.com/stdlib-js/stats-strided-dnanmax/tree/deno
+[@stdlib/stats/strided/dnanmax]: https://github.com/stdlib-js/stats-strided-dnanmax
 
-[@stdlib/stats/strided/dnanmaxabs]: https://github.com/stdlib-js/stats-strided-dnanmaxabs/tree/deno
+[@stdlib/stats/strided/dnanmaxabs]: https://github.com/stdlib-js/stats-strided-dnanmaxabs
 
-[@stdlib/stats/strided/dnanmean]: https://github.com/stdlib-js/stats-strided-dnanmean/tree/deno
+[@stdlib/stats/strided/dnanmean]: https://github.com/stdlib-js/stats-strided-dnanmean
 
-[@stdlib/stats/strided/dnanmeanors]: https://github.com/stdlib-js/stats-strided-dnanmeanors/tree/deno
+[@stdlib/stats/strided/dnanmeanors]: https://github.com/stdlib-js/stats-strided-dnanmeanors
 
-[@stdlib/stats/strided/dnanmeanpn]: https://github.com/stdlib-js/stats-strided-dnanmeanpn/tree/deno
+[@stdlib/stats/strided/dnanmeanpn]: https://github.com/stdlib-js/stats-strided-dnanmeanpn
 
-[@stdlib/stats/strided/dnanmeanpw]: https://github.com/stdlib-js/stats-strided-dnanmeanpw/tree/deno
+[@stdlib/stats/strided/dnanmeanpw]: https://github.com/stdlib-js/stats-strided-dnanmeanpw
 
-[@stdlib/stats/strided/dnanmeanwd]: https://github.com/stdlib-js/stats-strided-dnanmeanwd/tree/deno
+[@stdlib/stats/strided/dnanmeanwd]: https://github.com/stdlib-js/stats-strided-dnanmeanwd
 
-[@stdlib/stats/strided/dnanmidrange]: https://github.com/stdlib-js/stats-strided-dnanmidrange/tree/deno
+[@stdlib/stats/strided/dnanmidrange]: https://github.com/stdlib-js/stats-strided-dnanmidrange
 
-[@stdlib/stats/strided/dnanmin]: https://github.com/stdlib-js/stats-strided-dnanmin/tree/deno
+[@stdlib/stats/strided/dnanmin]: https://github.com/stdlib-js/stats-strided-dnanmin
 
-[@stdlib/stats/strided/dnanminabs]: https://github.com/stdlib-js/stats-strided-dnanminabs/tree/deno
+[@stdlib/stats/strided/dnanminabs]: https://github.com/stdlib-js/stats-strided-dnanminabs
 
-[@stdlib/stats/strided/dnanmskmax]: https://github.com/stdlib-js/stats-strided-dnanmskmax/tree/deno
+[@stdlib/stats/strided/dnanmskmax]: https://github.com/stdlib-js/stats-strided-dnanmskmax
 
-[@stdlib/stats/strided/dnanmskmidrange]: https://github.com/stdlib-js/stats-strided-dnanmskmidrange/tree/deno
+[@stdlib/stats/strided/dnanmskmidrange]: https://github.com/stdlib-js/stats-strided-dnanmskmidrange
 
-[@stdlib/stats/strided/dnanmskmin]: https://github.com/stdlib-js/stats-strided-dnanmskmin/tree/deno
+[@stdlib/stats/strided/dnanmskmin]: https://github.com/stdlib-js/stats-strided-dnanmskmin
 
-[@stdlib/stats/strided/dnanmskrange]: https://github.com/stdlib-js/stats-strided-dnanmskrange/tree/deno
+[@stdlib/stats/strided/dnanmskrange]: https://github.com/stdlib-js/stats-strided-dnanmskrange
 
-[@stdlib/stats/strided/dnanrange]: https://github.com/stdlib-js/stats-strided-dnanrange/tree/deno
+[@stdlib/stats/strided/dnanrange]: https://github.com/stdlib-js/stats-strided-dnanrange
 
-[@stdlib/stats/strided/dnanstdev]: https://github.com/stdlib-js/stats-strided-dnanstdev/tree/deno
+[@stdlib/stats/strided/dnanstdev]: https://github.com/stdlib-js/stats-strided-dnanstdev
 
-[@stdlib/stats/strided/dnanstdevch]: https://github.com/stdlib-js/stats-strided-dnanstdevch/tree/deno
+[@stdlib/stats/strided/dnanstdevch]: https://github.com/stdlib-js/stats-strided-dnanstdevch
 
-[@stdlib/stats/strided/dnanstdevpn]: https://github.com/stdlib-js/stats-strided-dnanstdevpn/tree/deno
+[@stdlib/stats/strided/dnanstdevpn]: https://github.com/stdlib-js/stats-strided-dnanstdevpn
 
-[@stdlib/stats/strided/dnanstdevtk]: https://github.com/stdlib-js/stats-strided-dnanstdevtk/tree/deno
+[@stdlib/stats/strided/dnanstdevtk]: https://github.com/stdlib-js/stats-strided-dnanstdevtk
 
-[@stdlib/stats/strided/dnanstdevwd]: https://github.com/stdlib-js/stats-strided-dnanstdevwd/tree/deno
+[@stdlib/stats/strided/dnanstdevwd]: https://github.com/stdlib-js/stats-strided-dnanstdevwd
 
-[@stdlib/stats/strided/dnanstdevyc]: https://github.com/stdlib-js/stats-strided-dnanstdevyc/tree/deno
+[@stdlib/stats/strided/dnanstdevyc]: https://github.com/stdlib-js/stats-strided-dnanstdevyc
 
-[@stdlib/stats/strided/dnanvariance]: https://github.com/stdlib-js/stats-strided-dnanvariance/tree/deno
+[@stdlib/stats/strided/dnanvariance]: https://github.com/stdlib-js/stats-strided-dnanvariance
 
-[@stdlib/stats/strided/dnanvariancech]: https://github.com/stdlib-js/stats-strided-dnanvariancech/tree/deno
+[@stdlib/stats/strided/dnanvariancech]: https://github.com/stdlib-js/stats-strided-dnanvariancech
 
-[@stdlib/stats/strided/dnanvariancepn]: https://github.com/stdlib-js/stats-strided-dnanvariancepn/tree/deno
+[@stdlib/stats/strided/dnanvariancepn]: https://github.com/stdlib-js/stats-strided-dnanvariancepn
 
-[@stdlib/stats/strided/dnanvariancetk]: https://github.com/stdlib-js/stats-strided-dnanvariancetk/tree/deno
+[@stdlib/stats/strided/dnanvariancetk]: https://github.com/stdlib-js/stats-strided-dnanvariancetk
 
-[@stdlib/stats/strided/dnanvariancewd]: https://github.com/stdlib-js/stats-strided-dnanvariancewd/tree/deno
+[@stdlib/stats/strided/dnanvariancewd]: https://github.com/stdlib-js/stats-strided-dnanvariancewd
 
-[@stdlib/stats/strided/dnanvarianceyc]: https://github.com/stdlib-js/stats-strided-dnanvarianceyc/tree/deno
+[@stdlib/stats/strided/dnanvarianceyc]: https://github.com/stdlib-js/stats-strided-dnanvarianceyc
 
-[@stdlib/stats/strided/drange]: https://github.com/stdlib-js/stats-strided-drange/tree/deno
+[@stdlib/stats/strided/drange]: https://github.com/stdlib-js/stats-strided-drange
 
-[@stdlib/stats/strided/drangeabs]: https://github.com/stdlib-js/stats-strided-drangeabs/tree/deno
+[@stdlib/stats/strided/drangeabs]: https://github.com/stdlib-js/stats-strided-drangeabs
 
-[@stdlib/stats/strided/dsem]: https://github.com/stdlib-js/stats-strided-dsem/tree/deno
+[@stdlib/stats/strided/dsem]: https://github.com/stdlib-js/stats-strided-dsem
 
-[@stdlib/stats/strided/dsemch]: https://github.com/stdlib-js/stats-strided-dsemch/tree/deno
+[@stdlib/stats/strided/dsemch]: https://github.com/stdlib-js/stats-strided-dsemch
 
-[@stdlib/stats/strided/dsempn]: https://github.com/stdlib-js/stats-strided-dsempn/tree/deno
+[@stdlib/stats/strided/dsempn]: https://github.com/stdlib-js/stats-strided-dsempn
 
-[@stdlib/stats/strided/dsemtk]: https://github.com/stdlib-js/stats-strided-dsemtk/tree/deno
+[@stdlib/stats/strided/dsemtk]: https://github.com/stdlib-js/stats-strided-dsemtk
 
-[@stdlib/stats/strided/dsemwd]: https://github.com/stdlib-js/stats-strided-dsemwd/tree/deno
+[@stdlib/stats/strided/dsemwd]: https://github.com/stdlib-js/stats-strided-dsemwd
 
-[@stdlib/stats/strided/dsemyc]: https://github.com/stdlib-js/stats-strided-dsemyc/tree/deno
+[@stdlib/stats/strided/dsemyc]: https://github.com/stdlib-js/stats-strided-dsemyc
 
-[@stdlib/stats/strided/dsmean]: https://github.com/stdlib-js/stats-strided-dsmean/tree/deno
+[@stdlib/stats/strided/dsmean]: https://github.com/stdlib-js/stats-strided-dsmean
 
-[@stdlib/stats/strided/dsmeanors]: https://github.com/stdlib-js/stats-strided-dsmeanors/tree/deno
+[@stdlib/stats/strided/dsmeanors]: https://github.com/stdlib-js/stats-strided-dsmeanors
 
-[@stdlib/stats/strided/dsmeanpn]: https://github.com/stdlib-js/stats-strided-dsmeanpn/tree/deno
+[@stdlib/stats/strided/dsmeanpn]: https://github.com/stdlib-js/stats-strided-dsmeanpn
 
-[@stdlib/stats/strided/dsmeanpw]: https://github.com/stdlib-js/stats-strided-dsmeanpw/tree/deno
+[@stdlib/stats/strided/dsmeanpw]: https://github.com/stdlib-js/stats-strided-dsmeanpw
 
-[@stdlib/stats/strided/dsmeanwd]: https://github.com/stdlib-js/stats-strided-dsmeanwd/tree/deno
+[@stdlib/stats/strided/dsmeanwd]: https://github.com/stdlib-js/stats-strided-dsmeanwd
 
-[@stdlib/stats/strided/dsnanmean]: https://github.com/stdlib-js/stats-strided-dsnanmean/tree/deno
+[@stdlib/stats/strided/dsnanmean]: https://github.com/stdlib-js/stats-strided-dsnanmean
 
-[@stdlib/stats/strided/dsnanmeanors]: https://github.com/stdlib-js/stats-strided-dsnanmeanors/tree/deno
+[@stdlib/stats/strided/dsnanmeanors]: https://github.com/stdlib-js/stats-strided-dsnanmeanors
 
-[@stdlib/stats/strided/dsnanmeanpn]: https://github.com/stdlib-js/stats-strided-dsnanmeanpn/tree/deno
+[@stdlib/stats/strided/dsnanmeanpn]: https://github.com/stdlib-js/stats-strided-dsnanmeanpn
 
-[@stdlib/stats/strided/dsnanmeanwd]: https://github.com/stdlib-js/stats-strided-dsnanmeanwd/tree/deno
+[@stdlib/stats/strided/dsnanmeanwd]: https://github.com/stdlib-js/stats-strided-dsnanmeanwd
 
-[@stdlib/stats/strided/dstdev]: https://github.com/stdlib-js/stats-strided-dstdev/tree/deno
+[@stdlib/stats/strided/dstdev]: https://github.com/stdlib-js/stats-strided-dstdev
 
-[@stdlib/stats/strided/dstdevch]: https://github.com/stdlib-js/stats-strided-dstdevch/tree/deno
+[@stdlib/stats/strided/dstdevch]: https://github.com/stdlib-js/stats-strided-dstdevch
 
-[@stdlib/stats/strided/dstdevpn]: https://github.com/stdlib-js/stats-strided-dstdevpn/tree/deno
+[@stdlib/stats/strided/dstdevpn]: https://github.com/stdlib-js/stats-strided-dstdevpn
 
-[@stdlib/stats/strided/dstdevtk]: https://github.com/stdlib-js/stats-strided-dstdevtk/tree/deno
+[@stdlib/stats/strided/dstdevtk]: https://github.com/stdlib-js/stats-strided-dstdevtk
 
-[@stdlib/stats/strided/dstdevwd]: https://github.com/stdlib-js/stats-strided-dstdevwd/tree/deno
+[@stdlib/stats/strided/dstdevwd]: https://github.com/stdlib-js/stats-strided-dstdevwd
 
-[@stdlib/stats/strided/dstdevyc]: https://github.com/stdlib-js/stats-strided-dstdevyc/tree/deno
+[@stdlib/stats/strided/dstdevyc]: https://github.com/stdlib-js/stats-strided-dstdevyc
 
-[@stdlib/stats/strided/dsvariance]: https://github.com/stdlib-js/stats-strided-dsvariance/tree/deno
+[@stdlib/stats/strided/dsvariance]: https://github.com/stdlib-js/stats-strided-dsvariance
 
-[@stdlib/stats/strided/dsvariancepn]: https://github.com/stdlib-js/stats-strided-dsvariancepn/tree/deno
+[@stdlib/stats/strided/dsvariancepn]: https://github.com/stdlib-js/stats-strided-dsvariancepn
 
-[@stdlib/stats/strided/dvariance]: https://github.com/stdlib-js/stats-strided-dvariance/tree/deno
+[@stdlib/stats/strided/dvariance]: https://github.com/stdlib-js/stats-strided-dvariance
 
-[@stdlib/stats/strided/dvariancech]: https://github.com/stdlib-js/stats-strided-dvariancech/tree/deno
+[@stdlib/stats/strided/dvariancech]: https://github.com/stdlib-js/stats-strided-dvariancech
 
-[@stdlib/stats/strided/dvariancepn]: https://github.com/stdlib-js/stats-strided-dvariancepn/tree/deno
+[@stdlib/stats/strided/dvariancepn]: https://github.com/stdlib-js/stats-strided-dvariancepn
 
-[@stdlib/stats/strided/dvariancetk]: https://github.com/stdlib-js/stats-strided-dvariancetk/tree/deno
+[@stdlib/stats/strided/dvariancetk]: https://github.com/stdlib-js/stats-strided-dvariancetk
 
-[@stdlib/stats/strided/dvariancewd]: https://github.com/stdlib-js/stats-strided-dvariancewd/tree/deno
+[@stdlib/stats/strided/dvariancewd]: https://github.com/stdlib-js/stats-strided-dvariancewd
 
-[@stdlib/stats/strided/dvarianceyc]: https://github.com/stdlib-js/stats-strided-dvarianceyc/tree/deno
+[@stdlib/stats/strided/dvarianceyc]: https://github.com/stdlib-js/stats-strided-dvarianceyc
 
-[@stdlib/stats/strided/dvarm]: https://github.com/stdlib-js/stats-strided-dvarm/tree/deno
+[@stdlib/stats/strided/dvarm]: https://github.com/stdlib-js/stats-strided-dvarm
 
-[@stdlib/stats/strided/dvarmpn]: https://github.com/stdlib-js/stats-strided-dvarmpn/tree/deno
+[@stdlib/stats/strided/dvarmpn]: https://github.com/stdlib-js/stats-strided-dvarmpn
 
-[@stdlib/stats/strided/dvarmtk]: https://github.com/stdlib-js/stats-strided-dvarmtk/tree/deno
+[@stdlib/stats/strided/dvarmtk]: https://github.com/stdlib-js/stats-strided-dvarmtk
 
-[@stdlib/stats/strided/dztest]: https://github.com/stdlib-js/stats-strided-dztest/tree/deno
+[@stdlib/stats/strided/dztest]: https://github.com/stdlib-js/stats-strided-dztest
 
-[@stdlib/stats/strided/dztest2]: https://github.com/stdlib-js/stats-strided-dztest2/tree/deno
+[@stdlib/stats/strided/dztest2]: https://github.com/stdlib-js/stats-strided-dztest2
 
-[@stdlib/stats/strided/max-by]: https://github.com/stdlib-js/stats-strided-max-by/tree/deno
+[@stdlib/stats/strided/max-by]: https://github.com/stdlib-js/stats-strided-max-by
 
-[@stdlib/stats/strided/max]: https://github.com/stdlib-js/stats-strided-max/tree/deno
+[@stdlib/stats/strided/max]: https://github.com/stdlib-js/stats-strided-max
 
-[@stdlib/stats/strided/maxabs]: https://github.com/stdlib-js/stats-strided-maxabs/tree/deno
+[@stdlib/stats/strided/maxabs]: https://github.com/stdlib-js/stats-strided-maxabs
 
-[@stdlib/stats/strided/maxsorted]: https://github.com/stdlib-js/stats-strided-maxsorted/tree/deno
+[@stdlib/stats/strided/maxsorted]: https://github.com/stdlib-js/stats-strided-maxsorted
 
-[@stdlib/stats/strided/mean]: https://github.com/stdlib-js/stats-strided-mean/tree/deno
+[@stdlib/stats/strided/mean]: https://github.com/stdlib-js/stats-strided-mean
 
-[@stdlib/stats/strided/meankbn]: https://github.com/stdlib-js/stats-strided-meankbn/tree/deno
+[@stdlib/stats/strided/meankbn]: https://github.com/stdlib-js/stats-strided-meankbn
 
-[@stdlib/stats/strided/meankbn2]: https://github.com/stdlib-js/stats-strided-meankbn2/tree/deno
+[@stdlib/stats/strided/meankbn2]: https://github.com/stdlib-js/stats-strided-meankbn2
 
-[@stdlib/stats/strided/meanors]: https://github.com/stdlib-js/stats-strided-meanors/tree/deno
+[@stdlib/stats/strided/meanors]: https://github.com/stdlib-js/stats-strided-meanors
 
-[@stdlib/stats/strided/meanpn]: https://github.com/stdlib-js/stats-strided-meanpn/tree/deno
+[@stdlib/stats/strided/meanpn]: https://github.com/stdlib-js/stats-strided-meanpn
 
-[@stdlib/stats/strided/meanpw]: https://github.com/stdlib-js/stats-strided-meanpw/tree/deno
+[@stdlib/stats/strided/meanpw]: https://github.com/stdlib-js/stats-strided-meanpw
 
-[@stdlib/stats/strided/meanwd]: https://github.com/stdlib-js/stats-strided-meanwd/tree/deno
+[@stdlib/stats/strided/meanwd]: https://github.com/stdlib-js/stats-strided-meanwd
 
-[@stdlib/stats/strided/mediansorted]: https://github.com/stdlib-js/stats-strided-mediansorted/tree/deno
+[@stdlib/stats/strided/mediansorted]: https://github.com/stdlib-js/stats-strided-mediansorted
 
-[@stdlib/stats/strided/midrange-by]: https://github.com/stdlib-js/stats-strided-midrange-by/tree/deno
+[@stdlib/stats/strided/midrange-by]: https://github.com/stdlib-js/stats-strided-midrange-by
 
-[@stdlib/stats/strided/midrange]: https://github.com/stdlib-js/stats-strided-midrange/tree/deno
+[@stdlib/stats/strided/midrange]: https://github.com/stdlib-js/stats-strided-midrange
 
-[@stdlib/stats/strided/min-by]: https://github.com/stdlib-js/stats-strided-min-by/tree/deno
+[@stdlib/stats/strided/min-by]: https://github.com/stdlib-js/stats-strided-min-by
 
-[@stdlib/stats/strided/min]: https://github.com/stdlib-js/stats-strided-min/tree/deno
+[@stdlib/stats/strided/min]: https://github.com/stdlib-js/stats-strided-min
 
-[@stdlib/stats/strided/minabs]: https://github.com/stdlib-js/stats-strided-minabs/tree/deno
+[@stdlib/stats/strided/minabs]: https://github.com/stdlib-js/stats-strided-minabs
 
-[@stdlib/stats/strided/minsorted]: https://github.com/stdlib-js/stats-strided-minsorted/tree/deno
+[@stdlib/stats/strided/minsorted]: https://github.com/stdlib-js/stats-strided-minsorted
 
-[@stdlib/stats/strided/mskmax]: https://github.com/stdlib-js/stats-strided-mskmax/tree/deno
+[@stdlib/stats/strided/mskmax]: https://github.com/stdlib-js/stats-strided-mskmax
 
-[@stdlib/stats/strided/mskmaxabs]: https://github.com/stdlib-js/stats-strided-mskmaxabs/tree/deno
+[@stdlib/stats/strided/mskmaxabs]: https://github.com/stdlib-js/stats-strided-mskmaxabs
 
-[@stdlib/stats/strided/mskmidrange]: https://github.com/stdlib-js/stats-strided-mskmidrange/tree/deno
+[@stdlib/stats/strided/mskmidrange]: https://github.com/stdlib-js/stats-strided-mskmidrange
 
-[@stdlib/stats/strided/mskmin]: https://github.com/stdlib-js/stats-strided-mskmin/tree/deno
+[@stdlib/stats/strided/mskmin]: https://github.com/stdlib-js/stats-strided-mskmin
 
-[@stdlib/stats/strided/mskrange]: https://github.com/stdlib-js/stats-strided-mskrange/tree/deno
+[@stdlib/stats/strided/mskrange]: https://github.com/stdlib-js/stats-strided-mskrange
 
-[@stdlib/stats/strided/nanmax-by]: https://github.com/stdlib-js/stats-strided-nanmax-by/tree/deno
+[@stdlib/stats/strided/nanmax-by]: https://github.com/stdlib-js/stats-strided-nanmax-by
 
-[@stdlib/stats/strided/nanmax]: https://github.com/stdlib-js/stats-strided-nanmax/tree/deno
+[@stdlib/stats/strided/nanmax]: https://github.com/stdlib-js/stats-strided-nanmax
 
-[@stdlib/stats/strided/nanmaxabs]: https://github.com/stdlib-js/stats-strided-nanmaxabs/tree/deno
+[@stdlib/stats/strided/nanmaxabs]: https://github.com/stdlib-js/stats-strided-nanmaxabs
 
-[@stdlib/stats/strided/nanmean]: https://github.com/stdlib-js/stats-strided-nanmean/tree/deno
+[@stdlib/stats/strided/nanmean]: https://github.com/stdlib-js/stats-strided-nanmean
 
-[@stdlib/stats/strided/nanmeanors]: https://github.com/stdlib-js/stats-strided-nanmeanors/tree/deno
+[@stdlib/stats/strided/nanmeanors]: https://github.com/stdlib-js/stats-strided-nanmeanors
 
-[@stdlib/stats/strided/nanmeanpn]: https://github.com/stdlib-js/stats-strided-nanmeanpn/tree/deno
+[@stdlib/stats/strided/nanmeanpn]: https://github.com/stdlib-js/stats-strided-nanmeanpn
 
-[@stdlib/stats/strided/nanmeanwd]: https://github.com/stdlib-js/stats-strided-nanmeanwd/tree/deno
+[@stdlib/stats/strided/nanmeanwd]: https://github.com/stdlib-js/stats-strided-nanmeanwd
 
-[@stdlib/stats/strided/nanmidrange-by]: https://github.com/stdlib-js/stats-strided-nanmidrange-by/tree/deno
+[@stdlib/stats/strided/nanmidrange-by]: https://github.com/stdlib-js/stats-strided-nanmidrange-by
 
-[@stdlib/stats/strided/nanmidrange]: https://github.com/stdlib-js/stats-strided-nanmidrange/tree/deno
+[@stdlib/stats/strided/nanmidrange]: https://github.com/stdlib-js/stats-strided-nanmidrange
 
-[@stdlib/stats/strided/nanmin-by]: https://github.com/stdlib-js/stats-strided-nanmin-by/tree/deno
+[@stdlib/stats/strided/nanmin-by]: https://github.com/stdlib-js/stats-strided-nanmin-by
 
-[@stdlib/stats/strided/nanmin]: https://github.com/stdlib-js/stats-strided-nanmin/tree/deno
+[@stdlib/stats/strided/nanmin]: https://github.com/stdlib-js/stats-strided-nanmin
 
-[@stdlib/stats/strided/nanminabs]: https://github.com/stdlib-js/stats-strided-nanminabs/tree/deno
+[@stdlib/stats/strided/nanminabs]: https://github.com/stdlib-js/stats-strided-nanminabs
 
-[@stdlib/stats/strided/nanmskmax]: https://github.com/stdlib-js/stats-strided-nanmskmax/tree/deno
+[@stdlib/stats/strided/nanmskmax]: https://github.com/stdlib-js/stats-strided-nanmskmax
 
-[@stdlib/stats/strided/nanmskmidrange]: https://github.com/stdlib-js/stats-strided-nanmskmidrange/tree/deno
+[@stdlib/stats/strided/nanmskmidrange]: https://github.com/stdlib-js/stats-strided-nanmskmidrange
 
-[@stdlib/stats/strided/nanmskmin]: https://github.com/stdlib-js/stats-strided-nanmskmin/tree/deno
+[@stdlib/stats/strided/nanmskmin]: https://github.com/stdlib-js/stats-strided-nanmskmin
 
-[@stdlib/stats/strided/nanmskrange]: https://github.com/stdlib-js/stats-strided-nanmskrange/tree/deno
+[@stdlib/stats/strided/nanmskrange]: https://github.com/stdlib-js/stats-strided-nanmskrange
 
-[@stdlib/stats/strided/nanrange-by]: https://github.com/stdlib-js/stats-strided-nanrange-by/tree/deno
+[@stdlib/stats/strided/nanrange-by]: https://github.com/stdlib-js/stats-strided-nanrange-by
 
-[@stdlib/stats/strided/nanrange]: https://github.com/stdlib-js/stats-strided-nanrange/tree/deno
+[@stdlib/stats/strided/nanrange]: https://github.com/stdlib-js/stats-strided-nanrange
 
-[@stdlib/stats/strided/nanstdev]: https://github.com/stdlib-js/stats-strided-nanstdev/tree/deno
+[@stdlib/stats/strided/nanstdev]: https://github.com/stdlib-js/stats-strided-nanstdev
 
-[@stdlib/stats/strided/nanstdevch]: https://github.com/stdlib-js/stats-strided-nanstdevch/tree/deno
+[@stdlib/stats/strided/nanstdevch]: https://github.com/stdlib-js/stats-strided-nanstdevch
 
-[@stdlib/stats/strided/nanstdevpn]: https://github.com/stdlib-js/stats-strided-nanstdevpn/tree/deno
+[@stdlib/stats/strided/nanstdevpn]: https://github.com/stdlib-js/stats-strided-nanstdevpn
 
-[@stdlib/stats/strided/nanstdevtk]: https://github.com/stdlib-js/stats-strided-nanstdevtk/tree/deno
+[@stdlib/stats/strided/nanstdevtk]: https://github.com/stdlib-js/stats-strided-nanstdevtk
 
-[@stdlib/stats/strided/nanstdevwd]: https://github.com/stdlib-js/stats-strided-nanstdevwd/tree/deno
+[@stdlib/stats/strided/nanstdevwd]: https://github.com/stdlib-js/stats-strided-nanstdevwd
 
-[@stdlib/stats/strided/nanstdevyc]: https://github.com/stdlib-js/stats-strided-nanstdevyc/tree/deno
+[@stdlib/stats/strided/nanstdevyc]: https://github.com/stdlib-js/stats-strided-nanstdevyc
 
-[@stdlib/stats/strided/nanvariance]: https://github.com/stdlib-js/stats-strided-nanvariance/tree/deno
+[@stdlib/stats/strided/nanvariance]: https://github.com/stdlib-js/stats-strided-nanvariance
 
-[@stdlib/stats/strided/nanvariancech]: https://github.com/stdlib-js/stats-strided-nanvariancech/tree/deno
+[@stdlib/stats/strided/nanvariancech]: https://github.com/stdlib-js/stats-strided-nanvariancech
 
-[@stdlib/stats/strided/nanvariancepn]: https://github.com/stdlib-js/stats-strided-nanvariancepn/tree/deno
+[@stdlib/stats/strided/nanvariancepn]: https://github.com/stdlib-js/stats-strided-nanvariancepn
 
-[@stdlib/stats/strided/nanvariancetk]: https://github.com/stdlib-js/stats-strided-nanvariancetk/tree/deno
+[@stdlib/stats/strided/nanvariancetk]: https://github.com/stdlib-js/stats-strided-nanvariancetk
 
-[@stdlib/stats/strided/nanvariancewd]: https://github.com/stdlib-js/stats-strided-nanvariancewd/tree/deno
+[@stdlib/stats/strided/nanvariancewd]: https://github.com/stdlib-js/stats-strided-nanvariancewd
 
-[@stdlib/stats/strided/nanvarianceyc]: https://github.com/stdlib-js/stats-strided-nanvarianceyc/tree/deno
+[@stdlib/stats/strided/nanvarianceyc]: https://github.com/stdlib-js/stats-strided-nanvarianceyc
 
-[@stdlib/stats/strided/range-by]: https://github.com/stdlib-js/stats-strided-range-by/tree/deno
+[@stdlib/stats/strided/range-by]: https://github.com/stdlib-js/stats-strided-range-by
 
-[@stdlib/stats/strided/range]: https://github.com/stdlib-js/stats-strided-range/tree/deno
+[@stdlib/stats/strided/range]: https://github.com/stdlib-js/stats-strided-range
 
-[@stdlib/stats/strided/rangeabs]: https://github.com/stdlib-js/stats-strided-rangeabs/tree/deno
+[@stdlib/stats/strided/rangeabs]: https://github.com/stdlib-js/stats-strided-rangeabs
 
-[@stdlib/stats/strided/scovarmtk]: https://github.com/stdlib-js/stats-strided-scovarmtk/tree/deno
+[@stdlib/stats/strided/scovarmtk]: https://github.com/stdlib-js/stats-strided-scovarmtk
 
-[@stdlib/stats/strided/scumax]: https://github.com/stdlib-js/stats-strided-scumax/tree/deno
+[@stdlib/stats/strided/scumax]: https://github.com/stdlib-js/stats-strided-scumax
 
-[@stdlib/stats/strided/scumaxabs]: https://github.com/stdlib-js/stats-strided-scumaxabs/tree/deno
+[@stdlib/stats/strided/scumaxabs]: https://github.com/stdlib-js/stats-strided-scumaxabs
 
-[@stdlib/stats/strided/scumin]: https://github.com/stdlib-js/stats-strided-scumin/tree/deno
+[@stdlib/stats/strided/scumin]: https://github.com/stdlib-js/stats-strided-scumin
 
-[@stdlib/stats/strided/scuminabs]: https://github.com/stdlib-js/stats-strided-scuminabs/tree/deno
+[@stdlib/stats/strided/scuminabs]: https://github.com/stdlib-js/stats-strided-scuminabs
 
-[@stdlib/stats/strided/sdsmean]: https://github.com/stdlib-js/stats-strided-sdsmean/tree/deno
+[@stdlib/stats/strided/sdsmean]: https://github.com/stdlib-js/stats-strided-sdsmean
 
-[@stdlib/stats/strided/sdsmeanors]: https://github.com/stdlib-js/stats-strided-sdsmeanors/tree/deno
+[@stdlib/stats/strided/sdsmeanors]: https://github.com/stdlib-js/stats-strided-sdsmeanors
 
-[@stdlib/stats/strided/sdsnanmeanors]: https://github.com/stdlib-js/stats-strided-sdsnanmeanors/tree/deno
+[@stdlib/stats/strided/sdsnanmeanors]: https://github.com/stdlib-js/stats-strided-sdsnanmeanors
 
-[@stdlib/stats/strided/smax]: https://github.com/stdlib-js/stats-strided-smax/tree/deno
+[@stdlib/stats/strided/smax]: https://github.com/stdlib-js/stats-strided-smax
 
-[@stdlib/stats/strided/smaxabs]: https://github.com/stdlib-js/stats-strided-smaxabs/tree/deno
+[@stdlib/stats/strided/smaxabs]: https://github.com/stdlib-js/stats-strided-smaxabs
 
-[@stdlib/stats/strided/smaxabssorted]: https://github.com/stdlib-js/stats-strided-smaxabssorted/tree/deno
+[@stdlib/stats/strided/smaxabssorted]: https://github.com/stdlib-js/stats-strided-smaxabssorted
 
-[@stdlib/stats/strided/smaxsorted]: https://github.com/stdlib-js/stats-strided-smaxsorted/tree/deno
+[@stdlib/stats/strided/smaxsorted]: https://github.com/stdlib-js/stats-strided-smaxsorted
 
-[@stdlib/stats/strided/smean]: https://github.com/stdlib-js/stats-strided-smean/tree/deno
+[@stdlib/stats/strided/smean]: https://github.com/stdlib-js/stats-strided-smean
 
-[@stdlib/stats/strided/smeankbn]: https://github.com/stdlib-js/stats-strided-smeankbn/tree/deno
+[@stdlib/stats/strided/smeankbn]: https://github.com/stdlib-js/stats-strided-smeankbn
 
-[@stdlib/stats/strided/smeankbn2]: https://github.com/stdlib-js/stats-strided-smeankbn2/tree/deno
+[@stdlib/stats/strided/smeankbn2]: https://github.com/stdlib-js/stats-strided-smeankbn2
 
-[@stdlib/stats/strided/smeanli]: https://github.com/stdlib-js/stats-strided-smeanli/tree/deno
+[@stdlib/stats/strided/smeanli]: https://github.com/stdlib-js/stats-strided-smeanli
 
-[@stdlib/stats/strided/smeanlipw]: https://github.com/stdlib-js/stats-strided-smeanlipw/tree/deno
+[@stdlib/stats/strided/smeanlipw]: https://github.com/stdlib-js/stats-strided-smeanlipw
 
-[@stdlib/stats/strided/smeanors]: https://github.com/stdlib-js/stats-strided-smeanors/tree/deno
+[@stdlib/stats/strided/smeanors]: https://github.com/stdlib-js/stats-strided-smeanors
 
-[@stdlib/stats/strided/smeanpn]: https://github.com/stdlib-js/stats-strided-smeanpn/tree/deno
+[@stdlib/stats/strided/smeanpn]: https://github.com/stdlib-js/stats-strided-smeanpn
 
-[@stdlib/stats/strided/smeanpw]: https://github.com/stdlib-js/stats-strided-smeanpw/tree/deno
+[@stdlib/stats/strided/smeanpw]: https://github.com/stdlib-js/stats-strided-smeanpw
 
-[@stdlib/stats/strided/smeanwd]: https://github.com/stdlib-js/stats-strided-smeanwd/tree/deno
+[@stdlib/stats/strided/smeanwd]: https://github.com/stdlib-js/stats-strided-smeanwd
 
-[@stdlib/stats/strided/smediansorted]: https://github.com/stdlib-js/stats-strided-smediansorted/tree/deno
+[@stdlib/stats/strided/smediansorted]: https://github.com/stdlib-js/stats-strided-smediansorted
 
-[@stdlib/stats/strided/smidrange]: https://github.com/stdlib-js/stats-strided-smidrange/tree/deno
+[@stdlib/stats/strided/smidrange]: https://github.com/stdlib-js/stats-strided-smidrange
 
-[@stdlib/stats/strided/smin]: https://github.com/stdlib-js/stats-strided-smin/tree/deno
+[@stdlib/stats/strided/smin]: https://github.com/stdlib-js/stats-strided-smin
 
-[@stdlib/stats/strided/sminabs]: https://github.com/stdlib-js/stats-strided-sminabs/tree/deno
+[@stdlib/stats/strided/sminabs]: https://github.com/stdlib-js/stats-strided-sminabs
 
-[@stdlib/stats/strided/sminsorted]: https://github.com/stdlib-js/stats-strided-sminsorted/tree/deno
+[@stdlib/stats/strided/sminsorted]: https://github.com/stdlib-js/stats-strided-sminsorted
 
-[@stdlib/stats/strided/smskmax]: https://github.com/stdlib-js/stats-strided-smskmax/tree/deno
+[@stdlib/stats/strided/smskmax]: https://github.com/stdlib-js/stats-strided-smskmax
 
-[@stdlib/stats/strided/smskmaxabs]: https://github.com/stdlib-js/stats-strided-smskmaxabs/tree/deno
+[@stdlib/stats/strided/smskmaxabs]: https://github.com/stdlib-js/stats-strided-smskmaxabs
 
-[@stdlib/stats/strided/smskmidrange]: https://github.com/stdlib-js/stats-strided-smskmidrange/tree/deno
+[@stdlib/stats/strided/smskmidrange]: https://github.com/stdlib-js/stats-strided-smskmidrange
 
-[@stdlib/stats/strided/smskmin]: https://github.com/stdlib-js/stats-strided-smskmin/tree/deno
+[@stdlib/stats/strided/smskmin]: https://github.com/stdlib-js/stats-strided-smskmin
 
-[@stdlib/stats/strided/smskrange]: https://github.com/stdlib-js/stats-strided-smskrange/tree/deno
+[@stdlib/stats/strided/smskrange]: https://github.com/stdlib-js/stats-strided-smskrange
 
-[@stdlib/stats/strided/snanmax]: https://github.com/stdlib-js/stats-strided-snanmax/tree/deno
+[@stdlib/stats/strided/snanmax]: https://github.com/stdlib-js/stats-strided-snanmax
 
-[@stdlib/stats/strided/snanmaxabs]: https://github.com/stdlib-js/stats-strided-snanmaxabs/tree/deno
+[@stdlib/stats/strided/snanmaxabs]: https://github.com/stdlib-js/stats-strided-snanmaxabs
 
-[@stdlib/stats/strided/snanmean]: https://github.com/stdlib-js/stats-strided-snanmean/tree/deno
+[@stdlib/stats/strided/snanmean]: https://github.com/stdlib-js/stats-strided-snanmean
 
-[@stdlib/stats/strided/snanmeanors]: https://github.com/stdlib-js/stats-strided-snanmeanors/tree/deno
+[@stdlib/stats/strided/snanmeanors]: https://github.com/stdlib-js/stats-strided-snanmeanors
 
-[@stdlib/stats/strided/snanmeanpn]: https://github.com/stdlib-js/stats-strided-snanmeanpn/tree/deno
+[@stdlib/stats/strided/snanmeanpn]: https://github.com/stdlib-js/stats-strided-snanmeanpn
 
-[@stdlib/stats/strided/snanmeanwd]: https://github.com/stdlib-js/stats-strided-snanmeanwd/tree/deno
+[@stdlib/stats/strided/snanmeanwd]: https://github.com/stdlib-js/stats-strided-snanmeanwd
 
-[@stdlib/stats/strided/snanmidrange]: https://github.com/stdlib-js/stats-strided-snanmidrange/tree/deno
+[@stdlib/stats/strided/snanmidrange]: https://github.com/stdlib-js/stats-strided-snanmidrange
 
-[@stdlib/stats/strided/snanmin]: https://github.com/stdlib-js/stats-strided-snanmin/tree/deno
+[@stdlib/stats/strided/snanmin]: https://github.com/stdlib-js/stats-strided-snanmin
 
-[@stdlib/stats/strided/snanminabs]: https://github.com/stdlib-js/stats-strided-snanminabs/tree/deno
+[@stdlib/stats/strided/snanminabs]: https://github.com/stdlib-js/stats-strided-snanminabs
 
-[@stdlib/stats/strided/snanmskmax]: https://github.com/stdlib-js/stats-strided-snanmskmax/tree/deno
+[@stdlib/stats/strided/snanmskmax]: https://github.com/stdlib-js/stats-strided-snanmskmax
 
-[@stdlib/stats/strided/snanmskmidrange]: https://github.com/stdlib-js/stats-strided-snanmskmidrange/tree/deno
+[@stdlib/stats/strided/snanmskmidrange]: https://github.com/stdlib-js/stats-strided-snanmskmidrange
 
-[@stdlib/stats/strided/snanmskmin]: https://github.com/stdlib-js/stats-strided-snanmskmin/tree/deno
+[@stdlib/stats/strided/snanmskmin]: https://github.com/stdlib-js/stats-strided-snanmskmin
 
-[@stdlib/stats/strided/snanmskrange]: https://github.com/stdlib-js/stats-strided-snanmskrange/tree/deno
+[@stdlib/stats/strided/snanmskrange]: https://github.com/stdlib-js/stats-strided-snanmskrange
 
-[@stdlib/stats/strided/snanrange]: https://github.com/stdlib-js/stats-strided-snanrange/tree/deno
+[@stdlib/stats/strided/snanrange]: https://github.com/stdlib-js/stats-strided-snanrange
 
-[@stdlib/stats/strided/srange]: https://github.com/stdlib-js/stats-strided-srange/tree/deno
+[@stdlib/stats/strided/srange]: https://github.com/stdlib-js/stats-strided-srange
 
-[@stdlib/stats/strided/srangeabs]: https://github.com/stdlib-js/stats-strided-srangeabs/tree/deno
+[@stdlib/stats/strided/srangeabs]: https://github.com/stdlib-js/stats-strided-srangeabs
 
-[@stdlib/stats/strided/sstdev]: https://github.com/stdlib-js/stats-strided-sstdev/tree/deno
+[@stdlib/stats/strided/sstdev]: https://github.com/stdlib-js/stats-strided-sstdev
 
-[@stdlib/stats/strided/sstdevch]: https://github.com/stdlib-js/stats-strided-sstdevch/tree/deno
+[@stdlib/stats/strided/sstdevch]: https://github.com/stdlib-js/stats-strided-sstdevch
 
-[@stdlib/stats/strided/sstdevpn]: https://github.com/stdlib-js/stats-strided-sstdevpn/tree/deno
+[@stdlib/stats/strided/sstdevpn]: https://github.com/stdlib-js/stats-strided-sstdevpn
 
-[@stdlib/stats/strided/sstdevtk]: https://github.com/stdlib-js/stats-strided-sstdevtk/tree/deno
+[@stdlib/stats/strided/sstdevtk]: https://github.com/stdlib-js/stats-strided-sstdevtk
 
-[@stdlib/stats/strided/sstdevwd]: https://github.com/stdlib-js/stats-strided-sstdevwd/tree/deno
+[@stdlib/stats/strided/sstdevwd]: https://github.com/stdlib-js/stats-strided-sstdevwd
 
-[@stdlib/stats/strided/sstdevyc]: https://github.com/stdlib-js/stats-strided-sstdevyc/tree/deno
+[@stdlib/stats/strided/sstdevyc]: https://github.com/stdlib-js/stats-strided-sstdevyc
 
-[@stdlib/stats/strided/stdev]: https://github.com/stdlib-js/stats-strided-stdev/tree/deno
+[@stdlib/stats/strided/stdev]: https://github.com/stdlib-js/stats-strided-stdev
 
-[@stdlib/stats/strided/stdevch]: https://github.com/stdlib-js/stats-strided-stdevch/tree/deno
+[@stdlib/stats/strided/stdevch]: https://github.com/stdlib-js/stats-strided-stdevch
 
-[@stdlib/stats/strided/stdevpn]: https://github.com/stdlib-js/stats-strided-stdevpn/tree/deno
+[@stdlib/stats/strided/stdevpn]: https://github.com/stdlib-js/stats-strided-stdevpn
 
-[@stdlib/stats/strided/stdevtk]: https://github.com/stdlib-js/stats-strided-stdevtk/tree/deno
+[@stdlib/stats/strided/stdevtk]: https://github.com/stdlib-js/stats-strided-stdevtk
 
-[@stdlib/stats/strided/stdevwd]: https://github.com/stdlib-js/stats-strided-stdevwd/tree/deno
+[@stdlib/stats/strided/stdevwd]: https://github.com/stdlib-js/stats-strided-stdevwd
 
-[@stdlib/stats/strided/stdevyc]: https://github.com/stdlib-js/stats-strided-stdevyc/tree/deno
+[@stdlib/stats/strided/stdevyc]: https://github.com/stdlib-js/stats-strided-stdevyc
 
-[@stdlib/stats/strided/svariance]: https://github.com/stdlib-js/stats-strided-svariance/tree/deno
+[@stdlib/stats/strided/svariance]: https://github.com/stdlib-js/stats-strided-svariance
 
-[@stdlib/stats/strided/svariancech]: https://github.com/stdlib-js/stats-strided-svariancech/tree/deno
+[@stdlib/stats/strided/svariancech]: https://github.com/stdlib-js/stats-strided-svariancech
 
-[@stdlib/stats/strided/svariancepn]: https://github.com/stdlib-js/stats-strided-svariancepn/tree/deno
+[@stdlib/stats/strided/svariancepn]: https://github.com/stdlib-js/stats-strided-svariancepn
 
-[@stdlib/stats/strided/svariancetk]: https://github.com/stdlib-js/stats-strided-svariancetk/tree/deno
+[@stdlib/stats/strided/svariancetk]: https://github.com/stdlib-js/stats-strided-svariancetk
 
-[@stdlib/stats/strided/svariancewd]: https://github.com/stdlib-js/stats-strided-svariancewd/tree/deno
+[@stdlib/stats/strided/svariancewd]: https://github.com/stdlib-js/stats-strided-svariancewd
 
-[@stdlib/stats/strided/svarianceyc]: https://github.com/stdlib-js/stats-strided-svarianceyc/tree/deno
+[@stdlib/stats/strided/svarianceyc]: https://github.com/stdlib-js/stats-strided-svarianceyc
 
-[@stdlib/stats/strided/sztest]: https://github.com/stdlib-js/stats-strided-sztest/tree/deno
+[@stdlib/stats/strided/sztest]: https://github.com/stdlib-js/stats-strided-sztest
 
-[@stdlib/stats/strided/sztest2]: https://github.com/stdlib-js/stats-strided-sztest2/tree/deno
+[@stdlib/stats/strided/sztest2]: https://github.com/stdlib-js/stats-strided-sztest2
 
-[@stdlib/stats/strided/variance]: https://github.com/stdlib-js/stats-strided-variance/tree/deno
+[@stdlib/stats/strided/variance]: https://github.com/stdlib-js/stats-strided-variance
 
-[@stdlib/stats/strided/variancech]: https://github.com/stdlib-js/stats-strided-variancech/tree/deno
+[@stdlib/stats/strided/variancech]: https://github.com/stdlib-js/stats-strided-variancech
 
-[@stdlib/stats/strided/variancepn]: https://github.com/stdlib-js/stats-strided-variancepn/tree/deno
+[@stdlib/stats/strided/variancepn]: https://github.com/stdlib-js/stats-strided-variancepn
 
-[@stdlib/stats/strided/variancetk]: https://github.com/stdlib-js/stats-strided-variancetk/tree/deno
+[@stdlib/stats/strided/variancetk]: https://github.com/stdlib-js/stats-strided-variancetk
 
-[@stdlib/stats/strided/variancewd]: https://github.com/stdlib-js/stats-strided-variancewd/tree/deno
+[@stdlib/stats/strided/variancewd]: https://github.com/stdlib-js/stats-strided-variancewd
 
-[@stdlib/stats/strided/varianceyc]: https://github.com/stdlib-js/stats-strided-varianceyc/tree/deno
+[@stdlib/stats/strided/varianceyc]: https://github.com/stdlib-js/stats-strided-varianceyc
 
-[@stdlib/stats/strided/ztest]: https://github.com/stdlib-js/stats-strided-ztest/tree/deno
+[@stdlib/stats/strided/ztest]: https://github.com/stdlib-js/stats-strided-ztest
 
-[@stdlib/stats/strided/ztest2]: https://github.com/stdlib-js/stats-strided-ztest2/tree/deno
+[@stdlib/stats/strided/ztest2]: https://github.com/stdlib-js/stats-strided-ztest2
 
 <!-- </toc-links> -->
 
