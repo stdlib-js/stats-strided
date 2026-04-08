@@ -2,6 +2,158 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-08)
+
+<section class="features">
+
+### Features
+
+-   [`c2496da`](https://github.com/stdlib-js/stdlib/commit/c2496da925d7c688f68ab8fd0b0aaae031611462) - add `stats/strided/dnanrangeabs` [(#10009)](https://github.com/stdlib-js/stdlib/pull/10009)
+-   [`949d17d`](https://github.com/stdlib-js/stdlib/commit/949d17d65c2f885b2077dfd1cbbefbb4fb0ac805) - add `stats/strided/nanrangeabs` [(#10014)](https://github.com/stdlib-js/stdlib/pull/10014)
+-   [`d93d218`](https://github.com/stdlib-js/stdlib/commit/d93d218286692afdc512af397da0b712bb21570c) - add `stats/strided/dnanmskmaxabs` [(#10381)](https://github.com/stdlib-js/stdlib/pull/10381)
+-   [`2ef7f49`](https://github.com/stdlib-js/stdlib/commit/2ef7f493d387d3a003c8d7532b0e1fc3fc33dfd6) - add `stats/strided/snanmskmaxabs` [(#10383)](https://github.com/stdlib-js/stdlib/pull/10383)
+-   [`565d711`](https://github.com/stdlib-js/stdlib/commit/565d711c96e07927caa577af8cb3d27c14a37bcf) - add `stats/strided/snanmskminabs` [(#10384)](https://github.com/stdlib-js/stdlib/pull/10384)
+-   [`278b4c0`](https://github.com/stdlib-js/stdlib/commit/278b4c0aa7da4e546722a9b5e91c4889b8fcdae8) - update `stats/strided/distances` TypeScript declarations [(#10667)](https://github.com/stdlib-js/stdlib/pull/10667)
+-   [`ca008ab`](https://github.com/stdlib-js/stdlib/commit/ca008ab16b38a0a428413fd78ffc689e2be0bb6f) - add `dchebyshev` to namespace
+-   [`ef03050`](https://github.com/stdlib-js/stdlib/commit/ef0305025b8a22090c88d891db824d22da1f2dcf) - add `dminkowski` to namespace
+-   [`aab353b`](https://github.com/stdlib-js/stdlib/commit/aab353b810da08a1015a2f3010833d5628a6c2fb) - add `stats/strided/distances/dminkowski` [(#10567)](https://github.com/stdlib-js/stdlib/pull/10567)
+-   [`94c1431`](https://github.com/stdlib-js/stdlib/commit/94c143124e150a3751b1a70205917f986dca8c03) - add `stats/strided/dnanmskminabs` [(#10382)](https://github.com/stdlib-js/stdlib/pull/10382)
+-   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - add `stats/strided/distances/dchebyshev
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn`
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`becb440`](https://github.com/stdlib-js/stdlib/commit/becb440aaa166ce435909ba82f743009ad1e7b6d): remove `stats/strided/distances/dchebychev`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/distances/dchebyshev` which provides the same API and implementation.
+
+-   [`cc812eb`](https://github.com/stdlib-js/stdlib/commit/cc812eb5ac0285a79e7e0ac15ad09a194bd7364b): remove `dchebychev`
+
+    -   To migrate, users should access the symbol `dchebyshev` via the
+        `@stdlib/stats-strided/distances` namespace.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 4 issues were closed in this release:
+
+[#10017](https://github.com/stdlib-js/stdlib/issues/10017), [#10622](https://github.com/stdlib-js/stdlib/issues/10622), [#10848](https://github.com/stdlib-js/stdlib/issues/10848), [#10849](https://github.com/stdlib-js/stdlib/issues/10849)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`9b24a18`](https://github.com/stdlib-js/stdlib/commit/9b24a18438dfa2c5450cc8677543caf19366f84a) - **docs:** add missing JSDoc comment _(by Athan Reines)_
+-   [`f210de9`](https://github.com/stdlib-js/stdlib/commit/f210de942cbdf23ce50500989c4d96433d5ae53d) - **bench:** refactor to use string interpolation in `stats/strided` [(#11079)](https://github.com/stdlib-js/stdlib/pull/11079) _(by Lokesh Ranjan, Athan Reines)_
+-   [`8c35e1f`](https://github.com/stdlib-js/stdlib/commit/8c35e1f321923a76acd93dcceef7d3a26fa909c3) - **bench:** refactor to use string interpolation in `stats/strided/dztest`  [(#11078)](https://github.com/stdlib-js/stdlib/pull/11078) _(by Lokesh Ranjan)_
+-   [`41e2b32`](https://github.com/stdlib-js/stdlib/commit/41e2b321ee542ca7774071f7cf0f437a7d814be6) - **bench:** restore benchmark names _(by Philipp Burckhardt)_
+-   [`69ec0a7`](https://github.com/stdlib-js/stdlib/commit/69ec0a7b9516f20a218f32f6e2c9824f12a21695) - **bench:** use string interpolation in `stats/strided/dmaxabssorted` [(#10181)](https://github.com/stdlib-js/stdlib/pull/10181) _(by Om-A-osc)_
+-   [`eee306a`](https://github.com/stdlib-js/stdlib/commit/eee306a3b9f7ff361ec5ad757a38d0a4edc23ad5) - **chore:** address commit comments for commit `949d17d` [(#10864)](https://github.com/stdlib-js/stdlib/pull/10864) _(by Sumithraju)_
+-   [`6a67413`](https://github.com/stdlib-js/stdlib/commit/6a6741319ee00b3a12b4951895f5a6ffc4963cd5) - **chore:** address commit comments for commit `2255c38` [(#10855)](https://github.com/stdlib-js/stdlib/pull/10855) _(by Partha Das)_
+-   [`8041e27`](https://github.com/stdlib-js/stdlib/commit/8041e27c906d582e5a32a1edd599b9ea12422219) - **docs:** update markup [(#10852)](https://github.com/stdlib-js/stdlib/pull/10852) _(by stdlib-bot)_
+-   [`5bc6fd8`](https://github.com/stdlib-js/stdlib/commit/5bc6fd859d57bf2408ab4fd8459389ae07e9a253) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`c2496da`](https://github.com/stdlib-js/stdlib/commit/c2496da925d7c688f68ab8fd0b0aaae031611462) - **feat:** add `stats/strided/dnanrangeabs` [(#10009)](https://github.com/stdlib-js/stdlib/pull/10009) _(by Sachin Pangal, stdlib-bot)_
+-   [`949d17d`](https://github.com/stdlib-js/stdlib/commit/949d17d65c2f885b2077dfd1cbbefbb4fb0ac805) - **feat:** add `stats/strided/nanrangeabs` [(#10014)](https://github.com/stdlib-js/stdlib/pull/10014) _(by Sachin Pangal)_
+-   [`748ab37`](https://github.com/stdlib-js/stdlib/commit/748ab37cbabdb05fc3624921520f7ec21fb26ec6) - **chore:** update C example file to match README.md _(by Philipp Burckhardt)_
+-   [`2255c38`](https://github.com/stdlib-js/stdlib/commit/2255c3899fad73f02d3c5968c8c0a5093b232712) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`800e5c6`](https://github.com/stdlib-js/stdlib/commit/800e5c63152409e524ba972c331f3656103adebd) - **bench:** minor clean-up _(by Philipp Burckhardt)_
+-   [`158060f`](https://github.com/stdlib-js/stdlib/commit/158060f8c512323eac4cf83d7be4453187752719) - **chore:** fix C lint errors [(#10625)](https://github.com/stdlib-js/stdlib/pull/10625) _(by Geo Daoyu)_
+-   [`43243ab`](https://github.com/stdlib-js/stdlib/commit/43243ab71b8c84a2df4c19be8e9842f8ae9ddedc) - **chore:** fix JavaScript lint errors [(#10731)](https://github.com/stdlib-js/stdlib/pull/10731) _(by travisBREAKS)_
+-   [`d93d218`](https://github.com/stdlib-js/stdlib/commit/d93d218286692afdc512af397da0b712bb21570c) - **feat:** add `stats/strided/dnanmskmaxabs` [(#10381)](https://github.com/stdlib-js/stdlib/pull/10381) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`2ef7f49`](https://github.com/stdlib-js/stdlib/commit/2ef7f493d387d3a003c8d7532b0e1fc3fc33dfd6) - **feat:** add `stats/strided/snanmskmaxabs` [(#10383)](https://github.com/stdlib-js/stdlib/pull/10383) _(by Sachin Pangal, Philipp Burckhardt, stdlib-bot)_
+-   [`565d711`](https://github.com/stdlib-js/stdlib/commit/565d711c96e07927caa577af8cb3d27c14a37bcf) - **feat:** add `stats/strided/snanmskminabs` [(#10384)](https://github.com/stdlib-js/stdlib/pull/10384) _(by Sachin Pangal, stdlib-bot)_
+-   [`b2dc6c7`](https://github.com/stdlib-js/stdlib/commit/b2dc6c7d1107be6c9bc2accfb56a703c2c81ea37) - **refactor:** remove redundant code from `stats/strided/distances/dcityblock` [(#10690)](https://github.com/stdlib-js/stdlib/pull/10690) _(by Nakul Krishnakumar)_
+-   [`09bcd1e`](https://github.com/stdlib-js/stdlib/commit/09bcd1e668dda1e87e29d1464190833054906e09) - **test:** fix handling of negative zero [(#10649)](https://github.com/stdlib-js/stdlib/pull/10649) _(by Siddhartha Mondal)_
+-   [`278b4c0`](https://github.com/stdlib-js/stdlib/commit/278b4c0aa7da4e546722a9b5e91c4889b8fcdae8) - **feat:** update `stats/strided/distances` TypeScript declarations [(#10667)](https://github.com/stdlib-js/stdlib/pull/10667) _(by stdlib-bot)_
+-   [`63d2333`](https://github.com/stdlib-js/stdlib/commit/63d233347e79e1c70485d93307f5e3f9de4f1308) - **docs:** update namespace table of contents [(#10668)](https://github.com/stdlib-js/stdlib/pull/10668) _(by stdlib-bot)_
+-   [`605b1df`](https://github.com/stdlib-js/stdlib/commit/605b1dfa2f484bb76264475b1308c883a08eab75) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`ca008ab`](https://github.com/stdlib-js/stdlib/commit/ca008ab16b38a0a428413fd78ffc689e2be0bb6f) - **feat:** add `dchebyshev` to namespace _(by Athan Reines)_
+-   [`ef03050`](https://github.com/stdlib-js/stdlib/commit/ef0305025b8a22090c88d891db824d22da1f2dcf) - **feat:** add `dminkowski` to namespace _(by Athan Reines)_
+-   [`aab353b`](https://github.com/stdlib-js/stdlib/commit/aab353b810da08a1015a2f3010833d5628a6c2fb) - **feat:** add `stats/strided/distances/dminkowski` [(#10567)](https://github.com/stdlib-js/stdlib/pull/10567) _(by Nakul Krishnakumar, Athan Reines)_
+-   [`27cf3ca`](https://github.com/stdlib-js/stdlib/commit/27cf3caea5ccce5f1af8a1ef06ede0f20f1b1abe) - **bench:** use string interpolation in `stats/strided/dmskmax` [(#10603)](https://github.com/stdlib-js/stdlib/pull/10603) _(by Om-A-osc)_
+-   [`2a63029`](https://github.com/stdlib-js/stdlib/commit/2a630296ce60cf31ab440a7fc17ea5544d51b760) - **bench:** use string interpolation in `stats/strided/dnanmaxabs` [(#10616)](https://github.com/stdlib-js/stdlib/pull/10616) _(by Om-A-osc)_
+-   [`6c8e3ef`](https://github.com/stdlib-js/stdlib/commit/6c8e3efe4a74238567a19eb5f1c2dbdfce6b04f1) - **bench:** use string interpolation in `stats/strided/dnanmean` [(#10617)](https://github.com/stdlib-js/stdlib/pull/10617) _(by Om-A-osc)_
+-   [`2eabe57`](https://github.com/stdlib-js/stdlib/commit/2eabe57c621a41fd976c51bad133835460ffc4a8) - **bench:** use string interpolation in `stats/strided/dnanmeanors` [(#10618)](https://github.com/stdlib-js/stdlib/pull/10618) _(by Om-A-osc)_
+-   [`a77363d`](https://github.com/stdlib-js/stdlib/commit/a77363df1266f71666762de91ea7b9c7f6022317) - **bench:** use string interpolation in `stats/strided/dmskmin` [(#10570)](https://github.com/stdlib-js/stdlib/pull/10570) _(by Om-A-osc)_
+-   [`56b63fa`](https://github.com/stdlib-js/stdlib/commit/56b63fa3c38a36688609217c4f9c4ce9d946f3c0) - **bench:** use string interpolation in `stats/strided/dmskrange` [(#10571)](https://github.com/stdlib-js/stdlib/pull/10571) _(by Om-A-osc)_
+-   [`cb4d2f8`](https://github.com/stdlib-js/stdlib/commit/cb4d2f8660ab48b27f7eaf98699300ad4d000c09) - **bench:** use string interpolation in `stats/strided/dnanmax` [(#10572)](https://github.com/stdlib-js/stdlib/pull/10572) _(by Om-A-osc)_
+-   [`217401a`](https://github.com/stdlib-js/stdlib/commit/217401ace9e30879c844967d58e004af54d48336) - **test:** update test message in `stats/strided/distances/dcityblock` [(#10563)](https://github.com/stdlib-js/stdlib/pull/10563) _(by Nakul Krishnakumar)_
+-   [`177c9b9`](https://github.com/stdlib-js/stdlib/commit/177c9b9ef19cd92078c39b8f8aa0bd8364fb6ca3) - **docs:** fix notes _(by Athan Reines)_
+-   [`94c1431`](https://github.com/stdlib-js/stdlib/commit/94c143124e150a3751b1a70205917f986dca8c03) - **feat:** add `stats/strided/dnanmskminabs` [(#10382)](https://github.com/stdlib-js/stdlib/pull/10382) _(by Sachin Pangal)_
+-   [`ee1f1a7`](https://github.com/stdlib-js/stdlib/commit/ee1f1a7b7d7de0dba506731a05698e0bb43b2d1c) - **docs:** fix wrong section order in `stats/base/dists` and `stats/strided` READMEs _(by Philipp Burckhardt)_
+-   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - **fix:** remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn` _(by Philipp Burckhardt)_
+-   [`e5fc414`](https://github.com/stdlib-js/stdlib/commit/e5fc414b47afe395178b88858a9731651f409b46) - **chore:** fix JSDoc and spacing issues _(by Philipp Burckhardt)_
+-   [`46f06ad`](https://github.com/stdlib-js/stdlib/commit/46f06ad6754741320241c60ff79ffdf0a7175b07) - **docs:** fix section tags in README files _(by Philipp Burckhardt)_
+-   [`8f782c1`](https://github.com/stdlib-js/stdlib/commit/8f782c1e3d721d52693c5b5e1418f21c6e81d166) - **docs:** update namespace table of contents [(#10425)](https://github.com/stdlib-js/stdlib/pull/10425) _(by stdlib-bot)_
+-   [`eff29c8`](https://github.com/stdlib-js/stdlib/commit/eff29c8492e90564c18a01db480cc4ab3455aff6) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`9858a43`](https://github.com/stdlib-js/stdlib/commit/9858a43edd095b6b9abeb5bb69213b54ba9dc9ad) - **bench:** use string interpolation in `stats/strided/covarmtk` [(#10407)](https://github.com/stdlib-js/stdlib/pull/10407) _(by Om-A-osc)_
+-   [`a77d03a`](https://github.com/stdlib-js/stdlib/commit/a77d03ae128ff08d5404758c075fba5ac594ca0b) - **bench:** use string interpolation in `stats/strided/dcovarmtk` [(#10412)](https://github.com/stdlib-js/stdlib/pull/10412) _(by Om-A-osc)_
+-   [`becb440`](https://github.com/stdlib-js/stdlib/commit/becb440aaa166ce435909ba82f743009ad1e7b6d) - **remove:** remove `stats/strided/distances/dchebychev` _(by nakul-krishnakumar)_
+-   [`cc812eb`](https://github.com/stdlib-js/stdlib/commit/cc812eb5ac0285a79e7e0ac15ad09a194bd7364b) - **remove:** remove `dchebychev` from namespace _(by nakul-krishnakumar)_
+-   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - **feat:** add `stats/strided/distances/dchebyshev _(by nakul-krishnakumar)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 12 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Geo Daoyu
+-   Lokesh Ranjan
+-   Nakul Krishnakumar
+-   Om-A-osc
+-   Partha Das
+-   Philipp Burckhardt
+-   Sachin Pangal
+-   Siddhartha Mondal
+-   Sumithraju
+-   nakul-krishnakumar
+-   travisBREAKS
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
