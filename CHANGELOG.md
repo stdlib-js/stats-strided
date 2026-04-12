@@ -4,12 +4,21 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-08)
+## Unreleased (2026-04-12)
 
 <section class="features">
 
 ### Features
 
+-   [`daf1d10`](https://github.com/stdlib-js/stdlib/commit/daf1d1044d0b4d2f23d1d93e9933be272b696ff1) - add `snanmskminabs` to namespace
+-   [`a00e13b`](https://github.com/stdlib-js/stdlib/commit/a00e13b1004be9d8e0967b22de202985a0deda35) - add `snanmskmaxabs` to namespace
+-   [`7f5eb84`](https://github.com/stdlib-js/stdlib/commit/7f5eb84d83fb75c3121d15e87f9497d2b69cadf9) - add `nanrangeabs` to namespace
+-   [`1d2c462`](https://github.com/stdlib-js/stdlib/commit/1d2c4626d068cf4fae4aa2c6e5a4bdbdd02d53be) - add `mskminabs` to namespace
+-   [`1b9c6ad`](https://github.com/stdlib-js/stdlib/commit/1b9c6ad2300197671d2f76dc88f8cf5eaf6a22e3) - add `dnanrangeabs` to namespace
+-   [`6df94c6`](https://github.com/stdlib-js/stdlib/commit/6df94c67973597efe569fbf0851eda299f3afb1b) - add `dnanmskminabs` to namespace
+-   [`355350b`](https://github.com/stdlib-js/stdlib/commit/355350b17c293dfdb74265e7d31acc25242ba23c) - add `dnanmskmaxabs` to namespace
+-   [`7d80168`](https://github.com/stdlib-js/stdlib/commit/7d80168fab93584854a0296f84daffd55fba8830) - add `dpcorrwd` to namespace
+-   [`f475446`](https://github.com/stdlib-js/stdlib/commit/f4754460a799406f0345c5500bcca2c3a069ea62) - add `stats/strided/dpcorrwd` [(#10677)](https://github.com/stdlib-js/stdlib/pull/10677)
 -   [`c2496da`](https://github.com/stdlib-js/stdlib/commit/c2496da925d7c688f68ab8fd0b0aaae031611462) - add `stats/strided/dnanrangeabs` [(#10009)](https://github.com/stdlib-js/stdlib/pull/10009)
 -   [`949d17d`](https://github.com/stdlib-js/stdlib/commit/949d17d65c2f885b2077dfd1cbbefbb4fb0ac805) - add `stats/strided/nanrangeabs` [(#10014)](https://github.com/stdlib-js/stdlib/pull/10014)
 -   [`d93d218`](https://github.com/stdlib-js/stdlib/commit/d93d218286692afdc512af397da0b712bb21570c) - add `stats/strided/dnanmskmaxabs` [(#10381)](https://github.com/stdlib-js/stdlib/pull/10381)
@@ -72,6 +81,18 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`daf1d10`](https://github.com/stdlib-js/stdlib/commit/daf1d1044d0b4d2f23d1d93e9933be272b696ff1) - **feat:** add `snanmskminabs` to namespace _(by Athan Reines)_
+-   [`a00e13b`](https://github.com/stdlib-js/stdlib/commit/a00e13b1004be9d8e0967b22de202985a0deda35) - **feat:** add `snanmskmaxabs` to namespace _(by Athan Reines)_
+-   [`7f5eb84`](https://github.com/stdlib-js/stdlib/commit/7f5eb84d83fb75c3121d15e87f9497d2b69cadf9) - **feat:** add `nanrangeabs` to namespace _(by Athan Reines)_
+-   [`1d2c462`](https://github.com/stdlib-js/stdlib/commit/1d2c4626d068cf4fae4aa2c6e5a4bdbdd02d53be) - **feat:** add `mskminabs` to namespace _(by Athan Reines)_
+-   [`1b9c6ad`](https://github.com/stdlib-js/stdlib/commit/1b9c6ad2300197671d2f76dc88f8cf5eaf6a22e3) - **feat:** add `dnanrangeabs` to namespace _(by Athan Reines)_
+-   [`6df94c6`](https://github.com/stdlib-js/stdlib/commit/6df94c67973597efe569fbf0851eda299f3afb1b) - **feat:** add `dnanmskminabs` to namespace _(by Athan Reines)_
+-   [`355350b`](https://github.com/stdlib-js/stdlib/commit/355350b17c293dfdb74265e7d31acc25242ba23c) - **feat:** add `dnanmskmaxabs` to namespace _(by Athan Reines)_
+-   [`7d80168`](https://github.com/stdlib-js/stdlib/commit/7d80168fab93584854a0296f84daffd55fba8830) - **feat:** add `dpcorrwd` to namespace _(by Athan Reines)_
+-   [`f475446`](https://github.com/stdlib-js/stdlib/commit/f4754460a799406f0345c5500bcca2c3a069ea62) - **feat:** add `stats/strided/dpcorrwd` [(#10677)](https://github.com/stdlib-js/stdlib/pull/10677) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
+-   [`d6c72a0`](https://github.com/stdlib-js/stdlib/commit/d6c72a042cca76e97759951cdbf89375b784e16a) - **bench:** refactor to use string interpolation in `stats/strided` [(#11359)](https://github.com/stdlib-js/stdlib/pull/11359) _(by Karan Anand)_
+-   [`167cf51`](https://github.com/stdlib-js/stdlib/commit/167cf5158bb75d433dcc7dc49df9d98d97496b8e) - **chore:** remove unused rand_double helper in `stats/strided/dmaxabssorted` [(#10180)](https://github.com/stdlib-js/stdlib/pull/10180) _(by Om-A-osc, Athan Reines, stdlib-bot)_
+-   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 -   [`9b24a18`](https://github.com/stdlib-js/stdlib/commit/9b24a18438dfa2c5450cc8677543caf19366f84a) - **docs:** add missing JSDoc comment _(by Athan Reines)_
 -   [`f210de9`](https://github.com/stdlib-js/stdlib/commit/f210de942cbdf23ce50500989c4d96433d5ae53d) - **bench:** refactor to use string interpolation in `stats/strided` [(#11079)](https://github.com/stdlib-js/stdlib/pull/11079) _(by Lokesh Ranjan, Athan Reines)_
 -   [`8c35e1f`](https://github.com/stdlib-js/stdlib/commit/8c35e1f321923a76acd93dcceef7d3a26fa909c3) - **bench:** refactor to use string interpolation in `stats/strided/dztest`  [(#11078)](https://github.com/stdlib-js/stdlib/pull/11078) _(by Lokesh Ranjan)_
@@ -131,10 +152,11 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 12 people contributed to this release. Thank you to the following contributors:
+A total of 14 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Geo Daoyu
+-   Karan Anand
 -   Lokesh Ranjan
 -   Nakul Krishnakumar
 -   Om-A-osc
@@ -143,6 +165,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 -   Sachin Pangal
 -   Siddhartha Mondal
 -   Sumithraju
+-   anee3
 -   nakul-krishnakumar
 -   travisBREAKS
 
