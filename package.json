@@ -71,6 +71,7 @@
     "@stdlib/stats-strided-dmskmidrange": "^0.1.1",
     "@stdlib/stats-strided-dmskmin": "^0.1.1",
     "@stdlib/stats-strided-dmskrange": "^0.1.1",
+    "@stdlib/stats-strided-dnancount": "github:stdlib-js/stats-strided-dnancount#main",
     "@stdlib/stats-strided-dnanmax": "^0.1.1",
     "@stdlib/stats-strided-dnanmaxabs": "^0.1.1",
     "@stdlib/stats-strided-dnanmean": "^0.1.1",
