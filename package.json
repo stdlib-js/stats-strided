@@ -229,6 +229,7 @@
     "@stdlib/stats-strided-smskmidrange": "^0.1.1",
     "@stdlib/stats-strided-smskmin": "^0.1.1",
     "@stdlib/stats-strided-smskrange": "^0.1.1",
+    "@stdlib/stats-strided-snancount": "github:stdlib-js/stats-strided-snancount#main",
     "@stdlib/stats-strided-snanmax": "^0.1.1",
     "@stdlib/stats-strided-snanmaxabs": "^0.1.1",
     "@stdlib/stats-strided-snanmean": "^0.1.1",
