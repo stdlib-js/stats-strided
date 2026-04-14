@@ -281,6 +281,7 @@ The namespace exports the following:
 -   <span class="signature">[`smskmidrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/smskmidrange]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a single-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`smskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/smskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`smskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/smskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask.</span>
+-   <span class="signature">[`snancount( N, x, strideX )`][@stdlib/stats/strided/snancount]</span><span class="delimiter">: </span><span class="description">calculate the number of non-`NaN` elements in a single-precision floating-point strided array.</span>
 -   <span class="signature">[`snanmax( N, x, strideX )`][@stdlib/stats/strided/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanmaxabs( N, x, strideX )`][@stdlib/stats/strided/snanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanmean( N, x, strideX )`][@stdlib/stats/strided/snanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values.</span>
@@ -832,6 +833,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/stats/strided/smskmin]: https://github.com/stdlib-js/stats-strided-smskmin
 
 [@stdlib/stats/strided/smskrange]: https://github.com/stdlib-js/stats-strided-smskrange
+
+[@stdlib/stats/strided/snancount]: https://github.com/stdlib-js/stats-strided-snancount
 
 [@stdlib/stats/strided/snanmax]: https://github.com/stdlib-js/stats-strided-snanmax
 
