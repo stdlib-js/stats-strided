@@ -153,6 +153,7 @@
     "@stdlib/stats-strided-mediansorted": "^0.1.1",
     "@stdlib/stats-strided-midrange": "^0.1.1",
     "@stdlib/stats-strided-midrange-by": "^0.1.1",
+    "@stdlib/stats-strided-midrangeabs": "github:stdlib-js/stats-strided-midrangeabs#main",
     "@stdlib/stats-strided-min": "^0.1.1",
     "@stdlib/stats-strided-min-by": "^0.1.1",
     "@stdlib/stats-strided-minabs": "^0.1.1",

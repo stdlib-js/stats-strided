@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-14)
+## Unreleased (2026-04-17)
 
 <section class="features">
 
 ### Features
 
+-   [`704d0c3`](https://github.com/stdlib-js/stdlib/commit/704d0c3a78e43834c434409b1b154dd30b15668a) - add `midrangeabs` to namespace
+-   [`afe2348`](https://github.com/stdlib-js/stdlib/commit/afe23488d94892d6a640a77aaa4d6923eb0d2d3b) - add `stats/strided/midrangeabs` [(#11264)](https://github.com/stdlib-js/stdlib/pull/11264)
 -   [`aab4af1`](https://github.com/stdlib-js/stdlib/commit/aab4af1675e3267ee4bb9b013e1527ba5e641e96) - add `snancount` to namespace
 -   [`87f3303`](https://github.com/stdlib-js/stdlib/commit/87f3303eb8608fa6933b3e9eb680192cbcb9785f) - add `stats/strided/snancount` [(#11438)](https://github.com/stdlib-js/stdlib/pull/11438)
 -   [`c3e7377`](https://github.com/stdlib-js/stdlib/commit/c3e7377cf4488e0f510b2f5cb03b5d5e2677a55f) - add `nancount` to namespace
@@ -87,6 +89,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`704d0c3`](https://github.com/stdlib-js/stdlib/commit/704d0c3a78e43834c434409b1b154dd30b15668a) - **feat:** add `midrangeabs` to namespace _(by Athan Reines)_
+-   [`afe2348`](https://github.com/stdlib-js/stdlib/commit/afe23488d94892d6a640a77aaa4d6923eb0d2d3b) - **feat:** add `stats/strided/midrangeabs` [(#11264)](https://github.com/stdlib-js/stdlib/pull/11264) _(by Sachin Pangal)_
 -   [`36e8e4b`](https://github.com/stdlib-js/stdlib/commit/36e8e4be9c05de181d5e69f7a0f4b689d27c3f35) - **docs:** update namespace table of contents [(#11448)](https://github.com/stdlib-js/stdlib/pull/11448) _(by stdlib-bot)_
 -   [`aab4af1`](https://github.com/stdlib-js/stdlib/commit/aab4af1675e3267ee4bb9b013e1527ba5e641e96) - **feat:** add `snancount` to namespace _(by Athan Reines)_
 -   [`87f3303`](https://github.com/stdlib-js/stdlib/commit/87f3303eb8608fa6933b3e9eb680192cbcb9785f) - **feat:** add `stats/strided/snancount` [(#11438)](https://github.com/stdlib-js/stdlib/pull/11438) _(by Om-A-osc)_
