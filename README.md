@@ -123,7 +123,6 @@ The namespace exports the following:
 -   <span class="signature">[`dmskmidrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/dmskmidrange]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`dmskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/dmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`dmskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/dmskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a double-precision floating-point strided array according to a mask.</span>
--   <span class="signature">[`dnancount( N, x, strideX )`][@stdlib/stats/strided/dnancount]</span><span class="delimiter">: </span><span class="description">calculate the number of non-`NaN` elements in a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dnanmax( N, x, strideX )`][@stdlib/stats/strided/dnanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanmaxabs( N, x, strideX )`][@stdlib/stats/strided/dnanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a double-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`dnanmean( N, x, strideX )`][@stdlib/stats/strided/dnanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring `NaN` values.</span>
@@ -205,6 +204,7 @@ The namespace exports the following:
 -   <span class="signature">[`mediansorted( N, x, strideX )`][@stdlib/stats/strided/mediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted strided array.</span>
 -   <span class="signature">[`midrangeBy( N, x, strideX, clbk[, thisArg] )`][@stdlib/stats/strided/midrange-by]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a strided array via a callback function.</span>
 -   <span class="signature">[`midrange( N, x, strideX )`][@stdlib/stats/strided/midrange]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a strided array.</span>
+-   <span class="signature">[`midrangeabs( N, x, strideX )`][@stdlib/stats/strided/midrangeabs]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of absolute values of a strided array.</span>
 -   <span class="signature">[`minBy( N, x, strideX, clbk[, thisArg] )`][@stdlib/stats/strided/min-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array via a callback function.</span>
 -   <span class="signature">[`min( N, x, strideX )`][@stdlib/stats/strided/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
 -   <span class="signature">[`minabs( N, x, strideX )`][@stdlib/stats/strided/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array.</span>
@@ -215,7 +215,6 @@ The namespace exports the following:
 -   <span class="signature">[`mskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
 -   <span class="signature">[`mskminabs( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/mskminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of a strided array according to a mask.</span>
 -   <span class="signature">[`mskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/mskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a strided array according to a mask.</span>
--   <span class="signature">[`nancount( N, x, strideX )`][@stdlib/stats/strided/nancount]</span><span class="delimiter">: </span><span class="description">calculate the number of non-`NaN` elements in a strided array.</span>
 -   <span class="signature">[`nanmaxBy( N, x, strideX, clbk[, thisArg] )`][@stdlib/stats/strided/nanmax-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmax( N, x, strideX )`][@stdlib/stats/strided/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmaxabs( N, x, strideX )`][@stdlib/stats/strided/nanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a strided array, ignoring `NaN` values.</span>
@@ -281,7 +280,6 @@ The namespace exports the following:
 -   <span class="signature">[`smskmidrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/smskmidrange]</span><span class="delimiter">: </span><span class="description">calculate the mid-range of a single-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`smskmin( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/smskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask.</span>
 -   <span class="signature">[`smskrange( N, x, strideX, mask, strideMask )`][@stdlib/stats/strided/smskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of a single-precision floating-point strided array according to a mask.</span>
--   <span class="signature">[`snancount( N, x, strideX )`][@stdlib/stats/strided/snancount]</span><span class="delimiter">: </span><span class="description">calculate the number of non-`NaN` elements in a single-precision floating-point strided array.</span>
 -   <span class="signature">[`snanmax( N, x, strideX )`][@stdlib/stats/strided/snanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanmaxabs( N, x, strideX )`][@stdlib/stats/strided/snanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of a single-precision floating-point strided array, ignoring `NaN` values.</span>
 -   <span class="signature">[`snanmean( N, x, strideX )`][@stdlib/stats/strided/snanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring `NaN` values.</span>
@@ -518,8 +516,6 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/dmskrange]: https://github.com/stdlib-js/stats-strided-dmskrange
 
-[@stdlib/stats/strided/dnancount]: https://github.com/stdlib-js/stats-strided-dnancount
-
 [@stdlib/stats/strided/dnanmax]: https://github.com/stdlib-js/stats-strided-dnanmax
 
 [@stdlib/stats/strided/dnanmaxabs]: https://github.com/stdlib-js/stats-strided-dnanmaxabs
@@ -682,6 +678,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/midrange]: https://github.com/stdlib-js/stats-strided-midrange
 
+[@stdlib/stats/strided/midrangeabs]: https://github.com/stdlib-js/stats-strided-midrangeabs
+
 [@stdlib/stats/strided/min-by]: https://github.com/stdlib-js/stats-strided-min-by
 
 [@stdlib/stats/strided/min]: https://github.com/stdlib-js/stats-strided-min
@@ -701,8 +699,6 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/stats/strided/mskminabs]: https://github.com/stdlib-js/stats-strided-mskminabs
 
 [@stdlib/stats/strided/mskrange]: https://github.com/stdlib-js/stats-strided-mskrange
-
-[@stdlib/stats/strided/nancount]: https://github.com/stdlib-js/stats-strided-nancount
 
 [@stdlib/stats/strided/nanmax-by]: https://github.com/stdlib-js/stats-strided-nanmax-by
 
@@ -833,8 +829,6 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/stats/strided/smskmin]: https://github.com/stdlib-js/stats-strided-smskmin
 
 [@stdlib/stats/strided/smskrange]: https://github.com/stdlib-js/stats-strided-smskrange
-
-[@stdlib/stats/strided/snancount]: https://github.com/stdlib-js/stats-strided-snancount
 
 [@stdlib/stats/strided/snanmax]: https://github.com/stdlib-js/stats-strided-snanmax
 
