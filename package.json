@@ -101,6 +101,7 @@
     "@stdlib/stats-strided-dnanvariancetk": "^0.1.1",
     "@stdlib/stats-strided-dnanvariancewd": "^0.1.1",
     "@stdlib/stats-strided-dnanvarianceyc": "^0.1.1",
+    "@stdlib/stats-strided-dpcorr": "github:stdlib-js/stats-strided-dpcorr#main",
     "@stdlib/stats-strided-dpcorrwd": "github:stdlib-js/stats-strided-dpcorrwd#main",
     "@stdlib/stats-strided-drange": "^0.1.1",
     "@stdlib/stats-strided-drangeabs": "^0.1.1",

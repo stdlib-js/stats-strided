@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-18)
+## Unreleased (2026-05-03)
 
 <section class="features">
 
 ### Features
 
+-   [`8a39579`](https://github.com/stdlib-js/stdlib/commit/8a3957961f27a0d3ab4f468dfa710e9dd221c8f9) - add `dpcorr` to namespace
+-   [`6b8823e`](https://github.com/stdlib-js/stdlib/commit/6b8823efa25ee7c50359a3bcffe7bbc27fa49e2d) - add `stats/strided/dpcorr` [(#11818)](https://github.com/stdlib-js/stdlib/pull/11818)
 -   [`704d0c3`](https://github.com/stdlib-js/stdlib/commit/704d0c3a78e43834c434409b1b154dd30b15668a) - add `midrangeabs` to namespace
 -   [`afe2348`](https://github.com/stdlib-js/stdlib/commit/afe23488d94892d6a640a77aaa4d6923eb0d2d3b) - add `stats/strided/midrangeabs` [(#11264)](https://github.com/stdlib-js/stdlib/pull/11264)
 -   [`aab4af1`](https://github.com/stdlib-js/stdlib/commit/aab4af1675e3267ee4bb9b013e1527ba5e641e96) - add `snancount` to namespace
@@ -47,6 +49,7 @@
 
 ### Bug Fixes
 
+-   [`ec1d66c`](https://github.com/stdlib-js/stdlib/commit/ec1d66c00846b2d836a67b46484b1de1929ba679) - correct C delegation and benchmark inputs in `stats/strided/dpcorr` [(#11890)](https://github.com/stdlib-js/stdlib/pull/11890)
 -   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn`
 
 </section>
@@ -119,6 +122,29 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`8a39579`](https://github.com/stdlib-js/stdlib/commit/8a3957961f27a0d3ab4f468dfa710e9dd221c8f9) - **feat:** add `dpcorr` to namespace _(by Athan Reines)_
+-   [`ec1d66c`](https://github.com/stdlib-js/stdlib/commit/ec1d66c00846b2d836a67b46484b1de1929ba679) - **fix:** correct C delegation and benchmark inputs in `stats/strided/dpcorr` [(#11890)](https://github.com/stdlib-js/stdlib/pull/11890) _(by Philipp Burckhardt)_
+-   [`6b8823e`](https://github.com/stdlib-js/stdlib/commit/6b8823efa25ee7c50359a3bcffe7bbc27fa49e2d) - **feat:** add `stats/strided/dpcorr` [(#11818)](https://github.com/stdlib-js/stdlib/pull/11818) _(by Nakul Krishnakumar)_
+-   [`cd99d80`](https://github.com/stdlib-js/stdlib/commit/cd99d8072389d37a05848951926c3fe51da19832) - **docs:** propagate fixes to sibling packages [(#11843)](https://github.com/stdlib-js/stdlib/pull/11843) _(by Philipp Burckhardt)_
+-   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
+-   [`7e92216`](https://github.com/stdlib-js/stdlib/commit/7e92216c06b119e58549ca6639e3392a9748cb2c) - **bench:** refactor to use dynamic memory allocation in `stats/strided` [(#11698)](https://github.com/stdlib-js/stdlib/pull/11698) _(by Uday Kakade)_
+-   [`2e01a60`](https://github.com/stdlib-js/stdlib/commit/2e01a608e7bf79369cedb902784df5527c764e74) - **bench:** refactor to use dynamic memory allocation in `stats/strided` [(#11700)](https://github.com/stdlib-js/stdlib/pull/11700) _(by Uday Kakade)_
+-   [`d440e3b`](https://github.com/stdlib-js/stdlib/commit/d440e3bb77dd653b34b10cd561453096b3efa2e2) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmax` [(#11673)](https://github.com/stdlib-js/stdlib/pull/11673) _(by Uday Kakade)_
+-   [`d26e46c`](https://github.com/stdlib-js/stdlib/commit/d26e46c3fda35f57f411080529b977dc3f68b8be) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmaxabs` [(#11674)](https://github.com/stdlib-js/stdlib/pull/11674) _(by Uday Kakade)_
+-   [`deb4fd9`](https://github.com/stdlib-js/stdlib/commit/deb4fd9e8d55f10168179b29c29b9c2a51b31f8b) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmaxsorted` [(#11675)](https://github.com/stdlib-js/stdlib/pull/11675) _(by Uday Kakade)_
+-   [`d951f44`](https://github.com/stdlib-js/stdlib/commit/d951f442821f943ec19a7f6aefdb6ae4ee0ebecd) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmaxabssorted` [(#11676)](https://github.com/stdlib-js/stdlib/pull/11676) _(by Uday Kakade)_
+-   [`7a025ca`](https://github.com/stdlib-js/stdlib/commit/7a025ca74a710d68ea74cf0ff93b27356642e571) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmeanlipw` [(#11677)](https://github.com/stdlib-js/stdlib/pull/11677) _(by Uday Kakade)_
+-   [`8ec1a24`](https://github.com/stdlib-js/stdlib/commit/8ec1a242cc85fa1f43ea84bcbae47694a6e26f63) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmeanors` [(#11678)](https://github.com/stdlib-js/stdlib/pull/11678) _(by Uday Kakade)_
+-   [`a51c875`](https://github.com/stdlib-js/stdlib/commit/a51c875f4a8850ac9c689031d71c36d8f763b317) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmeanpw` [(#11679)](https://github.com/stdlib-js/stdlib/pull/11679) _(by Uday Kakade)_
+-   [`2884bf4`](https://github.com/stdlib-js/stdlib/commit/2884bf493baa9d8dc60f95d39f6e52e395292345) - **bench:** refactor to use dynamic memory allocation in `stats/strided/smean` [(#11651)](https://github.com/stdlib-js/stdlib/pull/11651) _(by Uday Kakade)_
+-   [`e8dbcf0`](https://github.com/stdlib-js/stdlib/commit/e8dbcf0173eb058a68c27ff798fbc899bd941c03) - **bench:** refactor to use dynamic memory allocation in `stats/strided/sstdev` [(#11652)](https://github.com/stdlib-js/stdlib/pull/11652) _(by Uday Kakade)_
+-   [`e026eba`](https://github.com/stdlib-js/stdlib/commit/e026eba5aac000bdaf8f0d264e9bdb8ac9c32975) - **bench:** refactor to use dynamic memory allocation in `stats/strided/sstdevwd` [(#11653)](https://github.com/stdlib-js/stdlib/pull/11653) _(by Uday Kakade)_
+-   [`d04c53f`](https://github.com/stdlib-js/stdlib/commit/d04c53f65e93ee0ab74cf8800111ce05919ac4e4) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dcovarmtk` [(#11667)](https://github.com/stdlib-js/stdlib/pull/11667) _(by Uday Kakade)_
+-   [`c59b5f4`](https://github.com/stdlib-js/stdlib/commit/c59b5f4c20848ce7ac01ea7c2372b386ccd2c387) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmeanpn` [(#11586)](https://github.com/stdlib-js/stdlib/pull/11586) _(by Uday Kakade)_
+-   [`514b822`](https://github.com/stdlib-js/stdlib/commit/514b82277049e952d5ea3622fd889bde8bfe06f0) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dstdev` [(#11595)](https://github.com/stdlib-js/stdlib/pull/11595) _(by Uday Kakade)_
+-   [`c7b8e82`](https://github.com/stdlib-js/stdlib/commit/c7b8e82433b570206634972327a986688b840280) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dsempn` [(#11596)](https://github.com/stdlib-js/stdlib/pull/11596) _(by Uday Kakade)_
+-   [`1a1d6d1`](https://github.com/stdlib-js/stdlib/commit/1a1d6d1e60c1496c2613aeab2ef4c3fb16d75899) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dsem` [(#11598)](https://github.com/stdlib-js/stdlib/pull/11598) _(by Uday Kakade)_
+-   [`69e86b9`](https://github.com/stdlib-js/stdlib/commit/69e86b98fee48721e51c70014a519f1f09d0c0da) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dnanstdev` [(#11600)](https://github.com/stdlib-js/stdlib/pull/11600) _(by Uday Kakade)_
 -   [`2505815`](https://github.com/stdlib-js/stdlib/commit/25058156cf7b1138c5c33209a5143100c376b46d) - **docs:** update namespace table of contents [(#11520)](https://github.com/stdlib-js/stdlib/pull/11520) _(by stdlib-bot)_
 -   [`e616ec3`](https://github.com/stdlib-js/stdlib/commit/e616ec3c2b724c7b94937c8b892f54d5ef437719) - **docs:** capitalize `Pearson` and close backtick in `stats/strided/dpcorrwd` [(#11515)](https://github.com/stdlib-js/stdlib/pull/11515) _(by Philipp Burckhardt)_
 -   [`d3427df`](https://github.com/stdlib-js/stdlib/commit/d3427df39ee3407e76b32095ec622edf1c7d084e) - **remove:** remove `stats/strided/nancount` _(by Athan Reines)_
@@ -208,7 +234,7 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 15 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Geo Daoyu
@@ -221,6 +247,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 -   Sachin Pangal
 -   Siddhartha Mondal
 -   Sumithraju
+-   Uday Kakade
 -   anee3
 -   nakul-krishnakumar
 -   travisBREAKS
