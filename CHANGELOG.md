@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-07)
+## Unreleased (2026-05-16)
 
 <section class="features">
 
@@ -43,7 +43,7 @@
 -   [`ef03050`](https://github.com/stdlib-js/stdlib/commit/ef0305025b8a22090c88d891db824d22da1f2dcf) - add `dminkowski` to namespace
 -   [`aab353b`](https://github.com/stdlib-js/stdlib/commit/aab353b810da08a1015a2f3010833d5628a6c2fb) - add `stats/strided/distances/dminkowski` [(#10567)](https://github.com/stdlib-js/stdlib/pull/10567)
 -   [`94c1431`](https://github.com/stdlib-js/stdlib/commit/94c143124e150a3751b1a70205917f986dca8c03) - add `stats/strided/dnanmskminabs` [(#10382)](https://github.com/stdlib-js/stdlib/pull/10382)
--   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - add `stats/strided/distances/dchebyshev
+-   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - add `stats/strided/distances/dchebyshev`
 
 </section>
 
@@ -129,6 +129,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`4daf430`](https://github.com/stdlib-js/stdlib/commit/4daf430f3517294fe778243312cef186b4ec5072) - **test:** fix `Float32Array` import in `stats/strided/snanminabs` [(#12062)](https://github.com/stdlib-js/stdlib/pull/12062) _(by Karan Anand, Athan Reines)_
+-   [`506b8ab`](https://github.com/stdlib-js/stdlib/commit/506b8ab8b73c5f97d5d99ebecdc769d136328fc4) - **test:** fix `Float32Array` import in `stats/strided/snanmin` [(#12061)](https://github.com/stdlib-js/stdlib/pull/12061) _(by Karan Anand, Athan Reines)_
 -   [`11fb87d`](https://github.com/stdlib-js/stdlib/commit/11fb87dac7ae762d325640afbb400d6aa5fc3736) - **docs:** update namespace table of contents [(#11986)](https://github.com/stdlib-js/stdlib/pull/11986) _(by stdlib-bot)_
 -   [`6a2a4f0`](https://github.com/stdlib-js/stdlib/commit/6a2a4f0c86dc79e06f6a0cce9f54f5f424469a56) - **docs:** align JS API subheadings to H4 in `stats/strided/dnanrangeabs` [(#11957)](https://github.com/stdlib-js/stdlib/pull/11957) _(by Philipp Burckhardt)_
 -   [`7acb10f`](https://github.com/stdlib-js/stdlib/commit/7acb10fe279a12ff58df34a3d847828606cd0acd) - **docs:** update namespace table of contents [(#11961)](https://github.com/stdlib-js/stdlib/pull/11961) _(by stdlib-bot)_
@@ -242,7 +244,7 @@ A total of 4 issues were closed in this release:
 -   [`a77d03a`](https://github.com/stdlib-js/stdlib/commit/a77d03ae128ff08d5404758c075fba5ac594ca0b) - **bench:** use string interpolation in `stats/strided/dcovarmtk` [(#10412)](https://github.com/stdlib-js/stdlib/pull/10412) _(by Om-A-osc)_
 -   [`becb440`](https://github.com/stdlib-js/stdlib/commit/becb440aaa166ce435909ba82f743009ad1e7b6d) - **remove:** remove `stats/strided/distances/dchebychev` _(by nakul-krishnakumar)_
 -   [`cc812eb`](https://github.com/stdlib-js/stdlib/commit/cc812eb5ac0285a79e7e0ac15ad09a194bd7364b) - **remove:** remove `dchebychev` from namespace _(by nakul-krishnakumar)_
--   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - **feat:** add `stats/strided/distances/dchebyshev _(by nakul-krishnakumar)_
+-   [`8a0bdab`](https://github.com/stdlib-js/stdlib/commit/8a0bdab18b22e650ce6ec73b87f347846774890f) - **feat:** add `stats/strided/distances/dchebyshev` _(by nakul-krishnakumar)_
 
 </details>
 
