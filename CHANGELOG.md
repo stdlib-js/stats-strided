@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-19)
+## Unreleased (2026-05-28)
 
 <section class="features">
 
@@ -129,6 +129,9 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`80ccc9e`](https://github.com/stdlib-js/stdlib/commit/80ccc9efda46e813af6a0dca63e34d7671b91eeb) - **docs:** update namespace table of contents [(#12329)](https://github.com/stdlib-js/stdlib/pull/12329) _(by stdlib-bot)_
+-   [`ba77943`](https://github.com/stdlib-js/stdlib/commit/ba77943bb69dcdf1db89c7b1e5e786acab35dfe6) - **docs:** updae descriptions in `stats/strided/*abs` package descriptions [(#12310)](https://github.com/stdlib-js/stdlib/pull/12310) _(by Philipp Burckhardt)_
+-   [`91a6a85`](https://github.com/stdlib-js/stdlib/commit/91a6a85ebfca1036a0123648aa5165900c1cc74a) - **docs:** fix offset parameter wording in multi-offset READMEs [(#12243)](https://github.com/stdlib-js/stdlib/pull/12243) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4daf430`](https://github.com/stdlib-js/stdlib/commit/4daf430f3517294fe778243312cef186b4ec5072) - **test:** fix `Float32Array` import in `stats/strided/snanminabs` [(#12062)](https://github.com/stdlib-js/stdlib/pull/12062) _(by Karan Anand, Athan Reines)_
 -   [`506b8ab`](https://github.com/stdlib-js/stdlib/commit/506b8ab8b73c5f97d5d99ebecdc769d136328fc4) - **test:** fix `Float32Array` import in `stats/strided/snanmin` [(#12061)](https://github.com/stdlib-js/stdlib/pull/12061) _(by Karan Anand, Athan Reines)_
 -   [`11fb87d`](https://github.com/stdlib-js/stdlib/commit/11fb87dac7ae762d325640afbb400d6aa5fc3736) - **docs:** update namespace table of contents [(#11986)](https://github.com/stdlib-js/stdlib/pull/11986) _(by stdlib-bot)_
