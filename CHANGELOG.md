@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-28)
+## Unreleased (2026-06-06)
 
 <section class="features">
 
 ### Features
 
+-   [`c5f70fd`](https://github.com/stdlib-js/stdlib/commit/c5f70fd5663439cbdb6a925f33871eb9974a5166) - update `stats/strided` TypeScript declarations [(#12617)](https://github.com/stdlib-js/stdlib/pull/12617)
 -   [`c5fad82`](https://github.com/stdlib-js/stdlib/commit/c5fad82b2d766118634d3796230c2158a4040d13) - add `dcorrelation` to namespace
 -   [`73653a2`](https://github.com/stdlib-js/stdlib/commit/73653a29dcd13f29dc66c1ceaf02a482606aca0a) - add `stats/strided/distances/dcorrelation` [(#11917)](https://github.com/stdlib-js/stdlib/pull/11917)
 -   [`5f211ce`](https://github.com/stdlib-js/stdlib/commit/5f211cef3f0687f1b17004bfc7dffe6367636b50) - add `dmidrangeabs` to namespace
@@ -53,6 +54,8 @@
 
 ### Bug Fixes
 
+-   [`a0dea9a`](https://github.com/stdlib-js/stdlib/commit/a0dea9a69e82a3df2f7693f088b738db87d4c2d7) - widen main signature input type in `strided/meankbn2` [(#12498)](https://github.com/stdlib-js/stdlib/pull/12498)
+-   [`3945ae1`](https://github.com/stdlib-js/stdlib/commit/3945ae139f20ead76252483fa84dd83620bacc00) - add missing `correction` argument [(#12505)](https://github.com/stdlib-js/stdlib/pull/12505)
 -   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952)
 -   [`a65e1fd`](https://github.com/stdlib-js/stdlib/commit/a65e1fd9f921616b23244200dc09c0f87981a1c5) - add suffix wrappers and replace inline NaN literal [(#11947)](https://github.com/stdlib-js/stdlib/pull/11947)
 -   [`8516750`](https://github.com/stdlib-js/stdlib/commit/851675024a46ddac355e48493759d1e793a1de8a) - add missing suffix wrappers [(#11904)](https://github.com/stdlib-js/stdlib/pull/11904)
@@ -129,6 +132,17 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`c5f70fd`](https://github.com/stdlib-js/stdlib/commit/c5f70fd5663439cbdb6a925f33871eb9974a5166) - **feat:** update `stats/strided` TypeScript declarations [(#12617)](https://github.com/stdlib-js/stdlib/pull/12617) _(by stdlib-bot)_
+-   [`8e32423`](https://github.com/stdlib-js/stdlib/commit/8e32423156316049de0700cfcb4d3da2b173f008) - **refactor:** align TypeScript declarations across stats packages [(#12512)](https://github.com/stdlib-js/stdlib/pull/12512) _(by Philipp Burckhardt)_
+-   [`7563015`](https://github.com/stdlib-js/stdlib/commit/75630151e87f5e595ca445317835edff7927d348) - **refactor:** use `offsetX` parameter name in `strided/nanrange` [(#12490)](https://github.com/stdlib-js/stdlib/pull/12490) _(by Philipp Burckhardt)_
+-   [`ea9a0df`](https://github.com/stdlib-js/stdlib/commit/ea9a0dfc9de34a9b585e209a2e8a32524dc85f2c) - **refactor:** update parameter names [(#12489)](https://github.com/stdlib-js/stdlib/pull/12489) _(by Philipp Burckhardt)_
+-   [`fabd619`](https://github.com/stdlib-js/stdlib/commit/fabd61956ca6403f298caa7d5476cfbe12f009d6) - **refactor:** use `offsetX` parameter name in `strided/nanrangeabs` [(#12491)](https://github.com/stdlib-js/stdlib/pull/12491) _(by Philipp Burckhardt)_
+-   [`db6c193`](https://github.com/stdlib-js/stdlib/commit/db6c1932c5d04fde65007807c4129ddc17f957be) - **refactor:** align parameter names with sibling packages [(#12493)](https://github.com/stdlib-js/stdlib/pull/12493) _(by Philipp Burckhardt)_
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
+-   [`a0dea9a`](https://github.com/stdlib-js/stdlib/commit/a0dea9a69e82a3df2f7693f088b738db87d4c2d7) - **fix:** widen main signature input type in `strided/meankbn2` [(#12498)](https://github.com/stdlib-js/stdlib/pull/12498) _(by Philipp Burckhardt)_
+-   [`3945ae1`](https://github.com/stdlib-js/stdlib/commit/3945ae139f20ead76252483fa84dd83620bacc00) - **fix:** add missing `correction` argument [(#12505)](https://github.com/stdlib-js/stdlib/pull/12505) _(by Philipp Burckhardt)_
+-   [`eb16cda`](https://github.com/stdlib-js/stdlib/commit/eb16cda7c4554147bfa724f0ee9a24fcf0422d18) - **docs:** update related packages sections [(#12414)](https://github.com/stdlib-js/stdlib/pull/12414) _(by stdlib-bot)_
+-   [`aa674a4`](https://github.com/stdlib-js/stdlib/commit/aa674a415e82e2c5db78b60ca4954d4871b0d9d5) - **refactor:** rename parameter to ensure consistency with other packages [(#12376)](https://github.com/stdlib-js/stdlib/pull/12376) _(by Philipp Burckhardt)_
 -   [`80ccc9e`](https://github.com/stdlib-js/stdlib/commit/80ccc9efda46e813af6a0dca63e34d7671b91eeb) - **docs:** update namespace table of contents [(#12329)](https://github.com/stdlib-js/stdlib/pull/12329) _(by stdlib-bot)_
 -   [`ba77943`](https://github.com/stdlib-js/stdlib/commit/ba77943bb69dcdf1db89c7b1e5e786acab35dfe6) - **docs:** updae descriptions in `stats/strided/*abs` package descriptions [(#12310)](https://github.com/stdlib-js/stdlib/pull/12310) _(by Philipp Burckhardt)_
 -   [`91a6a85`](https://github.com/stdlib-js/stdlib/commit/91a6a85ebfca1036a0123648aa5165900c1cc74a) - **docs:** fix offset parameter wording in multi-offset READMEs [(#12243)](https://github.com/stdlib-js/stdlib/pull/12243) _(by Philipp Burckhardt, Athan Reines)_
