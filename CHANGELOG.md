@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-06)
+## Unreleased (2026-06-16)
 
 <section class="features">
 
 ### Features
 
+-   [`af7bd92`](https://github.com/stdlib-js/stdlib/commit/af7bd92627fce5c5d9be7e8878173a257e80427e) - add `stats/strided/dmaxabs-sorted`
+-   [`af06cd9`](https://github.com/stdlib-js/stdlib/commit/af06cd9468ea27ec0cc0c05eff186e5f2ce5373a) - update `stats/strided/distances` TypeScript declarations [(#12616)](https://github.com/stdlib-js/stdlib/pull/12616)
 -   [`c5f70fd`](https://github.com/stdlib-js/stdlib/commit/c5f70fd5663439cbdb6a925f33871eb9974a5166) - update `stats/strided` TypeScript declarations [(#12617)](https://github.com/stdlib-js/stdlib/pull/12617)
 -   [`c5fad82`](https://github.com/stdlib-js/stdlib/commit/c5fad82b2d766118634d3796230c2158a4040d13) - add `dcorrelation` to namespace
 -   [`73653a2`](https://github.com/stdlib-js/stdlib/commit/73653a29dcd13f29dc66c1ceaf02a482606aca0a) - add `stats/strided/distances/dcorrelation` [(#11917)](https://github.com/stdlib-js/stdlib/pull/11917)
@@ -69,6 +71,15 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`8bdfa53`](https://github.com/stdlib-js/stdlib/commit/8bdfa53a27a3a844cc5ae836f93a94683bcb8637): remove `stats/strided/dmaxabssorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dmaxabs-sorted` which provides the same API and implementation.
+
+-   [`e2ac318`](https://github.com/stdlib-js/stdlib/commit/e2ac31806d9247258695eb6d747625565eeb8d9c): rename `dmaxabssorted` to `dmaxabsSorted`
+
+    -   To migrate, users should update to the new symbol name.
 
 -   [`d3427df`](https://github.com/stdlib-js/stdlib/commit/d3427df39ee3407e76b32095ec622edf1c7d084e): remove `stats/strided/nancount`
 
@@ -132,6 +143,13 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`8bdfa53`](https://github.com/stdlib-js/stdlib/commit/8bdfa53a27a3a844cc5ae836f93a94683bcb8637) - **remove:** remove `stats/strided/dmaxabssorted` _(by Neeraj Pathak)_
+-   [`aae2976`](https://github.com/stdlib-js/stdlib/commit/aae2976d68e8b9177bf4f3c8123b0576c583ee8e) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`e2ac318`](https://github.com/stdlib-js/stdlib/commit/e2ac31806d9247258695eb6d747625565eeb8d9c) - **refactor:** rename `dmaxabssorted` to `dmaxabsSorted` _(by Neeraj Pathak)_
+-   [`af7bd92`](https://github.com/stdlib-js/stdlib/commit/af7bd92627fce5c5d9be7e8878173a257e80427e) - **feat:** add `stats/strided/dmaxabs-sorted` _(by Neeraj Pathak)_
+-   [`b42091b`](https://github.com/stdlib-js/stdlib/commit/b42091b5ada8ff53c4b448623145c43ad9d097aa) - **docs:** align JSDoc and C comments [(#12911)](https://github.com/stdlib-js/stdlib/pull/12911) _(by Philipp Burckhardt, Athan Reines)_
+-   [`56f1b9b`](https://github.com/stdlib-js/stdlib/commit/56f1b9b0b7979f0ed7c02953c6aad836246017d7) - **docs:** update parameter type and add keyword [(#12729)](https://github.com/stdlib-js/stdlib/pull/12729) _(by Philipp Burckhardt)_
+-   [`af06cd9`](https://github.com/stdlib-js/stdlib/commit/af06cd9468ea27ec0cc0c05eff186e5f2ce5373a) - **feat:** update `stats/strided/distances` TypeScript declarations [(#12616)](https://github.com/stdlib-js/stdlib/pull/12616) _(by stdlib-bot)_
 -   [`c5f70fd`](https://github.com/stdlib-js/stdlib/commit/c5f70fd5663439cbdb6a925f33871eb9974a5166) - **feat:** update `stats/strided` TypeScript declarations [(#12617)](https://github.com/stdlib-js/stdlib/pull/12617) _(by stdlib-bot)_
 -   [`8e32423`](https://github.com/stdlib-js/stdlib/commit/8e32423156316049de0700cfcb4d3da2b173f008) - **refactor:** align TypeScript declarations across stats packages [(#12512)](https://github.com/stdlib-js/stdlib/pull/12512) _(by Philipp Burckhardt)_
 -   [`7563015`](https://github.com/stdlib-js/stdlib/commit/75630151e87f5e595ca445317835edff7927d348) - **refactor:** use `offsetX` parameter name in `strided/nanrange` [(#12490)](https://github.com/stdlib-js/stdlib/pull/12490) _(by Philipp Burckhardt)_
@@ -144,7 +162,7 @@ A total of 4 issues were closed in this release:
 -   [`eb16cda`](https://github.com/stdlib-js/stdlib/commit/eb16cda7c4554147bfa724f0ee9a24fcf0422d18) - **docs:** update related packages sections [(#12414)](https://github.com/stdlib-js/stdlib/pull/12414) _(by stdlib-bot)_
 -   [`aa674a4`](https://github.com/stdlib-js/stdlib/commit/aa674a415e82e2c5db78b60ca4954d4871b0d9d5) - **refactor:** rename parameter to ensure consistency with other packages [(#12376)](https://github.com/stdlib-js/stdlib/pull/12376) _(by Philipp Burckhardt)_
 -   [`80ccc9e`](https://github.com/stdlib-js/stdlib/commit/80ccc9efda46e813af6a0dca63e34d7671b91eeb) - **docs:** update namespace table of contents [(#12329)](https://github.com/stdlib-js/stdlib/pull/12329) _(by stdlib-bot)_
--   [`ba77943`](https://github.com/stdlib-js/stdlib/commit/ba77943bb69dcdf1db89c7b1e5e786acab35dfe6) - **docs:** updae descriptions in `stats/strided/*abs` package descriptions [(#12310)](https://github.com/stdlib-js/stdlib/pull/12310) _(by Philipp Burckhardt)_
+-   [`ba77943`](https://github.com/stdlib-js/stdlib/commit/ba77943bb69dcdf1db89c7b1e5e786acab35dfe6) - **docs:** update descriptions in `stats/strided/*abs` package descriptions [(#12310)](https://github.com/stdlib-js/stdlib/pull/12310) _(by Philipp Burckhardt)_
 -   [`91a6a85`](https://github.com/stdlib-js/stdlib/commit/91a6a85ebfca1036a0123648aa5165900c1cc74a) - **docs:** fix offset parameter wording in multi-offset READMEs [(#12243)](https://github.com/stdlib-js/stdlib/pull/12243) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4daf430`](https://github.com/stdlib-js/stdlib/commit/4daf430f3517294fe778243312cef186b4ec5072) - **test:** fix `Float32Array` import in `stats/strided/snanminabs` [(#12062)](https://github.com/stdlib-js/stdlib/pull/12062) _(by Karan Anand, Athan Reines)_
 -   [`506b8ab`](https://github.com/stdlib-js/stdlib/commit/506b8ab8b73c5f97d5d99ebecdc769d136328fc4) - **test:** fix `Float32Array` import in `stats/strided/snanmin` [(#12061)](https://github.com/stdlib-js/stdlib/pull/12061) _(by Karan Anand, Athan Reines)_
@@ -273,13 +291,14 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 15 people contributed to this release. Thank you to the following contributors:
+A total of 16 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Geo Daoyu
 -   Karan Anand
 -   Lokesh Ranjan
 -   Nakul Krishnakumar
+-   Neeraj Pathak
 -   Om-A-osc
 -   Partha Das
 -   Philipp Burckhardt
