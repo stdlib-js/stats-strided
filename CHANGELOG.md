@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-06-17)
 
 <section class="features">
 
@@ -143,6 +143,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`884245d`](https://github.com/stdlib-js/stdlib/commit/884245d7dd6273d24c89f8f294d6796d65c328c4) - **docs:** update namespace table of contents [(#12931)](https://github.com/stdlib-js/stdlib/pull/12931) _(by stdlib-bot)_
 -   [`8bdfa53`](https://github.com/stdlib-js/stdlib/commit/8bdfa53a27a3a844cc5ae836f93a94683bcb8637) - **remove:** remove `stats/strided/dmaxabssorted` _(by Neeraj Pathak)_
 -   [`aae2976`](https://github.com/stdlib-js/stdlib/commit/aae2976d68e8b9177bf4f3c8123b0576c583ee8e) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`e2ac318`](https://github.com/stdlib-js/stdlib/commit/e2ac31806d9247258695eb6d747625565eeb8d9c) - **refactor:** rename `dmaxabssorted` to `dmaxabsSorted` _(by Neeraj Pathak)_
