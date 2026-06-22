@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-17)
+## Unreleased (2026-06-22)
 
 <section class="features">
 
 ### Features
 
+-   [`18338ba`](https://github.com/stdlib-js/stdlib/commit/18338ba3da0035672404ba7e87827cad8675ba0a) - add `stats/strided/dmax-sorted`
 -   [`af7bd92`](https://github.com/stdlib-js/stdlib/commit/af7bd92627fce5c5d9be7e8878173a257e80427e) - add `stats/strided/dmaxabs-sorted`
 -   [`af06cd9`](https://github.com/stdlib-js/stdlib/commit/af06cd9468ea27ec0cc0c05eff186e5f2ce5373a) - update `stats/strided/distances` TypeScript declarations [(#12616)](https://github.com/stdlib-js/stdlib/pull/12616)
 -   [`c5f70fd`](https://github.com/stdlib-js/stdlib/commit/c5f70fd5663439cbdb6a925f33871eb9974a5166) - update `stats/strided` TypeScript declarations [(#12617)](https://github.com/stdlib-js/stdlib/pull/12617)
@@ -71,6 +72,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`db6898f`](https://github.com/stdlib-js/stdlib/commit/db6898f04268acaf571817ac991d84f6001c8fcf): remove `stats/strided/dmaxsorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dmax-sorted` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/12697
+
+-   [`ae83ddb`](https://github.com/stdlib-js/stdlib/commit/ae83ddbf2f945d2b6b96f0f2da515f3dbb626edc): rename `dmaxsorted` to `dmaxSorted`
+
+    -   To migrate, users should update to the new symbol name.
+        Ref: https://github.com/stdlib-js/stdlib/issues/12697
 
 -   [`8bdfa53`](https://github.com/stdlib-js/stdlib/commit/8bdfa53a27a3a844cc5ae836f93a94683bcb8637): remove `stats/strided/dmaxabssorted`
 
@@ -143,6 +155,10 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`db6898f`](https://github.com/stdlib-js/stdlib/commit/db6898f04268acaf571817ac991d84f6001c8fcf) - **remove:** remove `stats/strided/dmaxsorted` _(by Neeraj Pathak)_
+-   [`aed59d8`](https://github.com/stdlib-js/stdlib/commit/aed59d8fb4f75747d24fef73037981716ca2da19) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`ae83ddb`](https://github.com/stdlib-js/stdlib/commit/ae83ddbf2f945d2b6b96f0f2da515f3dbb626edc) - **refactor:** rename `dmaxsorted` to `dmaxSorted` _(by Neeraj Pathak)_
+-   [`18338ba`](https://github.com/stdlib-js/stdlib/commit/18338ba3da0035672404ba7e87827cad8675ba0a) - **feat:** add `stats/strided/dmax-sorted` _(by Neeraj Pathak)_
 -   [`884245d`](https://github.com/stdlib-js/stdlib/commit/884245d7dd6273d24c89f8f294d6796d65c328c4) - **docs:** update namespace table of contents [(#12931)](https://github.com/stdlib-js/stdlib/pull/12931) _(by stdlib-bot)_
 -   [`8bdfa53`](https://github.com/stdlib-js/stdlib/commit/8bdfa53a27a3a844cc5ae836f93a94683bcb8637) - **remove:** remove `stats/strided/dmaxabssorted` _(by Neeraj Pathak)_
 -   [`aae2976`](https://github.com/stdlib-js/stdlib/commit/aae2976d68e8b9177bf4f3c8123b0576c583ee8e) - **refactor:** update paths _(by Neeraj Pathak)_
