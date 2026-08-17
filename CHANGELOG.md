@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-29)
+## Unreleased (2026-08-17)
 
 <section class="features">
 
 ### Features
 
+-   [`fc2d9cc`](https://github.com/stdlib-js/stdlib/commit/fc2d9cc29a0b018cb9ea608bd93553d5693013b1) - add `stats/strided/dmedian-sorted`
 -   [`18338ba`](https://github.com/stdlib-js/stdlib/commit/18338ba3da0035672404ba7e87827cad8675ba0a) - add `stats/strided/dmax-sorted`
 -   [`af7bd92`](https://github.com/stdlib-js/stdlib/commit/af7bd92627fce5c5d9be7e8878173a257e80427e) - add `stats/strided/dmaxabs-sorted`
 -   [`af06cd9`](https://github.com/stdlib-js/stdlib/commit/af06cd9468ea27ec0cc0c05eff186e5f2ce5373a) - update `stats/strided/distances` TypeScript declarations [(#12616)](https://github.com/stdlib-js/stdlib/pull/12616)
@@ -72,6 +73,17 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`815a3b8`](https://github.com/stdlib-js/stdlib/commit/815a3b877d0c7ea8848fa3ba67c30451b2bc5f3b): remove `stats/strided/dmediansorted`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/stats-strided/dmedian-sorted` which provides the same API and implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/12697
+
+-   [`698ecba`](https://github.com/stdlib-js/stdlib/commit/698ecba432fd319473dea08967b56be34638cbce): rename `dmediansorted` to `dmedianSorted`
+
+    -   To migrate, users should update to the new symbol name.
+        Ref: https://github.com/stdlib-js/stdlib/issues/12697
 
 -   [`db6898f`](https://github.com/stdlib-js/stdlib/commit/db6898f04268acaf571817ac991d84f6001c8fcf): remove `stats/strided/dmaxsorted`
 
@@ -155,6 +167,21 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`3208321`](https://github.com/stdlib-js/stdlib/commit/320832192c8d32b18d24c7342ba1cf03cc5affea) - **bench:** refactor to use dynamic memory allocation [(#14099)](https://github.com/stdlib-js/stdlib/pull/14099) _(by Philipp Burckhardt, Athan Reines)_
+-   [`91c2fae`](https://github.com/stdlib-js/stdlib/commit/91c2fae9c872e69410f67d10374e65173c67c38d) - **chore:** clean-up [(#14054)](https://github.com/stdlib-js/stdlib/pull/14054) _(by Philipp Burckhardt)_
+-   [`64896d0`](https://github.com/stdlib-js/stdlib/commit/64896d0d2597a22e32dfd203511ac04c28264f0c) - **test:** migrate `stats/strided/dsem` to ULP-based assertions [(#14078)](https://github.com/stdlib-js/stdlib/pull/14078) _(by Philipp Burckhardt)_
+-   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
+-   [`7856f37`](https://github.com/stdlib-js/stdlib/commit/7856f376f03f88ec07da988496a43d6fcafd4481) - **docs:** update descriptions and comments _(by Athan Reines)_
+-   [`1f1a165`](https://github.com/stdlib-js/stdlib/commit/1f1a165288861d663f7fbbab656eb94d2e471ade) - **bench:** refactor to use dynamic memory allocation in `stats/strided/smeanpw` [(#13984)](https://github.com/stdlib-js/stdlib/pull/13984) _(by Arjan-P)_
+-   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
+-   [`a4f9b17`](https://github.com/stdlib-js/stdlib/commit/a4f9b17b1b09503c952cc2715991f85945226922) - **chore:** resolve lint errors _(by Athan Reines)_
+-   [`7feb753`](https://github.com/stdlib-js/stdlib/commit/7feb7539aa2ec7163fa03b05fb106b7ef3360a89) - **build:** add scripts for inserting license headers [(#13484)](https://github.com/stdlib-js/stdlib/pull/13484) _(by Prashant Kumar Yadav)_
+-   [`815a3b8`](https://github.com/stdlib-js/stdlib/commit/815a3b877d0c7ea8848fa3ba67c30451b2bc5f3b) - **remove:** remove `stats/strided/dmediansorted` _(by Neeraj Pathak)_
+-   [`981720b`](https://github.com/stdlib-js/stdlib/commit/981720b14da698964856967c883c1db26b9f703a) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`698ecba`](https://github.com/stdlib-js/stdlib/commit/698ecba432fd319473dea08967b56be34638cbce) - **refactor:** rename `dmediansorted` to `dmedianSorted` _(by Neeraj Pathak)_
+-   [`fc2d9cc`](https://github.com/stdlib-js/stdlib/commit/fc2d9cc29a0b018cb9ea608bd93553d5693013b1) - **feat:** add `stats/strided/dmedian-sorted` _(by Neeraj Pathak)_
+-   [`7cd8d40`](https://github.com/stdlib-js/stdlib/commit/7cd8d404db9167dbf1cb1dec2a3eb59c246717dd) - **docs:** remove unused imports in examples [(#13448)](https://github.com/stdlib-js/stdlib/pull/13448) _(by Prashant Kumar Yadav)_
+-   [`598648b`](https://github.com/stdlib-js/stdlib/commit/598648bcc2fa82a3454f257bd65c8c40c0161926) - **docs:** fix ndarray function signatures [(#13443)](https://github.com/stdlib-js/stdlib/pull/13443) _(by Prashant Kumar Yadav)_
 -   [`ba7afec`](https://github.com/stdlib-js/stdlib/commit/ba7afec2a7f1435a3251f347873db6be1b1107ae) - **docs:** remove unused import [(#13142)](https://github.com/stdlib-js/stdlib/pull/13142) _(by Philipp Burckhardt)_
 -   [`e404167`](https://github.com/stdlib-js/stdlib/commit/e404167cf935b4a7a0fbee91b1d25734409cb235) - **refactor:** reorder import statements [(#13078)](https://github.com/stdlib-js/stdlib/pull/13078) _(by stdlib-bot)_
 -   [`fb7ba7a`](https://github.com/stdlib-js/stdlib/commit/fb7ba7aa301480bcab339b75cc7562966292e365) - **docs:** update namespace table of contents [(#13079)](https://github.com/stdlib-js/stdlib/pull/13079) _(by stdlib-bot)_
@@ -311,8 +338,9 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 16 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
+-   Arjan-P
 -   Athan Reines
 -   Geo Daoyu
 -   Karan Anand
@@ -322,6 +350,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 -   Om-A-osc
 -   Partha Das
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 -   Sachin Pangal
 -   Siddhartha Mondal
 -   Sumithraju

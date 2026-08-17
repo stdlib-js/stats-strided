@@ -61,7 +61,7 @@
     "@stdlib/stats-strided-dmeanvar": "^0.1.1",
     "@stdlib/stats-strided-dmeanvarpn": "^0.1.1",
     "@stdlib/stats-strided-dmeanwd": "^0.1.1",
-    "@stdlib/stats-strided-dmediansorted": "^0.1.1",
+    "@stdlib/stats-strided-dmedian-sorted": "github:stdlib-js/stats-strided-dmedian-sorted#main",
     "@stdlib/stats-strided-dmidrange": "^0.1.1",
     "@stdlib/stats-strided-dmidrangeabs": "github:stdlib-js/stats-strided-dmidrangeabs#main",
     "@stdlib/stats-strided-dmin": "^0.1.1",
