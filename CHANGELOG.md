@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-17)
+## Unreleased (2026-10-03)
 
 <section class="features">
 
@@ -167,6 +167,18 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`4142981`](https://github.com/stdlib-js/stdlib/commit/414298163423cdbd514f26569e7de322d2129104) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`085939e`](https://github.com/stdlib-js/stdlib/commit/085939e76472a54da8a1529f3924c783f9b6eec7) - **refactor:** use `constants/float32/nan` [(#11769)](https://github.com/stdlib-js/stdlib/pull/11769) _(by Manit Roy, Karan Anand)_
+-   [`60afb84`](https://github.com/stdlib-js/stdlib/commit/60afb849bab45fee51da36a31076d6dfdffb7762) - **refactor:** use `constants/float64/nan` [(#11768)](https://github.com/stdlib-js/stdlib/pull/11768) _(by Manit Roy, Karan Anand)_
+-   [`ad77212`](https://github.com/stdlib-js/stdlib/commit/ad77212bf6396e6f159ca645426f2ef686fec464) - **test:** migrate `stats/strided/sstdev` to ULP-based assertions [(#15665)](https://github.com/stdlib-js/stdlib/pull/15665) _(by Athan Reines)_
+-   [`795cbfe`](https://github.com/stdlib-js/stdlib/commit/795cbfe29b8429f11fd1e3070a18940c7a82bea6) - **test:** migrate `stats/strided/dsemtk` to ULP-based assertions [(#15619)](https://github.com/stdlib-js/stdlib/pull/15619) _(by Philipp Burckhardt)_
+-   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
+-   [`550d195`](https://github.com/stdlib-js/stdlib/commit/550d195741577d9e9e843033ac952082dfe62788) - **test:** migrate `stats/strided/sstdevpn` to ULP-based assertions [(#15383)](https://github.com/stdlib-js/stdlib/pull/15383) _(by Athan Reines)_
+-   [`b6f0b5f`](https://github.com/stdlib-js/stdlib/commit/b6f0b5fe01b66ae4f9866decdb272dd88e42fcbd) - **test:** migrate `stats/strided/sstdevwd` to ULP-based assertions [(#15302)](https://github.com/stdlib-js/stdlib/pull/15302) _(by Athan Reines)_
+-   [`5d2e5bd`](https://github.com/stdlib-js/stdlib/commit/5d2e5bd2b78d48851df815d858663d78da3dee99) - **test:** migrate `stats/strided/dsemyc` to ULP-based assertions [(#15223)](https://github.com/stdlib-js/stdlib/pull/15223) _(by Athan Reines)_
+-   [`acc11a5`](https://github.com/stdlib-js/stdlib/commit/acc11a5c515cdafd3cf1b0e636336025bd164c58) - **test:** migrate `stats/strided/dsempn` to ULP-based assertions [(#15173)](https://github.com/stdlib-js/stdlib/pull/15173) _(by Philipp Burckhardt)_
+-   [`e3fd07e`](https://github.com/stdlib-js/stdlib/commit/e3fd07ef9abf1459d04ac1a6cf4577de10930020) - **test:** migrate `stats/strided/dsemch` to ULP-based assertions [(#15156)](https://github.com/stdlib-js/stdlib/pull/15156) _(by Athan Reines)_
+-   [`9200154`](https://github.com/stdlib-js/stdlib/commit/9200154f75857cddc796cf049e567f0e36ca5d71) - **test:** migrate `stats/strided/dsemwd` to ULP-based assertions [(#15116)](https://github.com/stdlib-js/stdlib/pull/15116) _(by Athan Reines)_
 -   [`3208321`](https://github.com/stdlib-js/stdlib/commit/320832192c8d32b18d24c7342ba1cf03cc5affea) - **bench:** refactor to use dynamic memory allocation [(#14099)](https://github.com/stdlib-js/stdlib/pull/14099) _(by Philipp Burckhardt, Athan Reines)_
 -   [`91c2fae`](https://github.com/stdlib-js/stdlib/commit/91c2fae9c872e69410f67d10374e65173c67c38d) - **chore:** clean-up [(#14054)](https://github.com/stdlib-js/stdlib/pull/14054) _(by Philipp Burckhardt)_
 -   [`64896d0`](https://github.com/stdlib-js/stdlib/commit/64896d0d2597a22e32dfd203511ac04c28264f0c) - **test:** migrate `stats/strided/dsem` to ULP-based assertions [(#14078)](https://github.com/stdlib-js/stdlib/pull/14078) _(by Philipp Burckhardt)_
@@ -338,13 +350,14 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 18 people contributed to this release. Thank you to the following contributors:
+A total of 19 people contributed to this release. Thank you to the following contributors:
 
 -   Arjan-P
 -   Athan Reines
 -   Geo Daoyu
 -   Karan Anand
 -   Lokesh Ranjan
+-   Manit Roy
 -   Nakul Krishnakumar
 -   Neeraj Pathak
 -   Om-A-osc
