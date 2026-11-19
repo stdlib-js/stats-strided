@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-03)
+## Unreleased (2026-11-19)
 
 <section class="features">
 
@@ -167,6 +167,14 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`096b4a0`](https://github.com/stdlib-js/stdlib/commit/096b4a09b9feabf219426cb31c4b13cc797653bd) - **refactor:** use `constants/float32/nan` in `stats/strided/smax` [(#16593)](https://github.com/stdlib-js/stdlib/pull/16593) _(by AKULA MANOJ, Athan Reines)_
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`7cf5642`](https://github.com/stdlib-js/stdlib/commit/7cf56423a8fe3e959bd334981a00f8428d086127) - **chore:** clean-up [(#16491)](https://github.com/stdlib-js/stdlib/pull/16491) _(by Philipp Burckhardt)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
+-   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
+-   [`cb94d72`](https://github.com/stdlib-js/stdlib/commit/cb94d72f6983d98896efbb4002d008fae9d7f644) - **test:** migrate `stats/strided/sstdevch` to ULP-based assertions [(#16073)](https://github.com/stdlib-js/stdlib/pull/16073) _(by Athan Reines)_
+-   [`d5be312`](https://github.com/stdlib-js/stdlib/commit/d5be3121f2152a5387cb64bbc025c3a1e271e963) - **test:** migrate `stats/strided/sstdevyc` to ULP-based assertions [(#15858)](https://github.com/stdlib-js/stdlib/pull/15858) _(by Athan Reines)_
+-   [`741482c`](https://github.com/stdlib-js/stdlib/commit/741482c645b95d7cb6441928fe6e9c59717f7c16) - **test:** migrate `stats/strided/sstdevtk` to ULP-based assertions [(#15892)](https://github.com/stdlib-js/stdlib/pull/15892) _(by Athan Reines)_
 -   [`4142981`](https://github.com/stdlib-js/stdlib/commit/414298163423cdbd514f26569e7de322d2129104) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`085939e`](https://github.com/stdlib-js/stdlib/commit/085939e76472a54da8a1529f3924c783f9b6eec7) - **refactor:** use `constants/float32/nan` [(#11769)](https://github.com/stdlib-js/stdlib/pull/11769) _(by Manit Roy, Karan Anand)_
 -   [`60afb84`](https://github.com/stdlib-js/stdlib/commit/60afb849bab45fee51da36a31076d6dfdffb7762) - **refactor:** use `constants/float64/nan` [(#11768)](https://github.com/stdlib-js/stdlib/pull/11768) _(by Manit Roy, Karan Anand)_
@@ -350,8 +358,9 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 19 people contributed to this release. Thank you to the following contributors:
+A total of 20 people contributed to this release. Thank you to the following contributors:
 
+-   AKULA MANOJ
 -   Arjan-P
 -   Athan Reines
 -   Geo Daoyu
